@@ -265,7 +265,7 @@ Promote everything in the current launch to production.
 | Ressource | Was Sie finden werden |
 | --- | --- |
 | [Analytics-MCP-Dokumentation](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP-Setup und Tool-Referenz |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM |
 | [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Server-Tools und Verfügbarkeit |
 | [AEM Content MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server-Tools und -Verfügbarkeit |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
