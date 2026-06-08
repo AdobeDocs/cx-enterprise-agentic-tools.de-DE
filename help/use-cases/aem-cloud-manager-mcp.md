@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480351/?captions=ger&learn=on&enablevpops)
 
 Das Verwalten von Adobe Experience Manager-Umgebungen bedeutet in der Regel, sich bei Cloud Manager anzumelden, durch Pipelines und Umgebungen zu navigieren und Kontexte zu wechseln, um den Bereitstellungsstatus zu verfolgen. In dieser exemplarischen Vorgehensweise wird gezeigt, wie diese Vorgänge von einem KI-Client aus mithilfe des AEM Cloud Manager MCP-Servers verarbeitet werden können, damit Entwicklende und Vorgangsteams den Status überprüfen, Pipelines überprüfen und auf Bereitstellungsdetails reagieren können, ohne ihre KI-Umgebung verlassen zu müssen.
 
