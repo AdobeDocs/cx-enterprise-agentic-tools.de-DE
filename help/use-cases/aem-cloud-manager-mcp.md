@@ -2,7 +2,7 @@
 title: Zuverlässige Bereitstellung für AEM as a Cloud Service
 description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihren KI-Client verlassen zu müssen.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## Schritt 2: Pipeline-Ausführungen überprüfen
 
 Lesen Sie den aktuellen Pipeline-Verlauf, um Bereitstellungsmuster und Fehler zu verstehen, bevor sie Ihre nächste Version blockieren.
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## Schritt 3: Pipeline-Trigger
 
 Starten einer Pipeline-Ausführung direkt von Ihrem KI-Client aus. Der Server bestätigt die Zielumgebung und fordert vor dem Start eine Genehmigung an.
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![KI-Client mit Pipeline-Trigger-Bestätigung und Cloud Manager-Benutzeroberfläche, die die laufende Pipeline widerspiegelt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![KI-Client, der den Status der ausgelösten Pipeline-Ausführung anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## Was Sie erreicht haben
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## Weitere Informationen
 

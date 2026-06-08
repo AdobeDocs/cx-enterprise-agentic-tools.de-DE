@@ -2,17 +2,16 @@
 title: Journey-Probleme erkennen, bevor sie Kunden betreffen
 description: Verwenden Sie das CX Enterprise MCP-Gateway, um aktive AJO-Journey zu überwachen, die Kampagnenkonfiguration zu überprüfen und betriebliche Probleme aufzudecken, bevor sie Ihre Zielgruppe erreichen.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # Journey-Probleme erkennen, bevor sie Kunden betreffen
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![AJO Journey](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -26,6 +25,7 @@ Um sich ein klares Bild davon zu machen, welche Journey aktiv sind, welche Bedin
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
+
 
 ## Voraussetzungen
 
@@ -72,6 +72,7 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie - es wird keine Aktion ohne Ihre Bestätigung durchgeführt.
 
+
 ## Schritt 1: Entdecken Sie die aktiven Journey und ihren Zweck
 
 Fragen Sie zunächst nach einer Übersicht über die aktiven Journey und die Unternehmensziele, die hinter ihnen stehen. Dies gibt Ihnen das vollständige Bild, bevor Sie in eine bestimmte Journey eintauchen.
@@ -85,6 +86,8 @@ What customer journeys are currently available and what business objectives do t
 ![KI-Client, der die verfügbaren Kunden-Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## Schritt 2: Überprüfen Sie die Schritte einer Journey und das Kundenerlebnis.
 
@@ -100,9 +103,11 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++
 
+
 >[!NOTE]
 >
 >Ersetzen Sie `[journey name]` durch den Namen einer Journey aus Ihren Ergebnissen von Schritt 1.
+
 
 ## Schritt 3: Überprüfen von Kampagnen, Audiences und Zielen
 
@@ -118,6 +123,8 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++
 
+
+
 ## Schritt 4: Kampagnen und Journey verbinden
 
 Bitten Sie Ihren KI-Client, die Punkte zwischen Kampagnen und Journeys zu verbinden und zu erklären, wie sie gemeinsam auf die Erreichung gemeinsamer Interaktionsziele hinarbeiten.
@@ -131,6 +138,8 @@ How do our campaigns and journeys work together to improve customer engagement?
 ![KI-Client, der die Beziehung zwischen Kampagnen und Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## Schritt 5: Abrufen priorisierter Empfehlungen
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >Der AJO MCP-Server zeigt Journey- und Kampagneninformationen an, kann jedoch keine Journey, Kampagnen oder Inhalte ändern. Um Empfehlungen zu implementieren, gehen Sie direkt zur AJO-Anwendung oder verbinden Sie den AEM Content MCP-Server mit Inhaltsänderungen in derselben Sitzung.
 
+
 ## Was Sie erreicht haben
 
-Sie haben einen KI-Client mit Adobe Journey Optimizer verbunden und durch fünf Aufforderungen ein vollständiges Bild Ihres Journey- und Kampagnenportfolios erstellt. Sie haben eine Inventarisierung der aktiven Journey und ihrer Geschäftsziele durchgeführt, die Kundenerfahrung für eine bestimmte Journey Schritt für Schritt geprüft, aktive Kampagnen ihren Zielgruppen und beabsichtigten Ergebnissen zugeordnet, verstanden, wie Kampagnen und Journey miteinander verbunden sind, und priorisierte Empfehlungen dazu erhalten, worauf sich die nächsten konzentrieren sollten. Dies bietet Lebenszyklus-Marketing- und Kampagnen-Managern strategische Sichtbarkeit, ohne die AJO-Benutzeroberfläche zu öffnen.
+Sie haben einen KI-Client mit Adobe Journey Optimizer verbunden und durch fünf Aufforderungen ein vollständiges Bild Ihres Journey- und Kampagnenportfolios erstellt. Sie haben eine Inventarisierung der aktiven Journey und ihrer Geschäftsziele durchgeführt, die Kundenerfahrung für eine bestimmte Journey Schritt für Schritt geprüft, die aktiven Kampagnen ihren Zielgruppen und beabsichtigten Ergebnissen zugeordnet, verstanden, wie Kampagnen und Journey zusammenarbeiten, und priorisierte Empfehlungen dazu erhalten, worauf wir uns als Nächstes konzentrieren sollten. Dies bietet Lebenszyklus-Marketing- und Kampagnen-Managern strategische Sichtbarkeit, ohne die AJO-Benutzeroberfläche zu öffnen.
+
 
 ## Mehr können Sie erreichen
 
@@ -233,6 +245,8 @@ What channel configurations are set up in our AJO environment?
 ```
 
 +++
+
+
 
 ## Weitere Informationen
 
