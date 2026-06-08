@@ -3,7 +3,7 @@ user-guide-title: Adobe CX Enterprise Agent-Tools
 breadcrumb-title: Agent-Tools
 user-guide-description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
 index: false
-source-git-commit: ece4c03765e73a97d0b0c343b14f7675f6349e7a
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
    + [Agent-Kenntnisse](/help/tools/agent-skills.md)
    + [APIs für Builder](/help/tools/apis.md)
 + Agent Tools in Aktion {#in-action}
-   + [Überblick](/help/agentic-tools-in-action.md)
+   + [Überblick](/help/use-cases/overview.md)
    + [Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten](/help/use-cases/analyze-campaign-performance.md)
    + [Zielgruppen verstehen und wo sie aktiviert werden](/help/use-cases/query-audiences.md)
    + [Journey-Probleme erkennen, bevor sie Kunden betreffen](/help/use-cases/manage-ajo-journeys.md)
