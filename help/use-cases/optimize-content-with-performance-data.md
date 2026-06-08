@@ -256,7 +256,7 @@ Publish all confirmed changes and share the updated URLs.
 | Ressource | Was Sie finden werden |
 | --- | --- |
 | [Dokumentation zum CJA MCP-Server](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCP-Setup und Tool-Referenz |
-| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCP-Setup- und -Benutzerhandbuch |
+| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCP-Setup- und -Benutzerhandbuch |
 | [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Server-Tools und Verfügbarkeit |
 | [AEM Content MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server-Tools und -Verfügbarkeit |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
