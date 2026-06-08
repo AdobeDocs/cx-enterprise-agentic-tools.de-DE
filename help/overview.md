@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491253/?captions=ger&learn=on&enablevpops)
 
 Stellen Sie Ihrer KI eine direkte Verbindung zu **Daten, Workflows** Automatisierung von Adobe CX Enterprise zur Verfügung. Abfragen von Kampagnen, Aktivieren von Audiences und Verwalten von Journey-**in** Sprache über jeden kompatiblen KI-Client oder Entwicklungs-Tool.
 
