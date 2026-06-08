@@ -2,9 +2,9 @@
 title: Agent-Tools
 description: Vergleichen Sie MCP-Server, Agentenkenntnisse und APIs für Builder und wählen Sie das richtige Agententool für Ihre Adobe CX Enterprise-Workflows aus.
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '611'
 ht-degree: 1%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 # Agent-Tools
 
-<!-- last-modified: 2026-05-08 -->
+<!-- last-modified: 2026-06-08 -->
 
-Nicht jeder Ansatz mit agenten Werkzeugen erfüllt den gleichen Bedarf. MCP-Server bieten Ihnen sofortigen, natürlichen Sprachzugriff auf Adobe-Daten von jedem kompatiblen KI-Client, ohne dass eine Codierung erforderlich ist. Agent Skills kodieren das Adobe Domain-Know-how in wiederholbare Agent-Workflows, sodass Aufgaben jedes Mal konsistent ausgeführt werden. APIs geben Entwicklern die volle programmgesteuerte Kontrolle über das Erstellen benutzerdefinierter Programme und Integrationen. Auf dieser Seite werden die Kompromisse erläutert, sodass Sie den richtigen Ausgangspunkt für Ihre Situation wählen können.
+Nicht jedes Agentenwerkzeug erfüllt den gleichen Bedarf. Erfahren Sie, was jeder Einzelne tut, wann er verwendet wird und wie Sie beginnen können - damit Sie den richtigen Ausgangspunkt für Ihre Situation wählen können.
 
 <!--
 CARDS
@@ -117,60 +117,54 @@ CARDS
 
 | | MCP-Server | Agent-Kenntnisse | APIs für Builder |
 | --- | --- | --- | --- |
-| Geeignet für | KI-Client-Benutzer | Alle Anwender | Entwickler |
+| Geeignet für | CX Enterprise-Anwendungsbenutzer | CX Enterprise-Anwendungsbenutzer und -Entwickler | Entwickler |
 | Kodierung erforderlich | Nein | Nein | Ja |
 | Rüstzeit | Minutes | Minutes | Stunden bis Tage |
-| Was Sie erhalten | Zugriff auf Adobe über Ihr KI-Tool | Geführte, wiederholbare Workflows | Vollständige programmgesteuerte Steuerung |
-| KI-Client erforderlich | Ja | Ja | Optional |
+| Was Sie erhalten | Zugriff auf CX Enterprise-Anwendungen über Ihre KI-Clients | Geführte, wiederholbare Workflows | Vollständige programmgesteuerte Steuerung |
 
 ## Nicht sicher, wo man anfangen soll?
 
-- Um mithilfe von KI mit Adobe CX Enterprise-Anwendungen zu interagieren (Aktionen durchführen, Daten abfragen und die KI durch natürliche Konversation ermitteln lassen, was zu tun ist), sind [MCP-Server](mcp-servers.md) der flexibelste Ausgangspunkt.
-- Damit Agenten konsistent Adobe-native Workflows ausführen können, ohne zu improvisieren[&#x200B; kodieren &#x200B;](agent-skills.md) diese Domain-Kenntnisse in wiederverwendbaren Anweisungen.
-- Um ein fokussiertes Programm zu erstellen, das einen bestimmten Adobe-Workflow für Ihre Benutzerinnen und Benutzer optimiert oder automatisiert, [&#128279;](apis.md) Sie mit APIs für Builder) direkt und programmierbar steuern können, was genau passiert.
+- Um mithilfe von KI mit CX Enterprise-Anwendungen zu interagieren (Aktionen durchführen, Daten abfragen und die KI durch natürliche Konversation ermitteln lassen, was als Nächstes zu tun ist), [MCP-Server](mcp-servers.md) der flexibelste Ausgangspunkt.
+- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, ](agent-skills.md) (Agentenkenntnisse[ diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
+- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, ](apis.md) Sie mit [APIs für Builder) direkt und programmierbar steuern, was genau passiert.
 
 >[!BEGINTABS]
 
 >[!TAB MCP-Server]
 
-Stellen Sie sich MCP-Server als eine aktive Verbindung zwischen Ihrem KI-Tool und Adobe vor. Verbinden Sie sich einmal und Ihre KI kann Kampagnen abfragen, Zielgruppen abrufen, den Journey-Status überprüfen und mehr. Alles in einfacher Sprache, kein Code erforderlich.
+Stellen Sie sich MCP-Server als eine aktive Verbindung zwischen Ihrem KI-Client und CX Enterprise-Anwendungen vor. Verbinden Sie sich einmal und Ihre KI kann Kampagnen abfragen, Zielgruppen abrufen, den Journey-Status überprüfen und mehr - alles in einfacher Sprache, ohne Code zu benötigen.
 
 **MCP-Server verwenden, wenn:**
 
-- Sie möchten Adobe-Daten in dem bereits verwendeten KI-Tool speichern
+- Sie möchten KI direkt in Ihre CX Enterprise-Workflows integrieren
+- Sie möchten CX Enterprise-Daten in dem bereits verwendeten KI-Client
 - Sie führen eine explorative Analyse oder einen Ad-hoc-Datenabruf durch
 - Sie möchten schnelle Ergebnisse, ohne ein Projekt zu drehen
-
-**Probieren Sie es aus:** Bitten Sie Claude, Ihre aktiven Journey zusammenzufassen. Rufen Sie die Zielgruppengrößen von Real-Time CDP aus ChatGPT ab. Überprüfen Sie CJA-Kampagnenmetriken, ohne ein Dashboard zu öffnen.
 
 [MCP-Server erkunden](mcp-servers.md)
 
 >[!TAB Agentenfertigkeiten]
 
-Agent-Kenntnisse sind Adobes Domain-Kenntnisse, die als Anweisungen kodiert sind, denen Ihr Agent folgen kann. Anstatt zu hoffen, dass Ihr Agent die richtigen Schritte findet, sagt ihm eine Fähigkeit genau, was zu tun ist. Zuverlässig, wiederholbar und bereits für Adobe-Workflows optimiert.
+Agent-Kenntnisse sind Adobes Domain-Kenntnisse, die als Anweisungen kodiert sind, denen Ihr Agent folgen kann. Anstatt zu hoffen, dass Ihr Agent die richtigen Schritte findet, sagt ihm eine Fähigkeit genau, was zu tun ist - zuverlässig, wiederholbar und bereits für CX Enterprise-Workflows optimiert.
 
 **Agent-Kenntnisse verwenden, wenn:**
 
+- Sie sollten die Best Practices von Adobe befolgen, wenn Sie über KI-Clients Arbeiten in CX Enterprise-Apps durchführen
 - Sie möchten, dass jedes Mal dieselbe Aufgabe auf die gleiche Weise erledigt wird
 - Sie führen wiederholbare Inhalts- oder Medienproduktions-Workflows aus
-- Sie möchten einen Agenten, der Adobe kennt, ohne es Ihnen erklären zu müssen
-
-**Probieren Sie es aus:** Bearbeiten Sie einen Satz von Fotos, um zusammenhaltend auszusehen. Erzeugen von plattformfähigen Social-Media-Varianten aus einem Quell-Asset. Entwerfen Sie in wenigen Eingabeaufforderungen aus einer Adobe Express-Vorlage.
 
 [Agent-Kenntnisse entdecken](agent-skills.md)
 
 >[!TAB APIs für Builder]
 
-APIs sind die Bausteine. Sie geben Entwicklerinnen und Entwicklern direkten, programmgesteuerten Zugriff auf Adobe-Daten und -Vorgänge, wobei dieselben APIs verwendet werden, die auch Adobes eigene Produkte unterstützen. Verwenden Sie sie, um etwas zu erstellen, das nach Ihrem Zeitplan, Ihren Bedingungen, Ihrem Stack läuft.
+APIs sind die Bausteine. Sie geben Entwicklerinnen und Entwicklern direkten, programmgesteuerten Zugriff auf Adobe-Daten und -Vorgänge, wobei dieselben APIs verwendet werden, die auch Adobes eigene Produkte unterstützen. Verwenden Sie sie, um fokussierte benutzerdefinierte Erlebnisse zu erstellen, die bestimmte Geschäfts-Workflows mit den Leitplanken optimieren, die Ihre Organisation benötigt.
 
 **Verwenden von APIs bei:**
 
-- Sie erstellen ein benutzerdefiniertes Programm oder Dashboard
-- Sie müssen Adobe-Daten in ein anderes System integrieren
+- Sie erstellen eine benutzerdefinierte Anwendung oder Integration für einen bestimmten geschäftlichen Anwendungsfall
+- Sie müssen einen Workflow mit bestimmten Leitplanken und Steuerelementen optimieren oder automatisieren
 - Sie verwenden Claude Code oder Cursor, um eine vollständige Anwendung zu generieren
-- Sie benötigen die vollständige Kontrolle über Erstellen, Aktualisieren oder Löschen
-
-**Probieren Sie es aus** Erstellen Sie ein benutzerdefiniertes Kampagnen-Dashboard. Automatisieren einer Daten-Pipeline. Generieren Sie eine Anwendung mit Claude-Code, der in Adobe Experience Platform liest und schreibt.
+- Sie müssen CX Enterprise-Daten in ein anderes System integrieren
 
 [Erkunden von APIs für Builder](apis.md)
 
@@ -178,8 +172,4 @@ APIs sind die Bausteine. Sie geben Entwicklerinnen und Entwicklern direkten, pro
 
 ## Gemeinsam verwenden
 
-MCP-Server, Agentenkenntnisse und APIs ergänzen sich. Viele Workflows kombinieren alle drei:
-
-- Agent-Kenntnisse definieren den Workflow und leiten den Agenten
-- MCP-Server gewähren dem Agenten Lesezugriff auf den Mid-Workflow der Adobe-Daten
-- APIs verarbeiten Aktionen, die direkte Systemschreibvorgänge oder benutzerdefinierte Anwendungslogik erfordern
+Diese Tools sind so konzipiert, dass sie zusammenarbeiten - und sie zu kombinieren, ist der Punkt, an dem Sie das meiste aus Adobe AI herausholen. Agent Skills können zeigen, wie ein KI-Client MCP-Server verwendet, um Agenten auf dem richtigen Weg für CX Enterprise-Workflows zu halten. Kenntnisse können auch darüber informieren, wie und wann APIs aufgerufen werden, indem sie Best Practices für Adobe zu benutzerdefinierten Automatisierungen hinzufügen. Man muss sich nicht nur eine aussuchen.
