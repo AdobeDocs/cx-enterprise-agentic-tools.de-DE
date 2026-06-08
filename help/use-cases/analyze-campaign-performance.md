@@ -2,7 +2,7 @@
 title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 description: Verwenden Sie das CX Enterprise MCP-Gateway, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## Schritt 2: Abrufen der Kampagnenleistungsdaten
 
 Nachdem eine Datenansicht identifiziert wurde, können Sie die Kampagnenleistung nach Umsatz und Konversionsrate abfragen. Die KI löst Metrik- und Dimensionsnamen aus der Datenansicht auf, ohne dass technische IDs erforderlich sind.
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 ![KI-Client, der die Top-Kampagnen nach Umsatz und Konversionsrate aus der Omni-Channel-/Multi-Industry-Datenansicht anzeigt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## Schritt 4: Aufschlüsselung nach einem bestimmten Kampagnentyp
 
 Follow-up zu einem bestimmten Ergebnis, indem Sie nach einer Aufschlüsselung auf Segmentebene fragen. Dadurch wird deutlich, welche Kundentypen die Leistung innerhalb eines Kampagnentyps steigern.
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## Schritt 5: Ergreifen Sie Maßnahmen bezüglich Ihrer gefundenen Inhalte.
 
 Fordern Sie nach priorisierten Empfehlungen, die auf allem basieren, was in der Sitzung aufgetaucht ist. Die Anforderung von Schätzungen des Unternehmenswerts hilft Ihnen bei der Entscheidung, wo Sie zuerst handeln sollten.
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![KI-Kunde, der priorisierte Aktionen mit geschätztem Geschäftswert empfiehlt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -261,6 +266,7 @@ Save this analysis as a Workspace project for executive reporting.
 ```
 
 +++
+
 
 ## Weitere Informationen
 

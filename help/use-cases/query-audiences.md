@@ -2,7 +2,7 @@
 title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie das CX Enterprise MCP-Gateway, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## Schritt 2: Identifizieren Sie Ihre wertvollsten Segmente
 
 Fragen Sie sich angesichts der Zielgruppenlandschaft, welche Segmente am größten sind und was sie strategisch wertvoll macht.
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 ![KI-Client, der die größten Zielgruppen identifiziert und erklärt, was sie wertvoll macht](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## Schritt 3: Überprüfen Sie Aktivierung und Ziele
 
@@ -110,6 +112,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++
 
+
 ## Schritt 4: Abrufen strategischer Empfehlungen
 
 Die RTCDP-Tools des CX Enterprise MCP-Gateways sind schreibgeschützt. Sie ermöglichen den Aktivierungsstatus, den Zielzustand und Datenflussdaten, ändern jedoch die Konfiguration nicht. Nachdem Sie ein Problem identifiziert haben, erfolgt die Fehlerbehebung in der Anwendung.
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![KI-Client, der priorisierte Empfehlungen für Zielgruppenstrategien gibt](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -220,11 +224,12 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 +++
 
+
 ## Weitere Informationen
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP-Server-Setup und Tool-Referenz |
+| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP-Server-Setup und Tool-Referenz |
 | [Adobe AI-Registrierung](https://developer.adobe.com/ai-registry/?type=mcp) | MCP-Server-Metadaten und -Verfügbarkeit |
 | [Dokumentation zu Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) | Vollständige Dokumentation zu Real-Time CDP-Programmen |
 | Dokumentation zu [AEP-Zielen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home) | Vollständige Zielreferenz |

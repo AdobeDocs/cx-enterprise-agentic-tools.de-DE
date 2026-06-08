@@ -2,7 +2,7 @@
 title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
 description: Verwenden Sie das CX Enterprise MCP-Gateway in einer einzigen KI-Sitzung, um einen einheitlichen Überblick über den AJO-, CJA- und Real-Time CDP-Kampagnenstatus in Journey, Audiences und Performance zu erhalten.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -99,6 +99,7 @@ In Ihrer AJO-Organisation wurden 8 aktive Journey gefunden:
 
 +++
 
+
 ## Schritt 2: Überprüfen des Zielgruppen-Aktivierungsstatus
 
 Stellen Sie im Hinblick auf die Journey sicher, dass die Zielgruppen, die diese Kampagnen unterstützen, korrekt zu ihren Zielen fließen.
@@ -122,6 +123,7 @@ Keine Datenflussfehler erkannt. Alle Aktivierungen wurden innerhalb der letzten 
 
 +++
 
+
 ## Schritt 3: Abrufen von Leistungsmetriken aus CJA
 
 Wenn der Journey- und Zielgruppenkontext etabliert ist, verwenden Sie CJA , um zu bewerten, wie diese Kampagnen konvertieren und wo die Interaktion abbricht.
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 Kombinierte Konversionsrate: 3,8 %. E-Mail-CTR ist um 1,2 % höher als im Zeitraum vor 30 Tagen. Push-Konversionen sind flach.
 
 +++
+
 
 ## Schritt 4: Zusammenfassen einer Kampagnenzustandszusammenfassung
 
@@ -170,6 +173,7 @@ Hier finden Sie die aktuelle Zusammenfassung des Kampagnenzustands in AJO, Real-
 Keine kritischen Probleme erkannt. Zwei der oben genannten Punkte erfordern eine Überprüfung vor dem nächsten Kampagnenstart.
 
 +++
+
 
 Hier zahlt sich der Multi-Server-Ansatz aus: Ihre KI-Client-Gründe für Journey-Konfiguration, Zielgruppenstatus und Leistungsdaten in einem einzigen Gespräch.
 
@@ -199,6 +203,7 @@ Eine flache Konvertierung signalisiert in der Regel Nachrichtenermüdung oder ei
 Womit möchten Sie beginnen?
 
 +++
+
 
 ## Was Sie erreicht haben
 
@@ -280,13 +285,14 @@ Which channel has the highest conversion rate across all active campaigns?
 
 +++
 
+
 ## Weitere Informationen
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
 | [Dokumentation zu AJO](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) | Vollständige Dokumentation zu AJO-Programmen |
 | [Analytics-MCP-Dokumentation](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP-Setup und Tool-Referenz |
-| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP-Setup-Handbuch |
+| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP-Setup-Handbuch |
 | [AJO MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Server-Tools und Verfügbarkeit |
 | [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Server-Tools und Verfügbarkeit |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
