@@ -126,8 +126,8 @@ CARDS
 ## Nicht sicher, wo man anfangen soll?
 
 - Um mithilfe von KI mit Adobe CX Enterprise-Anwendungen zu interagieren (Aktionen durchführen, Daten abfragen und die KI durch natürliche Konversation ermitteln lassen, was zu tun ist), sind [MCP-Server](mcp-servers.md) der flexibelste Ausgangspunkt.
-- Damit Agenten konsistent Adobe-native Workflows ausführen können, ohne zu improvisieren[ kodieren ](agent-skills.md) diese Domain-Kenntnisse in wiederverwendbaren Anweisungen.
-- Um ein fokussiertes Programm zu erstellen, das einen bestimmten Adobe-Workflow für Ihre Benutzerinnen und Benutzer optimiert oder automatisiert, ](apis.md) Sie mit [APIs für Builder) direkt und programmierbar steuern können, was genau passiert.
+- Damit Agenten konsistent Adobe-native Workflows ausführen können, ohne zu improvisieren[&#x200B; kodieren &#x200B;](agent-skills.md) diese Domain-Kenntnisse in wiederverwendbaren Anweisungen.
+- Um ein fokussiertes Programm zu erstellen, das einen bestimmten Adobe-Workflow für Ihre Benutzerinnen und Benutzer optimiert oder automatisiert, [&#128279;](apis.md) Sie mit APIs für Builder) direkt und programmierbar steuern können, was genau passiert.
 
 >[!BEGINTABS]
 

@@ -78,7 +78,7 @@ Siehe [MCP-Server](tools/mcp-servers.md), um zu beginnen.
 
 Verbinden Sie sich mit mehreren MCP-Servern in einer einzigen KI-Sitzung oder verwenden Sie Adobe-APIs für die benutzerdefinierte Orchestrierung mehrerer Anwendungen.
 
-Siehe [APIs für ](tools/apis.md) und [MCP-Server](tools/mcp-servers.md).
+Siehe [APIs für &#x200B;](tools/apis.md) und [MCP-Server](tools/mcp-servers.md).
 
 +++
 
