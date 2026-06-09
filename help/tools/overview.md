@@ -3,7 +3,7 @@ title: Agent-Tools
 description: Vergleichen Sie MCP-Server, Agentenkenntnisse und APIs für Builder und wählen Sie das richtige Agententool für Ihre Adobe CX Enterprise-Workflows aus.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -126,8 +126,8 @@ CARDS
 ## Nicht sicher, wo man anfangen soll?
 
 - Um mithilfe von KI mit CX Enterprise-Anwendungen zu interagieren (Aktionen durchführen, Daten abfragen und die KI durch natürliche Konversation ermitteln lassen, was als Nächstes zu tun ist), [MCP-Server](mcp-servers.md) der flexibelste Ausgangspunkt.
-- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, [&#128279;](agent-skills.md) (Agentenkenntnisse diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
-- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, [&#128279;](apis.md) Sie mit APIs für Builder) direkt und programmierbar steuern, was genau passiert.
+- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, ](agent-skills.md) (Agentenkenntnisse[ diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
+- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, ](apis.md) Sie mit [APIs für Builder) direkt und programmierbar steuern, was genau passiert.
 
 >[!BEGINTABS]
 
@@ -187,13 +187,13 @@ CARDS
   {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
   {cta = Try with MCP}
 
-* https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
   {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
   {cta = Try with Agent Skills}
   {image = ../assets/agent-skills-card.png}
 
-* https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
   {title = Invoke AEM APIs from a web app}
   {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
   {cta = Try with APIs}
@@ -229,7 +229,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Entwickeln von AEM-Komponenten mit KI" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Entwickeln von AEM-Komponenten mit KI" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Entwickeln von AEM-Komponenten mit KI"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -238,11 +238,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Entwickeln von AEM-Komponenten mit KI">Entwickeln von AEM-Komponenten mit KI</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Entwickeln von AEM-Komponenten mit KI">Entwickeln von AEM-Komponenten mit KI</a>
                     </p>
                     <p class="is-size-6">Verwenden Sie Claude Code oder Cursor mit Agentenkenntnissen, um gemäß den Best Practices von Adobe Strukturvorlagen zu erstellen, zu codieren und AEM-Komponenten zu verfeinern.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mit Agent-Kenntnissen ausprobieren</span>
                 </a>
             </div>
@@ -252,7 +252,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Aufrufen von AEM-APIs aus einer Web-Anwendung" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Aufrufen von AEM-APIs aus einer Web-Anwendung" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Aufrufen von AEM-APIs aus einer Web-Anwendung"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -261,11 +261,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Aufrufen von AEM-APIs aus einer Web-Anwendung">Aufrufen von AEM-APIs aus einer Web-Anwendung</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Aufrufen von AEM-APIs aus einer Web-Anwendung">Aufrufen von AEM-APIs aus einer Web-Anwendung</a>
                     </p>
                     <p class="is-size-6">Erstellen Sie eine Web-Anwendung, die Benutzende authentifiziert und AEM OpenAPIs mit OAuth aufruft, um einen gesteuerten, programmgesteuerten Zugriff bereitzustellen.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mit APIs versuchen</span>
                 </a>
             </div>

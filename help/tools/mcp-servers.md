@@ -3,7 +3,7 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-09 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491331/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP-Server bieten jedem kompatiblen KI-Client direkten, gesteuerten Zugriff auf Adobe-Daten und -Workflows. Wenn Sie einmal eine Verbindung herstellen, können Sie die Kampagnenleistung abfragen, Zielgruppen aktivieren, Journey überprüfen, Inhalte verwalten und vieles mehr - alles in einfacher Sprache, ohne Ihre KI-Umgebung verlassen zu müssen. Da sich MCP-Server zwischen Ihrem KI-Client und den zugrunde liegenden Systemen von Adobe befinden, erhalten Sie Flexibilität in natürlicher Sprache, während die Zugriffskontrollen und die Data Governance in Ihrem Unternehmen weiterhin gelten.
 
@@ -33,7 +33,7 @@ Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 **Ein Endpunkt. Mehrere CX Enterprise-Anwendungen.**
 
-Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
+Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -58,13 +58,13 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [AEM (Code-Modus)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Direkter REST-API-Zugriff auf AEM über Suche, Lesen, Schreiben und Löschen in natürlicher Sprache |
+| [AEM (Code-Modus)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Direkter REST-API-Zugriff auf AEM über Suche, Lesen, Schreiben und Löschen in natürlicher Sprache |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Programme, Umgebungen, Pipelines und Repositorys verwalten |
-| [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches |
-| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff |
+| [AEM-Inhalte](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches |
+| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff |
 | AEM-Dokumenterstellung | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Verwalten von Dateien, Versionsverlauf und Medienverweisen beim Erstellen von Dokumenten |
-| [AEM Experience Governance](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Bewertung von Inhalten und Bildern anhand von Markenrichtlinien und Compliance-Regeln |
-| [AEM Experience Production](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformieren und Erstellen von AEM-Seiten in großem Maßstab mithilfe von KI-gesteuerten Inhaltsbeschreibungen |
+| [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Bewertung von Inhalten und Bildern anhand von Markenrichtlinien und Compliance-Regeln |
+| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformieren und Erstellen von AEM-Seiten in großem Maßstab mithilfe von KI-gesteuerten Inhaltsbeschreibungen |
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten |
 
 >[!NOTE]
 >
->Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Informationen zur Authentifizierungseinrichtung finden Sie in der Dokumentation [&#128279;](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) Marketo Engage MCP-Servers. Der Zugriff hängt von Ihrem Marketo Engage-Abonnement und den Berechtigungen Ihres API-Benutzers ab.
+>Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Informationen zur Authentifizierungseinrichtung finden Sie in der Dokumentation ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) Marketo Engage MCP-Servers. [Der Zugriff hängt von Ihrem Marketo Engage-Abonnement und den Berechtigungen Ihres API-Benutzers ab.
 
 >[!TAB Target]
 
@@ -96,7 +96,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten |
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Alle Adobe MCP-Server verwenden OAuth mit Adobe Identity Management Service (IMS
 
 Überprüfen Sie vor der manuellen Konfiguration die [Adobe AI-Registrierung](https://developer.adobe.com/ai-registry/?type=connector) auf einen verwalteten Connector für Ihren KI-Client und Ihre Adobe-Anwendung. Verwaltete Connectoren verarbeiten die Authentifizierung automatisch. Wenn für Ihren Client und Ihre Anwendung ein Connector verfügbar ist, verwenden Sie ihn anstelle der folgenden manuellen Schritte.
 
-In den folgenden Schritten wird der MCP-Endpunkt CX Enterprise als Beispiel verwendet. Dasselbe Verfahren gilt für jeden Adobe MCP-Server - tauschen Sie in der Endpunkt-URL den Server aus, zu dem Sie eine Verbindung herstellen möchten.
+In den folgenden Schritten wird der MCP-Endpunkt CX Enterprise als Beispiel verwendet. Derselbe Prozess gilt für jeden Adobe MCP-Server: Tauschen Sie die Endpunkt-URL gegen den Server aus, zu dem Sie eine Verbindung herstellen möchten.
 
 ![Ein KI-Agent, der eine Verbindung zu einem Adobe MCP-Server herstellt](../assets/hero-connect-mcp-servers.gif)
 
@@ -138,7 +138,7 @@ Claude.ai unterstützt Remote-MCP-Server über benutzerdefinierte Connectoren in
 
 1. Navigieren Sie **Einstellungen > Integrationen**.
 2. Klicken Sie **Benutzerdefinierten Connector hinzufügen**.
-3. Geben Sie den Server-Endpunkt als URL - z. B. `https://cx-enterprise.adobe.io/mcp` für den CX Enterprise MCP - und einen Anzeigenamen Ihrer Wahl ein.
+3. Geben Sie den Server-Endpunkt als URL (z. B. `https://cx-enterprise.adobe.io/mcp` für den CX Enterprise MCP) und einen Anzeigenamen Ihrer Wahl ein.
 4. Klicken Sie auf **Verbinden** und melden Sie sich mit Ihrer Adobe ID an. Wählen Sie die richtige IMS-Organisation aus.
 
 Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -209,7 +209,7 @@ ChatGPT unterstützt Remote-MCP-Server über [Entwicklermodus](https://developer
 1. Aktivieren Sie den Entwicklermodus in **ChatGPT-Einstellungen**.
 2. Navigieren Sie **Einstellungen > Integrationen**.
 3. Klicken Sie **Benutzerdefinierten Connector hinzufügen** und wählen Sie **Remote-MCP-Server**.
-4. Geben Sie den Server-Endpunkt als URL - z. B. `https://cx-enterprise.adobe.io/mcp` für den CX Enterprise MCP - und einen Anzeigenamen Ihrer Wahl ein.
+4. Geben Sie den Server-Endpunkt als URL (z. B. `https://cx-enterprise.adobe.io/mcp` für den CX Enterprise MCP) und einen Anzeigenamen Ihrer Wahl ein.
 5. Legen Sie die Authentifizierung auf **OAuth** fest.
 6. Klicken Sie auf **Verbinden** und melden Sie sich mit Ihrer Adobe ID an. Wählen Sie die richtige IMS-Organisation aus.
 
@@ -243,7 +243,7 @@ Microsoft Copilot Studio stellt mithilfe des MCP Onboarding Wizard, der automati
 1. Öffnen Sie den Agenten in Copilot Studio.
 2. Navigieren Sie zur Seite **Tools**.
 3. Wählen Sie **Tool hinzufügen > Neues Tool > Modellkontext-Protokoll**.
-4. Geben Sie im MCP Onboarding Wizard die Serverdetails ein, z. B. für den CX Enterprise MCP:
+4. Geben Sie im MCP Onboarding-Assistenten die Serverdetails ein. Beispiel: für den CX Enterprise MCP:
    - **Server-Name:** `Adobe CX Enterprise`
    - **Server-URL:** `https://cx-enterprise.adobe.io/mcp`
 5. Legen Sie die Authentifizierung auf **OAuth 2.0** fest und konfigurieren Sie mit Ihren Adobe IMS-Autorisierungs- und Token-URLs.

@@ -3,7 +3,7 @@ title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Agent Skills sind von Adobe kuratierte Workflows, die KI-Agenten schrittweise Anweisungen für die zuverlässige Durchführung von Adobe CX Enterprise-Aufgaben geben. Für jede Agentenkompetenz werden Domain-Kenntnisse und Best Practices kodiert, sodass Agenten konsistente, validierte Ergebnisse erzielen, ohne improvisieren zu müssen. Agent Skills sind sinnvoll, wenn Sie wiederholbares, geführtes Verhalten über Konversationen hinweg wünschen, insbesondere für Aufgaben, die andernfalls jedes Mal eine detaillierte Aufforderung erfordern würden. Sie ergänzen MCP-Server und APIs: Agent Skills definieren, wie ein Agent funktioniert; MCP-Server und APIs bieten den zugrunde liegenden Zugriff.
 
-## Adobe CX Enterprise Agent - Kenntnisse
+## Adobe CX Enterprise Agent-Kenntnisse
 
 Wählen Sie unten einen Funktionsbereich aus, um die Fähigkeiten für diesen Workflow zu erkunden.
 
@@ -73,7 +73,7 @@ Agent-Kenntnisse werden basierend auf dem verwendeten KI-Client installiert. Ein
 
 Andere Clients erfordern, dass Sie die SKILL-Dateien herunterladen und direkt zu Ihrem KI-Client hinzufügen. In der [Adobe Skills README auf GitHub](https://github.com/adobe/skills#installation) finden Sie vollständige Installationsanweisungen nach Client.
 
-### Ermitteln von Agentenfähigkeiten
+### Agent-Kenntnisse suchen
 
 Durchsuchen Sie die vollständige Liste der verfügbaren Kenntnisse im [Adobe Skills GitHub-Repository](https://github.com/adobe/skills). Zu jeder Agentenkompetenz gehört eine `SKILL.md` mit detaillierten Anleitungen, Referenzen und Beispielen.
 
