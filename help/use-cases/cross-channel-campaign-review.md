@@ -1,8 +1,9 @@
 ---
 title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
 description: Verwenden Sie das CX Enterprise MCP-Gateway in einer einzigen KI-Sitzung, um einen einheitlichen Überblick über den AJO-, CJA- und Real-Time CDP-Kampagnenstatus in Journey, Audiences und Performance zu erhalten.
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%

@@ -1,8 +1,9 @@
 ---
 title: Agent Tools in Aktion
 description: Schrittweise Anleitungen, in denen die Enterprise Agent-Tools von Adobe CX auf echte Unternehmens-Workflows angewendet werden.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 689ace21360ceed512cdd5869bd4f972014ff219
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
