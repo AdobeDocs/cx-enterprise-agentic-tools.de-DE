@@ -39,7 +39,7 @@ Die Tools der einzelnen Programme sind basierend auf den Adobe-Lizenzen Ihres Un
 | --- | --- |
 | Adobe Journey Optimizer | [Überprüfen Sie die Journey-, Kampagnen- und Kanalkonfigurationen](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
 | Customer Journey Analytics | [Berichte abfragen, Datenansichten ermitteln, Arbeitsbereiche erstellen](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | [Überprüfen von Zielen, Aktivierungsstatus und Datenflusszustand](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (geschlossene Beta-Version) |
+| Real-Time CDP | [Überprüfen von Zielen, Aktivierungsstatus und Datenflusszustand](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (geschlossene Beta-Version) |
 
 Wenn Ihre Anwendung hier nicht aufgeführt ist, lesen Sie die [vollständige Liste der MCP-Server](#adobe-cx-enterprise-mcp-servers) unten.
 
@@ -128,7 +128,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM-Inhalte" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM-Inhalte" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM-Inhalte"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -137,11 +137,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM-Inhalte">AEM-Inhalte</a>
+                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM-Inhalte">AEM-Inhalte</a>
                     </p>
                     <p class="is-size-6">Tools zum Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches in Adobe Experience Manager as a Cloud Service in natürlicher Sprache.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Dokumentation anzeigen</span>
                 </a>
             </div>
@@ -151,7 +151,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM-Inhalte (schreibgeschützt)" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" title="AEM-Inhalte (schreibgeschützt)" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM-Inhalte (schreibgeschützt)"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -160,11 +160,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM-Inhalte (schreibgeschützt)">AEM-Inhalt (schreibgeschützt)</a>
+                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" title="AEM-Inhalte (schreibgeschützt)">AEM-Inhalt (schreibgeschützt)</a>
                     </p>
                     <p class="is-size-6">Tools zum Erkennen und Abfragen von Seiten, Inhaltsfragmenten und Launches in AEM as a Cloud Service. Kein Schreibzugriff.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Dokumentation anzeigen</span>
                 </a>
             </div>
@@ -323,11 +323,11 @@ Alle Endpunkte sind in der [Adobe AI Registry](https://developer.adobe.com/ai-re
 
 | Server | Endpunkt | Tools |
 | --- | --- | --- |
-| [CX Enterprise MCP](#cx-enterprise-mcp) | `https://cx-enterprise.adobe.io/mcp` | ・ [Adobe Journey Optimizer-Tools](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>・ [Customer Journey Analytics-Tools](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>・ [Real-Time CDP-Tools](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| [CX Enterprise MCP](#cx-enterprise-mcp) | `https://cx-enterprise.adobe.io/mcp` | ・ [Adobe Journey Optimizer-Tools](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>・ [Customer Journey Analytics-Tools](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>・ [Real-Time CDP-Tools](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM-Inhalte](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
 
 ## Herstellen einer Verbindung zu Ihrem KI-Client
 
