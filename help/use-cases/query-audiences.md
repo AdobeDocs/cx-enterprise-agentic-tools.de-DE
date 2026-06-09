@@ -1,12 +1,12 @@
 ---
 title: Zielgruppen verstehen und wo sie aktiviert werden
-description: Verwenden Sie das CX Enterprise MCP-Gateway, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
-last-substantial-update: 2026-06-04T00:00:00Z
+description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 3%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 2%
 
 Um zu verstehen, welche Zielgruppen aktiviert sind, wo sie fließen und ob Ziele in Ordnung sind, müssen Sie in der Regel Real-Time CDP öffnen und mehrere Bildschirme navigieren. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie dieselben Antworten über einen KI-Client erhalten, indem Sie den RTCDP-MCP-Server verwenden, um die Zielkonfiguration, den Aktivierungsstatus und die Datenflussintegrität durch klar formulierte Fragen zu verdeutlichen.
 
-| | |
+| Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | Real-Time Customer Data Platform (Real-Time CDP) |
-| Agent-Tools | CX Enterprise MCP-Gateway |
-| Zielgruppe | Marketing-Experten, Analysten, Benutzer |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf Real-Time CDP |
+| **CX Enterprise-Anwendungen** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Zielgruppe** | Marketing-Experten, Analysten, Benutzer |
+| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf Real-Time CDP |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -34,7 +34,7 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!TAB Claude.ai]
 
-Verbinden Sie das CX Enterprise MCP-Gateway als benutzerdefinierten Connector, um auf Real-Time CDP-Tools zuzugreifen.
+Verbinden Sie den CX Enterprise MCP als benutzerdefinierten Connector, um auf Real-Time CDP-Tools zuzugreifen.
 
 1. Gehen Sie **Claude.ai zu Einstellungen** Integrationen.
 2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://suppor
 
 >[!TAB ChatGPT]
 
-Verbinden Sie das CX Enterprise MCP Gateway mithilfe des ChatGPT Developer Mode (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
+Verbinden Sie den CX Enterprise MCP mit dem ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
 
 1. Aktivieren Sie **Entwicklermodus** in **ChatGPT-Einstellungen**.
 2. Navigieren Sie zu **Einstellungen > Integrationen** und wählen Sie **Benutzerdefinierten Connector hinzufügen > Remote-MCP-Server**.
@@ -55,7 +55,7 @@ Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/
 
 >[!TAB Andere KI-Clients]
 
-Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP Gateway her:
+Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP her:
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -116,7 +116,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## Schritt 4: Abrufen strategischer Empfehlungen
 
-Die RTCDP-Tools des CX Enterprise MCP-Gateways sind schreibgeschützt. Sie ermöglichen den Aktivierungsstatus, den Zielzustand und Datenflussdaten, ändern jedoch die Konfiguration nicht. Nachdem Sie ein Problem identifiziert haben, erfolgt die Fehlerbehebung in der Anwendung.
+Die RTCDP-Tools des CX Enterprise MCP sind schreibgeschützt - sie ermöglichen den Aktivierungsstatus, den Zielzustand und die Datenflussdaten, ändern jedoch die Konfiguration nicht. Nachdem Sie ein Problem identifiziert haben, erfolgt die Fehlerbehebung in der Anwendung.
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -131,7 +131,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->Die Ziel- und Aktivierungsdaten der RTCDP-Tools des CX Enterprise MCP-Gateways können nicht geändert werden, jedoch nicht die Zielkonfiguration, Segmentdefinitionen oder Datenflusseinstellungen. In der Real-Time CDP-Anwendung werden Behebungsschritte ausgeführt.
+>Die Ziel- und Aktivierungsdaten der RTCDP-Tools von CX Enterprise MCP können zwar überlagert werden, die Zielkonfiguration, Segmentdefinitionen oder Datenflusseinstellungen können jedoch nicht geändert werden. In der Real-Time CDP-Anwendung werden Behebungsschritte ausgeführt.
 
 ## Was Sie erreicht haben
 
@@ -139,7 +139,7 @@ Sie haben einen KI-Client mit Real-Time CDP verbunden und an vier Eingabeaufford
 
 ## Mehr können Sie erreichen
 
-Die Real-Time CDP-Tools des CX Enterprise MCP-Gateways unterstützen eine Vielzahl von Zielgruppen- und Aktivierungsabfragen. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
+Die Real-Time CDP-Tools des CX Enterprise MCP unterstützen eine breite Palette von Zielgruppen- und Aktivierungsabfragen. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
 
 +++Vor dem Versand einer Kampagne genau wissen, was wo fließt
 

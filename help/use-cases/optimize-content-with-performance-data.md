@@ -3,9 +3,9 @@ title: Optimieren von Inhalten basierend auf Leistungsdaten
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 ![KI-Client, der den ursprünglichen und den aktualisierten Seiteninhalt nebeneinander vergleicht](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Das Schließen des Kreislaufs zwischen Kampagnenleistungsdaten und Inhaltsaktualisierungen bedeutet normalerweise, dass zwischen Ihrem Analytics-Tool und Ihrer CMS gewechselt wird. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Customer Journey Analytics und AEM in derselben KI-Sitzung verbunden werden - Kampagnen mit Konversionslücken werden aufgezeigt, deren Ursachen diagnostiziert, Inhalte überprüft, zielgerichtete Empfehlungen gegeben und Änderungen angewendet, ohne das Gespräch zu verlassen.
+Das Schließen des Kreislaufs zwischen Kampagnenleistungsdaten und Inhaltsaktualisierungen bedeutet normalerweise, dass zwischen Ihrem Analytics-Tool und Ihrer CMS gewechselt wird. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Customer Journey Analytics und AEM in derselben KI-Sitzung verbunden werden: Aufdecken von Kampagnen mit Konversionslücken, Diagnostizieren der Ursachen, Überprüfen der Inhalte, Abrufen zielgerichteter Empfehlungen und Anwenden von Änderungen, ohne das Gespräch zu verlassen.
 
-| | |
+| Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | Customer Journey Analytics, Adobe Experience Manager as a Cloud Service |
-| Agent-Tools | CX Enterprise MCP Gateway, AEM Content MCP Server |
-| Zielgruppe | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
+| **CX Enterprise-Anwendungen** | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Zielgruppe** | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
+| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -42,7 +42,7 @@ Schließen Sie beide MCP-Server als benutzerdefinierte Connectoren an. Jede einz
 
 | Server | Endpunkt |
 | --- | --- |
-| CX Enterprise MCP-Gateway | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +58,7 @@ Verbinden Sie beide MCP-Server über den ChatGPT-Entwicklermodus (Pro-, Plus-, B
 
 | Server | Endpunkt |
 | --- | --- |
-| CX Enterprise MCP-Gateway | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +69,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 
 | Server | Endpunkt |
 | --- | --- |
-| CX Enterprise MCP-Gateway | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
@@ -82,12 +82,12 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
->Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie - es wird keine Aktion ohne Ihre Bestätigung durchgeführt.
+>Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
 
 ## Schritt 1: Suchen von Kampagnen mit einer Konversionslücke
 
-Verwenden Sie CJA, um Kampagnen aufzudecken, bei denen der Clickthrough hoch, die Konversionsrate jedoch niedrig ist. Dieses Muster - hohe Absicht, geringe Fertigstellung - verweist normalerweise auf ein Inhalts- oder Erlebnisproblem auf der Landingpage.
+Verwenden Sie CJA, um Kampagnen aufzudecken, bei denen der Clickthrough hoch, die Konversionsrate jedoch niedrig ist. Dieses Muster (hoher Intent, geringer Abschluss) verweist in der Regel auf ein Inhalts- oder Erlebnisproblem auf der Landingpage.
 
 ```
 Which campaigns have strong click-through but low conversion in the last 30 days?
@@ -171,7 +171,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 ## Was Sie erreicht haben
 
-Sie haben Customer Journey Analytics und AEM in einer einzigen KI-Sitzung verbunden und von Kampagnendaten zu bereitgestellten Inhaltsänderungen verschoben, ohne die Tools zu wechseln. Sie haben Kampagnen mit Konversionslücken identifiziert, die Grundursache diagnostiziert, die Landingpage geprüft, zielgerichtete Empfehlungen erhalten, die sowohl auf Daten als auch auf Inhalten basieren, und die Änderungen in derselben Konversation angewendet. Dadurch wird die Feedback-Schleife zwischen Analytics insight und veröffentlichten Inhalten verkürzt - und auf eine beliebige Anzahl an Seiten mit unterdurchschnittlicher Leistung in derselben Sitzung skaliert.
+Sie haben Customer Journey Analytics und AEM in einer einzigen KI-Sitzung verbunden und von Kampagnendaten zu bereitgestellten Inhaltsänderungen verschoben, ohne die Tools zu wechseln. Sie haben Kampagnen mit Konversionslücken identifiziert, die Grundursache diagnostiziert, die Landingpage geprüft, zielgerichtete Empfehlungen erhalten, die sowohl auf Daten als auch auf Inhalten basieren, und die Änderungen in derselben Konversation angewendet. Dadurch wird die Feedback-Schleife zwischen Analytics insight und veröffentlichten Inhalten verkürzt und auf eine beliebige Anzahl leistungsschwacher Seiten in derselben Sitzung skaliert.
 
 
 ## Mehr können Sie erreichen

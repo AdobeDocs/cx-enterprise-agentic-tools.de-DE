@@ -1,12 +1,12 @@
 ---
 title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
-description: Verwenden Sie das CX Enterprise MCP-Gateway in einer einzigen KI-Sitzung, um einen einheitlichen Überblick über den AJO-, CJA- und Real-Time CDP-Kampagnenstatus in Journey, Audiences und Performance zu erhalten.
-last-substantial-update: 2026-05-21T00:00:00Z
+description: Verwenden Sie das CX Enterprise MCP in einer einzigen KI-Sitzung, um eine einheitliche Ansicht des AJO-, CJA- und Real-Time CDP-Kampagnenzustands für Journey, Zielgruppen und Leistung zu erhalten.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 4%
+source-wordcount: '1458'
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 Ein vollständiges Bild des Kampagnenzustands erfordert Daten aus mehreren Systemen: aktive Journey aus AJO, den Status der Zielgruppenaktivierung aus Real-Time CDP und Leistungsmetriken aus CJA. In dieser exemplarischen Vorgehensweise wird gezeigt, wie alle drei Komponenten in einer einzigen KI-Sitzung verbunden werden. So können Sie statt mit drei separaten Tools in einem Gespräch vom Journey-Status zum Zustand der Zielgruppe zu Leistungstrends wechseln.
 
-| | |
+| Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | Adobe Journey Optimizer, Customer Journey Analytics, Real-Time CDP |
-| Agent-Tools | CX Enterprise MCP-Gateway |
-| Zielgruppe | Kampagnen-Manager, Marketing-Vorgänge |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |
+| **CX Enterprise-Anwendungen** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Zielgruppe** | Kampagnen-Manager, Marketing-Vorgänge |
+| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -34,7 +34,7 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!TAB Claude.ai]
 
-Verbinden Sie das CX Enterprise MCP Gateway als benutzerdefinierten Connector. Über eine Verbindung erhalten Sie Zugriff auf AJO-, CJA- und Real-Time CDP-Tools.
+Verbinden des CX Enterprise MCP als benutzerdefinierter Connector. Über eine Verbindung erhalten Sie Zugriff auf AJO-, CJA- und Real-Time CDP-Tools.
 
 1. Gehen Sie **Claude.ai zu Einstellungen** Integrationen.
 2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://suppor
 
 >[!TAB ChatGPT]
 
-Verbinden Sie das CX Enterprise MCP Gateway mithilfe des ChatGPT Developer Mode (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
+Verbinden Sie den CX Enterprise MCP mit dem ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
 
 1. Aktivieren Sie **Entwicklermodus** in **ChatGPT-Einstellungen**.
 2. Navigieren Sie zu **Einstellungen > Integrationen** und wählen Sie **Benutzerdefinierten Connector hinzufügen > Remote-MCP-Server**.
@@ -55,7 +55,7 @@ Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/
 
 >[!TAB Andere KI-Clients]
 
-Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP Gateway her:
+Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP her:
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
->Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie - es wird keine Aktion ohne Ihre Bestätigung durchgeführt.
+>Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
 ## Schritt 1: Überprüfen der aktiven Journey und Kampagnen
 
@@ -87,14 +87,14 @@ In Ihrer AJO-Organisation wurden 8 aktive Journey gefunden:
 
 | Journey | Kanal/Kanäle | Last modified |
 | --- | --- | --- |
-| Begrüßungsreihe - Neue Mitglieder | E-Mail, Push | &#x200B;18. Mai 2026 |
+| Begrüßungsreihe: Neue Mitglieder | E-Mail, Push | &#x200B;18. Mai 2026 |
 | Follow-up nach dem Kauf | E-Mail, SMS | &#x200B;14. Mai 2026 |
 | Erneute Interaktion mit den Treueprogrammen | E-Mail | &#x200B;20. Mai 2026 |
-| Transaktionsabbruch - 24 Stunden | E-Mail, SMS | &#x200B;10. Mai 2026 |
+| Transaktionsabbruch: 24 Stunden | E-Mail, SMS | &#x200B;10. Mai 2026 |
 | Frühjahrsaktion | E-Mail, Push | &#x200B;19. Mai 2026 |
-| Win-back - 90 Tage inaktiv | E-Mail | &#x200B;28. April 2026 |
+| Win-back: 90 Tage inaktiv | E-Mail | &#x200B;28. April 2026 |
 | Geburtstagsgeld | E-Mail | &#x200B;15. April 2026 |
-| Rückgewinnung — Push-Opt-out | SMS | &#x200B;12. Mai 2026 |
+| Rückgewinnung: Push-Opt-out | SMS | &#x200B;12. Mai 2026 |
 
 3 Journey wurden in den letzten 7 Tagen geändert. Möchten Sie Einzelheiten zu diesen?
 
@@ -111,7 +111,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++Siehe eine Beispielantwort
 
-**Hochwertiges Treuesegment** — Aktivierungsstatus über Ziele hinweg:
+**Hochwertiges Treuesegment**: Aktivierungsstatus für alle Ziele:
 
 | Ziel | Status | Letzter erfolgreicher Durchgang | Zielgruppengröße |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 +++Siehe eine Beispielantwort
 
-**Kampagne zur Rückgewinnung aus dem Treueprogramm** — 21. April bis 21. Mai 2026:
+**Kampagne zur Rückgewinnung aus dem Treueprogramm**: 21. April bis 21. Mai 2026:
 
 | Kanal | Sendungen | CTR | Konversionen | Konv. Rate |
 | --- | --- | --- | --- | --- |
@@ -169,7 +169,7 @@ Hier finden Sie die aktuelle Zusammenfassung des Kampagnenzustands in AJO, Real-
 **Fahnen zur Aufmerksamkeit:**
 
 - Win-Back-Journey (90 Tage inaktiv) wurde zuletzt vor 23 Tagen geändert und vor Kurzem nicht geprüft.
-- Die Push-Konversionsrate war in drei aufeinander folgenden Zeiträumen gleich - es lohnt sich, Nachrichten oder Timing zu überprüfen.
+- Die Push-Konversionsrate war in drei aufeinander folgenden Zeiträumen gleich, was eine Überprüfung der Nachrichten oder des Timings lohnt.
 
 Keine kritischen Probleme erkannt. Zwei der oben genannten Punkte erfordern eine Überprüfung vor dem nächsten Kampagnenstart.
 
