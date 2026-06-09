@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agent-Tools
 description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491253/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
-Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihren KI-Client mit Kampagnen, Audiences, Journey und Inhalten - und interagieren Sie mit ihnen in einfacher Sprache über jedes Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
+Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihren KI-Client mit Kampagnen, Audiences, Journey und Inhalten. Interagieren Sie mit ihnen in einfacher Sprache aus jedem Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
 
 >[!TIP]
->**Erste Schritte mit CX Enterprise MCP.** Eine Verbindung gewährt Ihrem KI-Client Zugriff auf Adobe Journey Optimizer, Customer Journey Analytics und Real-Time CDP, basierend auf den Lizenzen Ihres Unternehmens. [Jetzt verbinden](tools/mcp-servers.md#cx-enterprise-mcp)
+>**Erste Schritte mit CX Enterprise MCP.** Eine Verbindung gewährt Ihrem KI-Client Zugriff auf Adobe Journey Optimizer, Customer Journey Analytics und Real-Time CDP, basierend auf den Lizenzen Ihres Unternehmens. [Jetzt verbinden](tools/mcp-servers.md#cx-enterprise-mcp-servers)
 
 <!--
 CARDS
@@ -123,7 +123,7 @@ CARDS
 
 >[!TAB MCP-Server]
 
-Verwenden Sie einen kompatiblen KI-Client, um auf CX Enterprise-Anwendungen in einfacher Sprache zuzugreifen - keine Codierung erforderlich. Beginnen Sie mit CX Enterprise MCP für eine einzige Verbindung zu AJO, CJA und Real-Time CDP oder stellen Sie eine direkte Verbindung zu AEM und anderen Anwendungen her.
+Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache auf CX Enterprise-Anwendungen zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit CX Enterprise MCP für eine einzige Verbindung zu AJO, CJA und Real-Time CDP oder stellen Sie eine direkte Verbindung zu AEM und anderen Anwendungen her.
 
 - Verbindung in Minuten von Claude, Cursor, ChatGPT und anderen MCP-kompatiblen Clients
 - Abfragen von Kampagnen, Audiences und Journey von Daten in natürlicher Sprache
@@ -133,10 +133,10 @@ Verwenden Sie einen kompatiblen KI-Client, um auf CX Enterprise-Anwendungen in e
 
 >[!TAB Agentenfertigkeiten]
 
-Agent Skills kodiert Adobe Domain-Fachwissen als Anweisungen, die Ihr KI-Client befolgen kann. Anstatt zu improvisieren, weiß der Agent genau, was zu tun ist - zuverlässig, wiederholbar und mit den Best Practices von Adobe abgestimmt.
+Agent Skills kodiert Adobe Domain-Fachwissen als Anweisungen, die Ihr KI-Client befolgen kann. Anstatt zu improvisieren, weiß der Agent genau, was zu tun ist, zuverlässig, wiederholt und mit den Best Practices von Adobe abgestimmt.
 
 - Konsistente Ergebnisse für wiederholbare CX Enterprise-Workflows
-- Sie müssen Adobe dem Agenten nicht erklären - die Kompetenz übernimmt das.
+- Keine Notwendigkeit, dem Agenten Adobe zu erklären: Die Fertigkeit übernimmt das.
 - Funktioniert bei allen KI-Clients, die Agentenfähigkeiten unterstützen
 
 [Agent-Kenntnisse entdecken](tools/agent-skills.md)
@@ -233,4 +233,4 @@ CARDS
 | [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise API-Referenz |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Einrichten und Authentifizieren von API-Projekten |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Verwaltung des Benutzer- und Produktzugriffs |
-| [Experience League](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |

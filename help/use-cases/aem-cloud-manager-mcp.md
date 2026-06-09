@@ -1,12 +1,12 @@
 ---
 title: Zuverlässige Bereitstellung für AEM as a Cloud Service
 description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihren KI-Client verlassen zu müssen.
-last-substantial-update: 2026-05-21T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480351/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 Das Verwalten von Adobe Experience Manager-Umgebungen bedeutet in der Regel, sich bei Cloud Manager anzumelden, durch Pipelines und Umgebungen zu navigieren und Kontexte zu wechseln, um den Bereitstellungsstatus zu verfolgen. In dieser exemplarischen Vorgehensweise wird gezeigt, wie diese Vorgänge von einem KI-Client aus mithilfe des AEM Cloud Manager MCP-Servers verarbeitet werden können, damit Entwicklende und Vorgangsteams den Status überprüfen, Pipelines überprüfen und auf Bereitstellungsdetails reagieren können, ohne ihre KI-Umgebung verlassen zu müssen.
 
-| | |
+| Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | Adobe Experience Manager Cloud Manager |
-| Agent-Tools | AEM Cloud Manager MCP-Server |
-| Zielgruppe | Entwickler, DevOps, Operations-Teams |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AEM Cloud Manager |
+| **CX Enterprise-Anwendungen** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| **Agententools** | [AEM Cloud Manager MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| **Zielgruppe** | Entwickler, DevOps, Operations-Teams |
+| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf AEM Cloud Manager |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Weitere Eingabeaufforderungen zum**) folgt, um in derselben Sitzung weitere Informationen zu erhalten.
 
@@ -111,11 +111,11 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 
 >[!NOTE]
 >
->Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrem AEM as a Cloud Service-Programm verknüpfte IMS-Organisation aus. Berechtigungen werden auf Cloud Manager-Ebene erzwungen - Ihr KI-Client kann nur Vorgänge ausführen, für die Ihr Konto autorisiert ist.
+>Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrem AEM as a Cloud Service-Programm verknüpfte IMS-Organisation aus. Berechtigungen werden auf Cloud Manager-Ebene erzwungen. Ihr KI-Client kann nur Vorgänge ausführen, für die Ihr Konto autorisiert ist.
 >
 >Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, Ihr Unternehmen oder AEM-Programm zu bestätigen. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
->Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die vorgeschlagene Aktion und genehmigen oder ablehnen Sie - es wird keine Aktion ohne Ihre Bestätigung durchgeführt.
+>Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die vorgeschlagene Aktion und genehmigen oder ablehnen Sie sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
 ## Schritt 1: Überprüfen des Umgebungsstatus
 
@@ -183,7 +183,7 @@ What is the status of the triggered pipeline?
 
 ## Was Sie erreicht haben
 
-Sie haben den AEM Cloud Manager-MCP-Server verwendet, um den Zustand der Umgebung zu überprüfen, den Pipeline-Verlauf zu überprüfen, eine Bereitstellung zu Triggern und ihren Status zu überprüfen, ohne die Cloud Manager-Benutzeroberfläche zu öffnen. Durch die Kombination von Umgebungstransparenz und Bereitstellungssteuerung in einer einzigen KI-Sitzung können Entwicklungs- und Operations-Teams schneller auf Probleme reagieren und ihren Workflow in den Tools belassen, die sie bereits verwenden.
+Sie haben den AEM Cloud Manager-MCP-Server verwendet, um den Zustand der Umgebung zu überprüfen, den Pipeline-Verlauf zu überprüfen, eine Bereitstellung zu testen und den Trigger zu überprüfen, ohne die Cloud Manager-Benutzeroberfläche zu öffnen. Durch die Kombination von Umgebungstransparenz und Bereitstellungssteuerung in einer einzigen KI-Sitzung können Entwicklungs- und Operations-Teams schneller auf Probleme reagieren und ihren Workflow in den Tools belassen, die sie bereits verwenden.
 
 ## Mehr können Sie erreichen
 
@@ -279,5 +279,5 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 | Ressource | Was Sie finden werden |
 | --- | --- |
 | [Dokumentation zu AEM Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Vollständige Dokumentation zu Cloud Manager-Programmen |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |

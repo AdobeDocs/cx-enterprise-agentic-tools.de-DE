@@ -3,9 +3,9 @@ title: Agent Tools in Aktion
 description: Schrittweise Anleitungen, in denen die Enterprise Agent-Tools von Adobe CX auf echte Unternehmens-Workflows angewendet werden.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -195,35 +195,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-## Häufige Fragen
-
-+++Wie kann ich Adobe-Daten von einem KI-Client abfragen?
-
-Verwenden Sie einen MCP-Server. Verbinden Sie Ihren KI-Client mit dem entsprechenden Adobe MCP-Server-Endpunkt und stellen Sie dann Fragen in natürlicher Sprache. Der Server übersetzt Ihre Anfrage in Adobe-API-Aufrufe und gibt strukturierte Ergebnisse zurück.
-
-Siehe [MCP-Server](../tools/mcp-servers.md), um zu beginnen.
-
-+++
-
-+++Wie erstelle ich einen Workflow, der mehrere Adobe-Programme verbindet?
-
-Verbinden Sie sich mit mehreren MCP-Servern in einer einzigen KI-Sitzung oder verwenden Sie Adobe-APIs für die benutzerdefinierte Orchestrierung mehrerer Anwendungen.
-
-Siehe [APIs für &#x200B;](../tools/apis.md) und [MCP-Server](../tools/mcp-servers.md).
-
-+++
-
-+++Wie kann ich einen Agenten dazu bringen, die Best Practices für Adobe zu befolgen?
-
-Agent-Kenntnisse verwenden. Kenntnisse kodieren das Fachwissen im Adobe-Bereich, sodass Agenten Aufgaben konsistent erledigen können.
-
-Siehe [Agentenfertigkeiten](../tools/agent-skills.md).
-
-+++
-
-+++Welche KI-Clients arbeiten mit Adobe MCP-Servern?
-
-Jeder MCP-kompatible Client. Claude Code, Claude.ai, Cursor, ChatGPT und Google Gemini verfügen alle über MCP-Unterstützung. Unter [MCP-Server](../tools/mcp-servers.md) finden Sie einen vollständigen Clientvergleich und Links zum Setup.
-
-+++

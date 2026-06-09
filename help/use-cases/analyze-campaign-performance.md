@@ -1,11 +1,11 @@
 ---
 title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
-description: Verwenden Sie das CX Enterprise MCP-Gateway, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
-last-substantial-update: 2026-06-02T00:00:00Z
+description: Verwenden Sie den CX Enterprise MCP, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separaten Tool erforderte, wird jetzt zur Diskussion gestellt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie einen KI-Client mit Customer Journey Analytics (CJA) verbinden und Leistungsfragen in einfacher Sprache stellen. Das Ergebnis ist eine schnellere insight-Bereitstellung, ohne dass manuelle Berichtserstellungen erforderlich sind.
 
-| | |
+| Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | Customer Journey Analytics (CJA) |
-| Agent-Tools | CX Enterprise MCP-Gateway |
-| Zielgruppe | Analysten, Kampagnen-Manager |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |
+| **CX Enterprise-Anwendungen** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Zielgruppe** | Analysten, Kampagnen-Manager |
+| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf CJA |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -34,7 +34,7 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!TAB Claude.ai]
 
-Verbinden Sie das CX Enterprise MCP-Gateway als benutzerdefinierten Connector, um auf Customer Journey Analytics-Tools zuzugreifen.
+Verbinden Sie den CX Enterprise MCP als benutzerdefinierten Connector, um auf Customer Journey Analytics-Tools zuzugreifen.
 
 1. Gehen Sie **Claude.ai zu Einstellungen** Integrationen.
 2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://suppor
 
 >[!TAB ChatGPT]
 
-Verbinden Sie das CX Enterprise MCP Gateway mithilfe des ChatGPT Developer Mode (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
+Verbinden Sie den CX Enterprise MCP mit dem ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
 
 1. Aktivieren Sie **Entwicklermodus** in **ChatGPT-Einstellungen**.
 2. Navigieren Sie zu **Einstellungen > Integrationen** und wählen Sie **Benutzerdefinierten Connector hinzufügen > Remote-MCP-Server**.
@@ -55,7 +55,7 @@ Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/
 
 >[!TAB Andere KI-Clients]
 
-Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP Gateway her:
+Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP her:
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
->Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie - es wird keine Aktion ohne Ihre Bestätigung durchgeführt.
+>Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
 ## Schritt 1: Verfügbare Datenansichten entdecken
 
@@ -154,7 +154,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->CJA-Tools, auf die über das CX Enterprise MCP-Gateway zugegriffen wird, können in derselben Sitzung Segmente, berechnete Metriken und Workspace-Projekte innerhalb von CJA erstellen. Um Kampagnen, Journey oder Inhalte in anderen Anwendungen zu aktualisieren, verbinden Sie den entsprechenden MCP-Server oder gehen Sie direkt zur Anwendung.
+>CJA-Tools, auf die über den CX Enterprise MCP zugegriffen wird, können in derselben Sitzung Segmente, berechnete Metriken und Workspace-Projekte in CJA erstellen. Um Kampagnen, Journey oder Inhalte in anderen Anwendungen zu aktualisieren, verbinden Sie den entsprechenden MCP-Server oder gehen Sie direkt zur Anwendung.
 
 ## Was Sie erreicht haben
 
@@ -162,7 +162,7 @@ Sie haben einen KI-Client mit Customer Journey Analytics verbunden und in fünf 
 
 ## Mehr können Sie erreichen
 
-Das CX Enterprise MCP Gateway kann weit mehr Customer Journey Analytics-Einblicke liefern als in der Anleitung beschrieben. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
+Der CX Enterprise MCP kann weit mehr Customer Journey Analytics-Einblicke liefern als in der Anleitung beschrieben. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
 
 +++Finden Sie heraus, was funktioniert und was nicht
 
@@ -194,7 +194,7 @@ Show me conversion performance by traffic source.
 
 +++Die treibenden Ergebnisse verstehen
 
-Überschriftenmetriken sagen Ihnen, was passiert ist. Diese Eingabeaufforderungen helfen Ihnen zu verstehen, warum - welche Segmente, Kanäle und Touchpoints hinter den Zahlen stecken.
+Überschriftenmetriken sagen Ihnen, was passiert ist. Diese Eingabeaufforderungen helfen Ihnen zu verstehen, warum: welche Segmente, Kanäle und Touchpoints hinter den Zahlen liegen.
 
 **Eingabeaufforderungen**
 
@@ -246,7 +246,7 @@ What would have the biggest impact on revenue?
 
 +++Erkenntnisse in Maßnahmen umsetzen
 
-CJA-Tools, auf die über das CX Enterprise MCP-Gateway zugegriffen wird, können Segmente, Zielgruppen, berechnete Metriken und Workspace-Projekte direkt in CJA erstellen, ohne die KI-Sitzung verlassen zu müssen. Verwenden Sie diese Eingabeaufforderungen, um auf das zu reagieren, was Sie gefunden haben.
+CJA-Tools, auf die über den CX Enterprise MCP zugegriffen wird, können Segmente, Zielgruppen, berechnete Metriken und Workspace-Projekte direkt in CJA erstellen, ohne die KI-Sitzung verlassen zu müssen. Verwenden Sie diese Eingabeaufforderungen, um auf das zu reagieren, was Sie gefunden haben.
 
 **Eingabeaufforderungen**
 
