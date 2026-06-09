@@ -3,9 +3,9 @@ title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie das CX Enterprise MCP-Gateway, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
 last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Abfrage von Zielgruppen mit natürlicher Sprache](https://placehold.co/1600x900?text=Query+Audiences)
+![KI-Client, der eine priorisierte Zielgruppenstrategie mit Aktivierungsempfehlungen bereitstellt](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 Um zu verstehen, welche Zielgruppen aktiviert sind, wo sie fließen und ob Ziele in Ordnung sind, müssen Sie in der Regel Real-Time CDP öffnen und mehrere Bildschirme navigieren. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie dieselben Antworten über einen KI-Client erhalten, indem Sie den RTCDP-MCP-Server verwenden, um die Zielkonfiguration, den Aktivierungsstatus und die Datenflussintegrität durch klar formulierte Fragen zu verdeutlichen.
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP-Server-Setup und Tool-Referenz |
+| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP-Server-Setup und Tool-Referenz |
 | [Adobe AI-Registrierung](https://developer.adobe.com/ai-registry/?type=mcp) | MCP-Server-Metadaten und -Verfügbarkeit |
 | [Dokumentation zu Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) | Vollständige Dokumentation zu Real-Time CDP-Programmen |
 | Dokumentation zu [AEP-Zielen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home) | Vollständige Zielreferenz |

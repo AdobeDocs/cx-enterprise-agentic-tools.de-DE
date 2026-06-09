@@ -3,9 +3,9 @@ title: Journey-Probleme erkennen, bevor sie Kunden betreffen
 description: Verwenden Sie das CX Enterprise MCP-Gateway, um aktive AJO-Journey zu überwachen, die Kampagnenkonfiguration zu überprüfen und betriebliche Probleme aufzudecken, bevor sie Ihre Zielgruppe erreichen.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 # Journey-Probleme erkennen, bevor sie Kunden betreffen
 <!-- last-modified: 2026-06-08 -->
 
-![AJO Journey](https://placehold.co/1600x900?text=Review+AJO+Journeys)
+![KI-Client mit einer Zusammenfassung der Kampagnen- und Journey-Strategie und einer Zusammenfassung für Führungskräfte](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
 Um sich ein klares Bild davon zu machen, welche Journey aktiv sind, welche Bedingungen sie antreiben und wie Kampagnen normal konfiguriert sind, müssen Sie Adobe Journey Optimizer öffnen und in seiner Benutzeroberfläche navigieren. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie dieselbe Sichtbarkeit über einen KI-Client erhalten, indem Sie das CX Enterprise MCP-Gateway verwenden, um AJO-Journey- und -Kampagnendaten mit verständlichen Fragen abzufragen.
 
