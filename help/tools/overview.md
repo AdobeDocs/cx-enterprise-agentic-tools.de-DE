@@ -126,8 +126,8 @@ CARDS
 ## Nicht sicher, wo man anfangen soll?
 
 - Um mithilfe von KI mit CX Enterprise-Anwendungen zu interagieren (Aktionen durchführen, Daten abfragen und die KI durch natürliche Konversation ermitteln lassen, was als Nächstes zu tun ist), [MCP-Server](mcp-servers.md) der flexibelste Ausgangspunkt.
-- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, ](agent-skills.md) (Agentenkenntnisse[ diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
-- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, ](apis.md) Sie mit [APIs für Builder) direkt und programmierbar steuern, was genau passiert.
+- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, [&#128279;](agent-skills.md) (Agentenkenntnisse diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
+- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, [&#128279;](apis.md) Sie mit APIs für Builder) direkt und programmierbar steuern, was genau passiert.
 
 >[!BEGINTABS]
 
