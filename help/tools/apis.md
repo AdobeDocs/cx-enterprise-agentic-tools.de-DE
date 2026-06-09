@@ -3,9 +3,9 @@ title: APIs für Builder
 description: Erstellen benutzerdefinierter Anwendungen und Integrationen mithilfe von Adobe CX Enterprise-APIs.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 12%
 
 ---
@@ -103,11 +103,11 @@ Benutzerverwaltung, Identitätsverwaltung und Automatisierung von Unternehmensko
 
 >[!ENDTABS]
 
-## Erste Schritte mit APIs für Builder
+## Erstellen mit APIs
 
 ![Eine IDE, die eine Verbindung zu Adobe CX Enterprise-APIs herstellt](../assets/hero-connect-apis.gif)
 
-Bevor Sie Adobe CX Enterprise-APIs erstellen können, sind zwei Dinge erforderlich: authentifizierte Anmeldeinformationen von Adobe Developer Console und API-Dokumentation, die Ihrem Projekt hinzugefügt werden, damit Ihr Codierungsagent zuverlässig mit Adobe-APIs arbeiten kann.
+Codierungs-Agenten wie Claude Code, Cursor und OpenAI Codex eignen sich gut für die Erstellung mit Adobe CX Enterprise-APIs. Fügen Sie Ihrem Projekt eine OpenAPI-Spezifikation hinzu, und der Agent kann Endpunkte ermitteln, Anfragen erstellen und Gründe für das API-Verhalten ohne manuelle Verdrahtung angeben. Zunächst benötigen Sie zwei Dinge: authentifizierte Anmeldeinformationen von Adobe Developer Console und API-Dokumentation, die zu Ihrem Projekt hinzugefügt werden.
 
 ### Einrichten von API-Anmeldeinformationen in Adobe Developer Console
 
@@ -192,15 +192,3 @@ project/
 **Aktuelle Spezifikationen beibehalten**
 
 Wenn Adobe eine neue API-Version veröffentlicht: Laden Sie einen neuen Schnappschuss in `/specs` herunter, aktualisieren Sie das Datum in `README.md` und generieren Sie den Index und die `AGENTS.md` neu.
-
-## APIs für Builder vs. MCP-Server
-
-Verwenden Sie APIs, wenn Sie die Systemintegration vollständig steuern müssen oder ein benutzerdefiniertes Programm erstellen möchten. Verwenden Sie MCP-Server, wenn ein KI-Agent direkt mit Adobe-Workflows arbeiten soll.
-
-| | APIs | MCP-Server |
-| --- | --- | --- |
-| Direkte Systemintegration | Ja | manchmal |
-| Agent-freundliche Orchestrierung | Limited | Ja |
-| Zugriff auf Rohdaten | Ja | Gewöhnlich abstrahiert |
-| Entwicklung benutzerdefinierter Anwendungen | Primärer Anwendungsfall | Sekundär |
-| KI-unterstützte Workflows | „Unterstützt“ | Primärer Anwendungsfall |

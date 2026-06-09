@@ -3,10 +3,10 @@ title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '440'
+ht-degree: 1%
 
 ---
 
@@ -57,17 +57,13 @@ Agentenkenntnisse für die Batch-Fotobearbeitung, das Design aus Vorlagen, die V
 
 >[!ENDTABS]
 
-## Funktionsweise von Agentenfähigkeiten
+## Agent-Kenntnisse hinzufügen
 
 ![Funktionsweise von Agentenkenntnissen](../assets/hero-connect-agent-skills.gif)
 
 Eine Agentenfertigkeit ist ein Satz von Anweisungen, die einem KI-Agenten mitteilen, wie eine Aufgabe mithilfe der Adobe-Agententools abgeschlossen werden soll. Wenn ein Agent eine Qualifikation lädt, folgt dieser Workflow, anstatt zu improvisieren.
 
-- Agenten führen Aufgaben jedes Mal auf die gleiche Weise aus
-- Domain-Fachwissen wird einmal kodiert und in allen Konversationen wiederverwendet
-- Kenntnisse können mehrere agentische Tools und Aktionen in einem einzigen Workflow verketten
-
-## Erste Schritte
+### Agent-Kenntnisse installieren
 
 Agent-Kenntnisse werden basierend auf dem verwendeten KI-Client installiert. Einige Clients unterstützen die direkte Installation über die Befehlszeile:
 
@@ -86,12 +82,3 @@ Nach der Installation oder dem Hinzufügen des `adobe/skills` können Sie mit ei
 - **Claude-Code**: `claude /plugin list`
 - **Knotenumgebungen**: `npx skills list`
 - **GitHub-CLI**: `gh upskill list`
-
-## Agent-Kenntnisse vs. MCP-Server vs. APIs für Builder
-
-| | Agent-Kenntnisse | MCP-Server | APIs für Builder |
-| --- | --- | --- | --- |
-| Zweck | Geführte Workflows und Best Practices | Zugriff auf Adobe-Daten und -Workflows | Direkte Systemintegration |
-| Kodiert das Domain-Fachwissen | Ja | Nein | Nein |
-| Kodierung erforderlich | Nein | Nein | Ja |
-| Geeignet für | Wiederholbare, geführte Aufgaben | Datenabfragen und Workflow-Aktionen | Entwicklung benutzerdefinierter Anwendungen |
