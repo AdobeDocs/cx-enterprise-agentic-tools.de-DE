@@ -74,7 +74,7 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Marketing Agent](TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
+| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 >[!NOTE]
 >
->Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Anweisungen zur Einrichtung der Authentifizierung finden Sie in der ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) zum Marketo Engage MCP-Server [.
+>Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Anweisungen zur Einrichtung der Authentifizierung finden Sie in der [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) zum Marketo Engage MCP-Server .
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
@@ -110,7 +110,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Workfront](TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
+| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
 
 >[!NOTE]
 >
