@@ -3,7 +3,7 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
+source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -128,7 +128,7 @@ In den folgenden Schritten wird der MCP-Endpunkt CX Enterprise als Beispiel verw
 
 >[!TAB Claude.ai]
 
-### ![Empfohlen](../assets/icons/star.svg) Verwenden eines verwalteten Connectors
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="Empfohlen"> Verwenden eines verwalteten Connectors
 
 Wechseln Sie zur [Adobe AI-](https://developer.adobe.com/ai-registry/?type=connector) und suchen Sie nach Ihrer Adobe-Anwendung. Wenn ein Claude-Connector aufgeführt ist (z. B. der [Adobe Experience Manager-Connector](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), befolgen Sie dessen Einrichtungsanweisungen anstelle der folgenden Schritte.
 
@@ -198,7 +198,7 @@ Vollständiges Setup: [Cursor-MCP-Dokumentation](https://cursor.com/docs/mcp)
 
 >[!TAB ChatGPT]
 
-### ![Empfohlen](../assets/badge-recommended.svg) Verwenden eines verwalteten Connectors
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="Empfohlen"> Verwenden eines verwalteten Connectors
 
 Wechseln Sie zur [Adobe AI-](https://developer.adobe.com/ai-registry/?type=connector) und suchen Sie nach Ihrer Adobe-Anwendung. Wenn ein ChatGPT-Connector aufgeführt wird, befolgen Sie die Setup-Anweisungen anstelle der folgenden Schritte.
 
