@@ -3,9 +3,9 @@ title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 description: Verwenden Sie den CX Enterprise MCP, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separate
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Zielgruppe | Analysten, Kampagnen-Manager |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |
@@ -273,7 +273,5 @@ Save this analysis as a Workspace project for executive reporting.
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zum CJA MCP-Server](https://developer.adobe.com/analytics-mcp/docs/cja/) | Vollständige Tool-Referenz und Einrichtungshandbuch |
-| [CJA MCP-Benutzerhandbücher](https://developer.adobe.com/analytics-mcp/docs/guides/) | Detaillierte Benutzerhandbücher |
-| [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Server-Tools und Verfügbarkeit |
-| [Dokumentation zu Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing) | Vollständige Dokumentation zu CJA-Programmen |
+| [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Server-Tools und Verfügbarkeit |
+| [Dokumentation zu Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing){target="_blank"} | Vollständige Dokumentation zu CJA-Programmen |
