@@ -3,9 +3,9 @@ title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
+source-git-commit: 1d568bb9c3d948a0470c0f5d110ebb8fa696a53c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '635'
 ht-degree: 7%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 7%
 
 Agent Skills sind von Adobe kuratierte Workflows, die KI-Agenten schrittweise Anweisungen für die zuverlässige Durchführung von Adobe CX Enterprise-Aufgaben geben. Für jede Agentenkompetenz werden Domain-Kenntnisse und Best Practices kodiert, sodass Agenten konsistente, validierte Ergebnisse erzielen, ohne improvisieren zu müssen. Agent Skills sind sinnvoll, wenn Sie wiederholbares, geführtes Verhalten über Konversationen hinweg wünschen, insbesondere für Aufgaben, die andernfalls jedes Mal eine detaillierte Aufforderung erfordern würden. Sie ergänzen MCP-Server und APIs: Agent Skills definieren, wie ein Agent funktioniert; MCP-Server und APIs bieten den zugrunde liegenden Zugriff.
 
-Alle Agentenkenntnisse werden im [Adobe Skills GitHub-Repository](https://github.com/adobe/skills) verwaltet, das die Hauptquelle für die Dokumentation zu Agentenkenntnissen sowie für Installations- und Implementierungsdetails ist.
-
 ## Adobe CX Enterprise Agent - Kenntnisse
 
-Alle Agentenkenntnisse werden im [Adobe Skills GitHub-Repository gepflegt](https://github.com/adobe/skills). Wählen Sie unten einen Funktionsbereich aus, um die Fähigkeiten für diesen Workflow zu erkunden.
+Wählen Sie unten einen Funktionsbereich aus, um die Fähigkeiten für diesen Workflow zu erkunden.
 
 <!--
 CARDS
@@ -183,9 +181,6 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-Umfassende Informationen zu Kenntnissen, Installationsmethoden und Quell-Code finden Sie im [Adobe Skills GitHub-Repository](https://github.com/adobe/skills).
 
 ## Funktionsweise von Agentenfähigkeiten
 

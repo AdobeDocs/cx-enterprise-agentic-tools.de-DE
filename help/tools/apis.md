@@ -3,10 +3,10 @@ title: APIs für Builder
 description: Erstellen benutzerdefinierter Anwendungen und Integrationen mithilfe von Adobe CX Enterprise-APIs.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 24%
+source-wordcount: '935'
+ht-degree: 25%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 24%
 Adobe CX Enterprise-APIs bieten Entwicklern und Entwicklern von KI-unterstützten Codierungsagenten-Tools direkten Zugriff auf Adobe-Daten und -Workflows. Verwenden Sie sie, um benutzerdefinierte Programme zu erstellen, Integrationen zu automatisieren und Adobe-Funktionen in Ihre eigenen Systeme einzubetten. APIs sind die richtige Wahl, wenn Sie die vollständige programmgesteuerte Kontrolle über eine Systemintegration benötigen oder eine Anwendung auf Adobe-Daten aufbauen. Informationen zum agentengesteuerten, konversativen Zugriff auf Adobe-Workflows finden Sie unter [MCP-Server](mcp-servers.md).
 
 ## Adobe CX Enterprise-APIs
-
-Adobe CX Enterprise-APIs stellen die Kerndaten und -vorgänge bereit, auf denen Produkte wie Adobe Experience Platform, Journey Optimizer und Customer Journey Analytics basieren. Jede API folgt einem API-First-Design, das Entwickelnden und KI-unterstützten Codierungsagenten-Tools direkten, programmierbaren Zugriff auf dieselben Funktionen gewährt, die Adobe intern verwendet. Verwenden Sie sie, um benutzerdefinierte Programme zu erstellen, Workflows zu automatisieren und Adobe-Daten in Ihre eigenen Systeme zu integrieren.
 
 <!--
 CARDS
@@ -68,7 +66,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## APIs für Builder vs. MCP-Server
-
-Verwenden Sie APIs, wenn Sie die Systemintegration vollständig steuern müssen oder ein benutzerdefiniertes Programm erstellen möchten. Verwenden Sie MCP-Server, wenn ein KI-Agent direkt mit Adobe-Workflows arbeiten soll.
-
-| | APIs | MCP-Server |
-| --- | --- | --- |
-| Direkte Systemintegration | Ja | manchmal |
-| Agent-freundliche Orchestrierung | Limited | Ja |
-| Zugriff auf Rohdaten | Ja | Gewöhnlich abstrahiert |
-| Entwicklung benutzerdefinierter Anwendungen | Primärer Anwendungsfall | Sekundär |
-| KI-unterstützte Workflows | „Unterstützt“ | Primärer Anwendungsfall |
-
 ## Erste Schritte mit APIs für Builder
 
 ![Eine IDE, die eine Verbindung zu Adobe CX Enterprise-APIs herstellt](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **Aktuelle Spezifikationen beibehalten**
 
 Wenn Adobe eine neue API-Version veröffentlicht: Laden Sie einen neuen Schnappschuss in `/specs` herunter, aktualisieren Sie das Datum in `README.md` und generieren Sie den Index und die `AGENTS.md` neu.
+
+## APIs für Builder vs. MCP-Server
+
+Verwenden Sie APIs, wenn Sie die Systemintegration vollständig steuern müssen oder ein benutzerdefiniertes Programm erstellen möchten. Verwenden Sie MCP-Server, wenn ein KI-Agent direkt mit Adobe-Workflows arbeiten soll.
+
+| | APIs | MCP-Server |
+| --- | --- | --- |
+| Direkte Systemintegration | Ja | manchmal |
+| Agent-freundliche Orchestrierung | Limited | Ja |
+| Zugriff auf Rohdaten | Ja | Gewöhnlich abstrahiert |
+| Entwicklung benutzerdefinierter Anwendungen | Primärer Anwendungsfall | Sekundär |
+| KI-unterstützte Workflows | „Unterstützt“ | Primärer Anwendungsfall |
