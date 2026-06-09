@@ -22,7 +22,7 @@ Für Inhaltsvorgänge in Adobe Experience Manager, vom Suchen nach Seiten und Ü
 | Szenario-Details | |
 | --- | --- |
 | **CX Enterprise-Anwendungen** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **Agententools** | [AEM Content MCP-Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Agententools** | [AEM Content MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | **Zielgruppe** | Content-Manager, Marketing-Teams |
 | **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf AEM as a Cloud Service |
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Setup- und Benutzerhandbuch für MCP-Server |
+| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Setup- und Benutzerhandbuch für MCP-Server |
 | [AEM Content MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Toolliste und Verfügbarkeit |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
-| [AEM-Inhaltsfragmente](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Authoring-Referenz für Inhaltsfragmente |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
+| [AEM-Inhaltsfragmente](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Authoring-Referenz für Inhaltsfragmente |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
