@@ -1,8 +1,9 @@
 ---
 title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
+last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 7%

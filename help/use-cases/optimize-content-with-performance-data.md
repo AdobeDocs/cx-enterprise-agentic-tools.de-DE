@@ -1,8 +1,9 @@
 ---
 title: Optimieren von Inhalten basierend auf Leistungsdaten
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 1%
@@ -256,7 +257,7 @@ Publish all confirmed changes and share the updated URLs.
 | Ressource | Was Sie finden werden |
 | --- | --- |
 | [Dokumentation zum CJA MCP-Server](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCP-Setup und Tool-Referenz |
-| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCP-Setup- und -Benutzerhandbuch |
+| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCP-Setup- und -Benutzerhandbuch |
 | [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Server-Tools und Verfügbarkeit |
 | [AEM Content MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Server-Tools und -Verfügbarkeit |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |

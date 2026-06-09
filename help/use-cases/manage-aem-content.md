@@ -1,8 +1,9 @@
 ---
 title: Halten Sie Inhalte aktuell und versenden Sie Updates schneller
 description: Verwenden Sie den AEM Content MCP Server zum Suchen, Überprüfen, Aktualisieren und Veröffentlichen von AEM-Inhalten, ohne zwischen Tools zu wechseln.
+last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -263,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Setup- und Benutzerhandbuch für MCP-Server |
+| [Dokumentation zu AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Setup- und Benutzerhandbuch für MCP-Server |
 | [AEM Content MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Toolliste und Verfügbarkeit |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
-| [AEM-Inhaltsfragmente](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Authoring-Referenz für Inhaltsfragmente |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
+| [AEM-Inhaltsfragmente](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Authoring-Referenz für Inhaltsfragmente |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |

@@ -1,8 +1,9 @@
 ---
 title: Agent-Tools
 description: Vergleichen Sie MCP-Server, Agentenkenntnisse und APIs für Builder und wählen Sie das richtige Agententool für Ihre Adobe CX Enterprise-Workflows aus.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 1%
@@ -125,8 +126,8 @@ CARDS
 ## Nicht sicher, wo man anfangen soll?
 
 - Um mithilfe von KI mit CX Enterprise-Anwendungen zu interagieren (Aktionen durchführen, Daten abfragen und die KI durch natürliche Konversation ermitteln lassen, was als Nächstes zu tun ist), [MCP-Server](mcp-servers.md) der flexibelste Ausgangspunkt.
-- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, [&#128279;](agent-skills.md) (Agentenkenntnisse diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
-- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, [&#128279;](apis.md) Sie mit APIs für Builder) direkt und programmierbar steuern, was genau passiert.
+- Um sicherzustellen, dass die Agenten die Best Practices von Adobe für CX Enterprise-Workflows befolgen, ohne zu improvisieren, ](agent-skills.md) (Agentenkenntnisse[ diese Domain-Kenntnisse in wiederverwendbaren Anweisungen kodiert.
+- Um ein zielgerichtetes Programm zu erstellen, das einen bestimmten CX Enterprise-Workflow für Ihre Benutzer optimiert oder automatisiert, ](apis.md) Sie mit [APIs für Builder) direkt und programmierbar steuern, was genau passiert.
 
 >[!BEGINTABS]
 

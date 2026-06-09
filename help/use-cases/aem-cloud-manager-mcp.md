@@ -1,8 +1,9 @@
 ---
 title: Zuverlässige Bereitstellung für AEM as a Cloud Service
 description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihren KI-Client verlassen zu müssen.
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480351/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 Das Verwalten von Adobe Experience Manager-Umgebungen bedeutet in der Regel, sich bei Cloud Manager anzumelden, durch Pipelines und Umgebungen zu navigieren und Kontexte zu wechseln, um den Bereitstellungsstatus zu verfolgen. In dieser exemplarischen Vorgehensweise wird gezeigt, wie diese Vorgänge von einem KI-Client aus mithilfe des AEM Cloud Manager MCP-Servers verarbeitet werden können, damit Entwicklende und Vorgangsteams den Status überprüfen, Pipelines überprüfen und auf Bereitstellungsdetails reagieren können, ohne ihre KI-Umgebung verlassen zu müssen.
 
@@ -278,5 +279,5 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 | Ressource | Was Sie finden werden |
 | --- | --- |
 | [Dokumentation zu AEM Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Vollständige Dokumentation zu Cloud Manager-Programmen |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
 | [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
