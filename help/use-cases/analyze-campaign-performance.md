@@ -3,7 +3,7 @@ title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 description: Verwenden Sie den CX Enterprise MCP, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 1%
@@ -21,10 +21,10 @@ Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separate
 
 | Szenario-Details | |
 | --- | --- |
-| **CX Enterprise-Anwendungen** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
-| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Zielgruppe** | Analysten, Kampagnen-Manager |
-| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf CJA |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Zielgruppe | Analysten, Kampagnen-Manager |
+| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 

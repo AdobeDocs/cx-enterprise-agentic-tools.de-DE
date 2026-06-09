@@ -3,7 +3,7 @@ title: Halten Sie Inhalte aktuell und versenden Sie Updates schneller
 description: Verwenden Sie den AEM Content MCP Server zum Suchen, Überprüfen, Aktualisieren und Veröffentlichen von AEM-Inhalten, ohne zwischen Tools zu wechseln.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 2%
@@ -21,10 +21,10 @@ Für Inhaltsvorgänge in Adobe Experience Manager, vom Suchen nach Seiten und Ü
 
 | Szenario-Details | |
 | --- | --- |
-| **CX Enterprise-Anwendungen** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **Agententools** | [AEM Content MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **Zielgruppe** | Content-Manager, Marketing-Teams |
-| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf AEM as a Cloud Service |
+| CX Enterprise-Anwendungen | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Agent-Tools | [AEM Content MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Zielgruppe | Content-Manager, Marketing-Teams |
+| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AEM as a Cloud Service |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 

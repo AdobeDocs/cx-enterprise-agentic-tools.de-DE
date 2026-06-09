@@ -3,7 +3,7 @@ title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
 description: Verwenden Sie das CX Enterprise MCP in einer einzigen KI-Sitzung, um eine einheitliche Ansicht des AJO-, CJA- und Real-Time CDP-Kampagnenzustands für Journey, Zielgruppen und Leistung zu erhalten.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 5%
@@ -21,10 +21,10 @@ Ein vollständiges Bild des Kampagnenzustands erfordert Daten aus mehreren Syste
 
 | Szenario-Details | |
 | --- | --- |
-| **CX Enterprise-Anwendungen** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
-| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Zielgruppe** | Kampagnen-Manager, Marketing-Vorgänge |
-| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |
+| CX Enterprise-Anwendungen | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Zielgruppe | Kampagnen-Manager, Marketing-Vorgänge |
+| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 

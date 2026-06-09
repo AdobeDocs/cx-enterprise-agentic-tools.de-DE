@@ -3,7 +3,7 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 9c62818daecf3c20230457da5b9b8086d954260f
+source-git-commit: 25d2a09ed7ca8357fd4d9eff93233732fe81a2d5
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 3%
@@ -128,7 +128,7 @@ In den folgenden Schritten wird der MCP-Endpunkt CX Enterprise als Beispiel verw
 
 >[!TAB Claude.ai]
 
-### ![Empfohlen](../assets/badge-recommended.svg) Verwenden eines verwalteten Connectors
+### ![Empfohlen](../assets/icons/star.svg) Verwenden eines verwalteten Connectors
 
 Wechseln Sie zur [Adobe AI-](https://developer.adobe.com/ai-registry/?type=connector) und suchen Sie nach Ihrer Adobe-Anwendung. Wenn ein Claude-Connector aufgeführt ist (z. B. der [Adobe Experience Manager-Connector](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), befolgen Sie dessen Einrichtungsanweisungen anstelle der folgenden Schritte.
 

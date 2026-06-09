@@ -3,7 +3,7 @@ title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 3%
@@ -21,10 +21,10 @@ Um zu verstehen, welche Zielgruppen aktiviert sind, wo sie fließen und ob Ziele
 
 | Szenario-Details | |
 | --- | --- |
-| **CX Enterprise-Anwendungen** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
-| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Zielgruppe** | Marketing-Experten, Analysten, Benutzer |
-| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf Real-Time CDP |
+| CX Enterprise-Anwendungen | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Zielgruppe | Marketing-Experten, Analysten, Benutzer |
+| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf Real-Time CDP |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 

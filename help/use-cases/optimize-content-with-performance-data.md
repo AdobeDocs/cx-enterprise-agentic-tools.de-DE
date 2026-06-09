@@ -3,10 +3,10 @@ title: Optimieren von Inhalten basierend auf Leistungsdaten
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,10 @@ Das Schließen des Kreislaufs zwischen Kampagnenleistungsdaten und Inhaltsaktual
 
 | Szenario-Details | |
 | --- | --- |
-| **CX Enterprise-Anwendungen** | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **Zielgruppe** | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
-| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Zielgruppe | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
+| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 

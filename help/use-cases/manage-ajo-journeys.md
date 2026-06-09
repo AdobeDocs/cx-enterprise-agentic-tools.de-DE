@@ -3,7 +3,7 @@ title: Journey-Probleme erkennen, bevor sie Kunden betreffen
 description: Verwenden Sie den CX Enterprise MCP, um aktive AJO-Journey zu überwachen, die Kampagnenkonfiguration zu überprüfen und betriebliche Probleme aufzudecken, bevor sie Ihre Zielgruppe erreichen.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 3%
@@ -20,10 +20,10 @@ Um sich ein klares Bild davon zu machen, welche Journey aktiv sind, welche Bedin
 
 | Szenario-Details | |
 | --- | --- |
-| **CX Enterprise-Anwendungen** | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) |
-| **Agententools** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Zielgruppe** | Kampagnen-Manager, Marketing-Experten |
-| **Voraussetzung** | MCP-kompatibler KI-Client, Zugriff auf AJO |
+| CX Enterprise-Anwendungen | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Zielgruppe | Kampagnen-Manager, Marketing-Experten |
+| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
