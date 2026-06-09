@@ -15,7 +15,7 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-06-09 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491331/?captions=ger&learn=on&enablevpops)
 
 Adobe CX Enterprise MCP-Server bieten jedem kompatiblen KI-Client direkten, gesteuerten Zugriff auf Adobe-Daten und -Workflows. Wenn Sie einmal eine Verbindung herstellen, können Sie die Kampagnenleistung abfragen, Zielgruppen aktivieren, Journey überprüfen, Inhalte verwalten und vieles mehr - alles in einfacher Sprache, ohne Ihre KI-Umgebung verlassen zu müssen. Da sich MCP-Server zwischen Ihrem KI-Client und den zugrunde liegenden Systemen von Adobe befinden, erhalten Sie Flexibilität in natürlicher Sprache, während die Zugriffskontrollen und die Data Governance in Ihrem Unternehmen weiterhin gelten.
 
