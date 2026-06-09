@@ -3,9 +3,9 @@ title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
 description: Verwenden Sie das CX Enterprise MCP in einer einzigen KI-Sitzung, um eine einheitliche Ansicht des AJO-, CJA- und Real-Time CDP-Kampagnenzustands für Journey, Zielgruppen und Leistung zu erhalten.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1412'
 ht-degree: 5%
 
 ---
@@ -291,9 +291,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zu AJO](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) | Vollständige Dokumentation zu AJO-Programmen |
-| [Analytics-MCP-Dokumentation](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP-Setup und Tool-Referenz |
-| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP-Setup-Handbuch |
-| [AJO MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Server-Tools und Verfügbarkeit |
-| [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Server-Tools und Verfügbarkeit |
-| [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
+| [Dokumentation zu AJO](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"} | Vollständige Dokumentation zu AJO-Programmen |
+| [AJO MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP Server-Tools und Verfügbarkeit |
+| [CJA MCP-Server in der KI-Registrierung](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Server-Tools und Verfügbarkeit |

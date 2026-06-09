@@ -3,9 +3,9 @@ title: Zuverlässige Bereitstellung für AEM as a Cloud Service
 description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihren KI-Client verlassen zu müssen.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '954'
 ht-degree: 2%
 
 ---
@@ -278,6 +278,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation zu AEM Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Vollständige Dokumentation zu Cloud Manager-Programmen |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service) | Vollständige Dokumentation zu AEM-Programmen |
-| [MCP-Server](../tools/mcp-servers.md) | Verbinden eines KI-Clients mit Adobe MCP-Servern |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service){target="_blank"} | Vollständige Dokumentation zu AEM-Programmen |

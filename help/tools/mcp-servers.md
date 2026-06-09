@@ -3,9 +3,9 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 25d2a09ed7ca8357fd4d9eff93233732fe81a2d5
+source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2078'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,7 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 | [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Programme, Umgebungen, Pipelines und Repositorys verwalten |
 | [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches |
 | [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff |
-| [AEM-Dokumenterstellung]&#x200B;(TODO: validate) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Verwalten von Dateien, Versionsverlauf und Medienverweisen beim Erstellen von Dokumenten |
+| AEM-Dokumenterstellung | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Verwalten von Dateien, Versionsverlauf und Medienverweisen beim Erstellen von Dokumenten |
 | [AEM Experience Governance](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Bewertung von Inhalten und Bildern anhand von Markenrichtlinien und Compliance-Regeln |
 | [AEM Experience Production](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformieren und Erstellen von AEM-Seiten in großem Maßstab mithilfe von KI-gesteuerten Inhaltsbeschreibungen |
 
@@ -74,7 +74,7 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
+| Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
+| Adobe Workfront | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
 
 >[!NOTE]
 >
