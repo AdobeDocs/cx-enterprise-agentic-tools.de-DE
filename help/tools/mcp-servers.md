@@ -74,7 +74,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 >[!NOTE]
 >
->Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Anweisungen zur Einrichtung der Authentifizierung finden Sie in der ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) zum Marketo Engage MCP-Server [.
+>Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Anweisungen zur Einrichtung der Authentifizierung finden Sie in der [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) zum Marketo Engage MCP-Server .
 
 | MCP-Server | Endpunkt | Mögliche Optionen | Tools |
 | --- | --- | --- | --- |
@@ -84,13 +84,13 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen | Tools |
 | --- | --- | --- | --- |
-| [Adobe Marketing Agent](TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen | TODO: validieren |
+| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen | TODO: validieren |
 
 >[!TAB Workfront]
 
 | MCP-Server | Endpunkt | Mögliche Optionen | Tools |
 | --- | --- | --- | --- |
-| [Adobe Workfront](TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten | TODO: validieren |
+| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten | TODO: validieren |
 
 >[!ENDTABS]
 
@@ -111,8 +111,8 @@ Alle Endpunkte sind in der [Adobe AI Registry](https://developer.adobe.com/ai-re
 | [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
 | [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
 | [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO: validieren |
-| [Adobe Marketing Agent](TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | TODO: validieren |
-| [Adobe Workfront](TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO: validieren |
+| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | TODO: validieren |
+| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO: validieren |
 
 ## Herstellen einer Verbindung zu Ihrem KI-Client
 
