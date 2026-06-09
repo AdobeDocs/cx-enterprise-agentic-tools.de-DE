@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491253/?captions=ger&learn=on&enablevpops)
 
 Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihren KI-Client mit Kampagnen, Audiences, Journey und Inhalten - und interagieren Sie mit ihnen in einfacher Sprache über jedes Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
 
