@@ -3,10 +3,10 @@ user-guide-title: Adobe CX Enterprise Agent-Tools
 breadcrumb-title: Agent-Tools
 user-guide-description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: f0ced04b4676cd9f39c3f8797f90ca1fcbc8ce1e
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 5%
    + [APIs für Builder](/help/tools/apis.md)
 + Agent Tools in Aktion {#in-action}
    + [Überblick](/help/use-cases/overview.md)
-   + [Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten](/help/use-cases/analyze-campaign-performance.md)
-   + [Zielgruppen verstehen und wo sie aktiviert werden](/help/use-cases/query-audiences.md)
-   + [Journey-Probleme erkennen, bevor sie Kunden betreffen](/help/use-cases/manage-ajo-journeys.md)
-   + [Halten Sie Inhalte aktuell und versenden Sie Updates schneller](/help/use-cases/manage-aem-content.md)
-   + [Optimieren von Inhalten basierend auf Leistungsdaten](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Zuverlässige Bereitstellung für AEM as a Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
+   + [Analysieren der Kampagnenleistung](/help/use-cases/analyze-campaign-performance.md)
+   + [Audiences abfragen](/help/use-cases/query-audiences.md)
+   + [AJO-Journey überprüfen](/help/use-cases/manage-ajo-journeys.md)
+   + [AEM-Inhalte verwalten](/help/use-cases/manage-aem-content.md)
+   + [Optimieren von Inhalten mit Leistungsdaten](/help/use-cases/optimize-content-with-performance-data.md)
+   + [Bereitstellen für AEM Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
