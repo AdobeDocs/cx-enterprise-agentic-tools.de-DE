@@ -33,7 +33,7 @@ Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 **Ein Endpunkt. Mehrere CX Enterprise-Anwendungen.**
 
-Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
+Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -74,7 +74,7 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Marketing Agent](TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
+| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 
 >[!NOTE]
 >
->Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Informationen zur Authentifizierungseinrichtung finden Sie in der Dokumentation ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) Marketo Engage MCP-Servers. [Der Zugriff hängt von Ihrem Marketo Engage-Abonnement und den Berechtigungen Ihres API-Benutzers ab.
+>Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Informationen zur Authentifizierungseinrichtung finden Sie in der Dokumentation [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) Marketo Engage MCP-Servers. Der Zugriff hängt von Ihrem Marketo Engage-Abonnement und den Berechtigungen Ihres API-Benutzers ab.
 
 >[!TAB Target]
 
@@ -106,7 +106,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Workfront](TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
+| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
 
 >[!NOTE]
 >
