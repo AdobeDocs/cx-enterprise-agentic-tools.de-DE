@@ -3,10 +3,10 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76242d3d26596139c0ea7c2e81b698a4ef891370
+source-git-commit: a580957c41e750578b03688bb7ef980103a97781
 workflow-type: tm+mt
-source-wordcount: '2296'
-ht-degree: 4%
+source-wordcount: '1965'
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ Adobe CX Enterprise MCP-Server bieten jedem kompatiblen KI-Client direkten, gest
 
 Adobe MCP-Server folgen dem Open [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)-Standard. Jeder MCP-kompatible KI-Client stellt eine Verbindung zu jedem Adobe MCP-Server her.
 
-## Adobe MCP-Server
+## CX Enterprise MCP-Server
 
 ![Das CX Enterprise MCP verbindet Ihren KI-Client mit Tools der gesamten Adobe CX Enterprise Suite](../assets/mcp-gateway-hero.gif)
 
-Wählen Sie eine Anwendung aus, um den Endpunkt, die Funktionen und die verfügbaren Tools anzuzeigen.
+Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 >[!BEGINTABS]
 
@@ -39,36 +39,46 @@ Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-A
 https://cx-enterprise.adobe.io/mcp
 ```
 
-| Anwendung | Mögliche Optionen | Tools |
-| --- | --- | --- |
-| Adobe Journey Optimizer | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
-| Adobe Journey Optimizer B2B edition | Verwalten von B2B-Journey, Account-Programmen, Einkaufsgruppen und Personalisierung | TODO: validieren |
-| Customer Journey Analytics | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität | [Tools anzeigen](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
-| Adobe Analytics | Erkennung von Report Suites, Segmenterstellung und Workspace-Erstellung | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| Adobe Experience Platform | Datensatz-Erkennung, Schema-Browsing und Sandbox-Management | — |
+| CX Enterprise-Anwendung | Mögliche Optionen |
+| --- | --- |
+| Adobe Analytics | Erkennung von Report Suites, Segmenterstellung und Workspace-Erstellung |
+| Adobe Experience Platform | Datensatz-Erkennung, Schema-Browsing und Sandbox-Management |
+| Adobe Journey Optimizer | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen |
+| Adobe Journey Optimizer B2B edition | Verwalten von B2B-Journey, Account-Programmen, Einkaufsgruppen und Personalisierung |
+| Customer Journey Analytics | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen |
+| Real-Time CDP | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität |
+
+>[!NOTE]
+>
+>Der Zugriff auf jede CX Enterprise-Anwendung basiert auf den Berechtigungen Ihres Unternehmens und den Benutzerberechtigungen in Adobe Admin Console.
 
 >[!TAB Experience Manager]
 
 Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Workflows.
 
-| MCP-Server | Endpunkt | Mögliche Optionen | Tools |
-| --- | --- | --- | --- |
-| [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Programme, Umgebungen, Pipelines und Repositorys verwalten | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM (Code-Modus)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Direkter REST-API-Zugriff auf AEM über Suche, Lesen, Schreiben und Löschen in natürlicher Sprache | — |
-| [AEM-Dokumenterstellung]&#x200B;(TODO: validate) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Verwalten von Dateien, Versionsverlauf und Medienverweisen beim Erstellen von Dokumenten | — |
-| [AEM Experience Governance](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Bewertung von Inhalten und Bildern anhand von Markenrichtlinien und Compliance-Regeln | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformieren und Erstellen von AEM-Seiten in großem Maßstab mithilfe von KI-gesteuerten Inhaltsbeschreibungen | — |
+| MCP-Server | Endpunkt | Mögliche Optionen |
+| --- | --- | --- |
+| [AEM (Code-Modus)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Direkter REST-API-Zugriff auf AEM über Suche, Lesen, Schreiben und Löschen in natürlicher Sprache |
+| [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Programme, Umgebungen, Pipelines und Repositorys verwalten |
+| [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches |
+| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff |
+| [AEM-Dokumenterstellung]&#x200B;(TODO: validate) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Verwalten von Dateien, Versionsverlauf und Medienverweisen beim Erstellen von Dokumenten |
+| [AEM Experience Governance](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Bewertung von Inhalten und Bildern anhand von Markenrichtlinien und Compliance-Regeln |
+| [AEM Experience Production](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformieren und Erstellen von AEM-Seiten in großem Maßstab mithilfe von KI-gesteuerten Inhaltsbeschreibungen |
 
->[!TAB Target]
+>[!NOTE]
+>
+>Der Zugriff auf jede AEM-Umgebung hängt von den Berechtigungen Ihres Unternehmens für AEM Cloud Service und den Benutzerberechtigungen in dieser Umgebung ab.
 
-Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit verfügbaren Tools sind schreibgeschützt. Schreib-Tools sind für eine allgemeine Verfügbarkeit geplant.
+>[!TAB Experience Platform]
 
-| MCP-Server | Endpunkt | Mögliche Optionen | Tools |
-| --- | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+| MCP-Server | Endpunkt | Mögliche Optionen |
+| --- | --- | --- |
+| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen |
+
+>[!NOTE]
+>
+>Der Zugriff hängt von den Adobe Experience Platform-Berechtigungen Ihres Unternehmens und den Berechtigungen Ihres Benutzers ab.
 
 >[!TAB Marketo Engage]
 
@@ -76,43 +86,37 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 >
 >Marketo Engage MCP verwendet Marketo-native Service-Anmeldeinformationen, nicht Adobe IMS. Anweisungen zur Einrichtung der Authentifizierung finden Sie in der [&#128279;](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) zum Marketo Engage MCP-Server .
 
-| MCP-Server | Endpunkt | Mögliche Optionen | Tools |
-| --- | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten | TODO: validieren |
+| MCP-Server | Endpunkt | Mögliche Optionen |
+| --- | --- | --- |
+| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten |
 
->[!TAB Experience Platform]
+>[!NOTE]
+>
+>Der Zugriff hängt von Ihrem Marketo Engage-Abonnement und den Berechtigungen Ihres API-Benutzers ab.
 
-| MCP-Server | Endpunkt | Mögliche Optionen | Tools |
-| --- | --- | --- | --- |
-| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen | TODO: validieren |
+>[!TAB Target]
+
+Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit verfügbaren Tools sind schreibgeschützt. Schreib-Tools sind für eine allgemeine Verfügbarkeit geplant.
+
+| MCP-Server | Endpunkt | Mögliche Optionen |
+| --- | --- | --- |
+| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten |
+
+>[!NOTE]
+>
+>Der Zugriff hängt von Ihren Adobe Target-Berechtigungen und den Berechtigungen Ihrer Benutzenden ab.
 
 >[!TAB Workfront]
 
-| MCP-Server | Endpunkt | Mögliche Optionen | Tools |
-| --- | --- | --- | --- |
-| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten | TODO: validieren |
+| MCP-Server | Endpunkt | Mögliche Optionen |
+| --- | --- | --- |
+| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
+
+>[!NOTE]
+>
+>Der Zugriff hängt von Ihren Adobe Workfront-Lizenzen und den Berechtigungen Ihrer Benutzenden ab.
 
 >[!ENDTABS]
-
-## MCP-Server-Endpunkte
-
-Alle Endpunkte sind in der [Adobe AI Registry](https://developer.adobe.com/ai-registry/?type=connector) aufgeführt. Diese Tabelle ist eine Kurzreferenz: Erfassen Sie die Endpunkt-URL und scannen Sie die verfügbaren Tools, bevor Sie eine Verbindung herstellen.
-
-| Server | Endpunkt | Tools |
-| --- | --- | --- |
-| [CX Enterprise MCP](#adobe-mcp-servers) | `https://cx-enterprise.adobe.io/mcp` | ・ [Adobe Journey Optimizer Tools](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>・ [Customer Journey Analytics Tools](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>・ [Real-Time CDP Tools](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp)<br>・ [Adobe Analytics Tools](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM (Code-Modus)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | — |
-| [AEM-Dokumenterstellung]&#x200B;(TODO: validate) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | — |
-| [AEM Experience Governance](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
-| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [Tools anzeigen](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
-| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO: validieren |
-| [Adobe Marketing Agent] (TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | TODO: validieren |
-| [Adobe Workfront] (TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO: validieren |
 
 ## Herstellen einer Verbindung zu Ihrem KI-Client
 
@@ -257,42 +261,6 @@ Vollständiges Setup: [Copilot Studio MCP-Dokumentation](https://learn.microsoft
 
 >[!ENDTABS]
 
-## Fehlerbehebung
-
-+++Wechsel zwischen Adobe-Organisationen
-
-Wenn Ihr Adobe-Benutzer mehreren IMS-Organisationen angehört und Sie Tools oder Daten für das falsche sehen, trennen Sie den MCP-Server, melden Sie sich von Ihrer Adobe-Sitzung im Browser ab und stellen Sie dann die Verbindung wieder her. Während der Anmeldung werden Sie aufgefordert, eine Organisation auszuwählen.
-
-Ein Adobe CX Enterprise MCP-Server kann jeweils nur für eine IMS-Organisation authentifiziert werden, auch wenn Ihr Benutzerkonto Zugriff auf mehr als ein Konto hat.
-
-+++
-
-+++Angeben einer Sandbox, Report Suite, Umgebung oder einer anderen Sitzungsressource
-
-Bei einigen Adobe CX Enterprise MCP-Servern müssen Sie eine Ressource angeben, bevor sie Ergebnisse zurückgeben können. Je nach Programm kann es sich um eine Sandbox, ein Programm, eine Umgebung, eine Report Suite oder eine Datenansicht handeln.
-
-Wenn Sie sich nicht sicher sind, auf welche Ressourcen Sie Zugriff haben, fragen Sie den KI-Client. Beispiel: „Liste der verfügbaren Sandboxes“ oder „Auf welche Report Suites habe ich Zugriff?“ Adobe CX Enterprise MCP-Server können häufig eine vollständige Liste der verfügbaren Ressourcen zurückgeben.
-
-Nachdem eine Sitzungsressource festgelegt wurde, können Sie sie jederzeit wechseln, indem Sie dem KI-Client mitteilen, welche Ressource verwendet werden soll.
-
-+++
-
-+++Berechtigungen und Zugriffsfehler
-
-KI-Clients agieren mithilfe von OAuth im Namen Ihres Adobe-Benutzerkontos. Bei der Verwendung eines MCP-Servers gelten dieselben Berechtigungen und Zugriffssteuerungen wie bei der Anmeldung bei einer Adobe-Anwendung.
-
-Wenn eine Aktion fehlschlägt oder keine Ergebnisse zurückgibt, überprüfen Sie, ob Ihr Benutzer in Adobe Admin Console und in der entsprechenden CX Enterprise-Anwendung über die erforderlichen Berechtigungen verfügt. Wenden Sie sich an Ihren Adobe-Systemadministrator, wenn der Zugriff angepasst werden muss.
-
-+++
-
-+++Erneute Authentifizierung nach einer verlorenen Sitzung
-
-Adobe CX Enterprise MCP-Server verwenden OAuth zur Authentifizierung Ihres Adobe-Benutzerkontos. Wenn der Authentifizierungsstatus verloren geht, werden keine weiteren Tool-Aufrufe erfolgreich sein, bis Sie sich erneut authentifizieren.
-
-Um sich erneut zu authentifizieren, öffnen Sie die MCP-Server-Konfiguration Ihres KI-Clients, wählen Sie den MCP-Server-Eintrag für Adobe CX Enterprise aus und verbinden Sie sich erneut. Sie werden aufgefordert, sich erneut mit Ihrer Adobe ID anzumelden.
-
-+++
-
 ## Agent-Instrumente in Aktion
 
 Siehe Adobe CX Enterprise MCP-Server auf echte Unternehmens-Workflows angewendet.
@@ -338,7 +306,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/analyze-campaign-performance.md" title="Analysieren der Kampagnenleistung" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="Analysieren der Kampagnenleistung"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analysieren der Kampagnenleistung"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -361,7 +329,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/query-audiences.md" title="Audiences abfragen" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="Audiences abfragen"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Audiences abfragen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -384,7 +352,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/manage-ajo-journeys.md" title="AJO-Journey überprüfen" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="AJO-Journey überprüfen"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="AJO-Journey überprüfen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -407,7 +375,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/manage-aem-content.md" title="AEM-Inhalte mit KI verwalten" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="AEM-Inhalte mit KI verwalten"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="AEM-Inhalte mit KI verwalten"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -430,7 +398,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/optimize-content-with-performance-data.md" title="Optimieren von Inhalten basierend auf Leistungsdaten" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="Optimieren von Inhalten basierend auf Leistungsdaten"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="Optimieren von Inhalten basierend auf Leistungsdaten"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -473,3 +441,39 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## Fehlerbehebung
+
++++Wechsel zwischen Adobe-Organisationen
+
+Wenn Ihr Adobe-Benutzer mehreren IMS-Organisationen angehört und Sie Tools oder Daten für das falsche sehen, trennen Sie den MCP-Server, melden Sie sich von Ihrer Adobe-Sitzung im Browser ab und stellen Sie dann die Verbindung wieder her. Während der Anmeldung werden Sie aufgefordert, eine Organisation auszuwählen.
+
+Ein Adobe CX Enterprise MCP-Server kann jeweils nur für eine IMS-Organisation authentifiziert werden, auch wenn Ihr Benutzerkonto Zugriff auf mehr als ein Konto hat.
+
++++
+
++++Angeben einer Sandbox, Report Suite, Umgebung oder einer anderen Sitzungsressource
+
+Bei einigen Adobe CX Enterprise MCP-Servern müssen Sie eine Ressource angeben, bevor sie Ergebnisse zurückgeben können. Je nach Programm kann es sich um eine Sandbox, ein Programm, eine Umgebung, eine Report Suite oder eine Datenansicht handeln.
+
+Wenn Sie sich nicht sicher sind, auf welche Ressourcen Sie Zugriff haben, fragen Sie den KI-Client. Beispiel: „Liste der verfügbaren Sandboxes“ oder „Auf welche Report Suites habe ich Zugriff?“ Adobe CX Enterprise MCP-Server können häufig eine vollständige Liste der verfügbaren Ressourcen zurückgeben.
+
+Nachdem eine Sitzungsressource festgelegt wurde, können Sie sie jederzeit wechseln, indem Sie dem KI-Client mitteilen, welche Ressource verwendet werden soll.
+
++++
+
++++Berechtigungen und Zugriffsfehler
+
+KI-Clients agieren mithilfe von OAuth im Namen Ihres Adobe-Benutzerkontos. Bei der Verwendung eines MCP-Servers gelten dieselben Berechtigungen und Zugriffssteuerungen wie bei der Anmeldung bei einer Adobe-Anwendung.
+
+Wenn eine Aktion fehlschlägt oder keine Ergebnisse zurückgibt, überprüfen Sie, ob Ihr Benutzer in Adobe Admin Console und in der entsprechenden CX Enterprise-Anwendung über die erforderlichen Berechtigungen verfügt. Wenden Sie sich an Ihren Adobe-Systemadministrator, wenn der Zugriff angepasst werden muss.
+
++++
+
++++Erneute Authentifizierung nach einer verlorenen Sitzung
+
+Adobe CX Enterprise MCP-Server verwenden OAuth zur Authentifizierung Ihres Adobe-Benutzerkontos. Wenn der Authentifizierungsstatus verloren geht, werden keine weiteren Tool-Aufrufe erfolgreich sein, bis Sie sich erneut authentifizieren.
+
+Um sich erneut zu authentifizieren, öffnen Sie die MCP-Server-Konfiguration Ihres KI-Clients, wählen Sie den MCP-Server-Eintrag für Adobe CX Enterprise aus und verbinden Sie sich erneut. Sie werden aufgefordert, sich erneut mit Ihrer Adobe ID anzumelden.
+
++++

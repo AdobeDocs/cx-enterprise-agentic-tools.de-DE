@@ -3,7 +3,7 @@ title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 description: Verwenden Sie das CX Enterprise MCP-Gateway, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-02 -->
 
-![Analysieren der Kampagnenleistung](https://placehold.co/1600x900?text=Analyze+Campaign+Performance)
+![KI-Client mit empfohlenen nächsten Schritten zur Verbesserung der Kampagnenleistung](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
 
 Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separaten Tool erforderte, wird jetzt zur Diskussion gestellt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie einen KI-Client mit Customer Journey Analytics (CJA) verbinden und Leistungsfragen in einfacher Sprache stellen. Das Ergebnis ist eine schnellere insight-Bereitstellung, ohne dass manuelle Berichtserstellungen erforderlich sind.
 
