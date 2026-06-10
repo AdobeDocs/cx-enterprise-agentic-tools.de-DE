@@ -1,11 +1,11 @@
 ---
 title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![KI-Client, der eine priorisierte Zielgruppenstrategie mit Aktivierungsempfehlungen bereitstellt](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-Um zu verstehen, welche Zielgruppen aktiviert sind, wo sie fließen und ob Ziele in Ordnung sind, müssen Sie in der Regel Real-Time CDP öffnen und mehrere Bildschirme navigieren. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie dieselben Antworten über einen KI-Client erhalten, indem Sie den RTCDP-MCP-Server verwenden, um die Zielkonfiguration, den Aktivierungsstatus und die Datenflussintegrität durch klar formulierte Fragen zu verdeutlichen.
+Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in Ordnung sind, ist entscheidend, bevor eine Kampagne gestartet wird oder wenn eine Kampagne nicht die gewünschte Leistung erbringt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie ein vollständiges Aktivierungsbild über einen KI-Client erstellt wird, indem mit dem CX Enterprise MCP der Zielgruppenstatus und der Zielstatus in Sekunden angezeigt werden, ohne Real-Time CDP zu öffnen.
 
 | Szenario-Details | |
 | --- | --- |

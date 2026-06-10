@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agent-Tools
 description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -161,24 +161,24 @@ Erfahren Sie, wie Adobe CX Enterprise Agent Tools in der Praxis aussehen. Jede e
 CARDS
 
 * use-cases/analyze-campaign-performance.md
-  {title = Analyze campaign performance}
-  {description = Surface Customer Journey Analytics comparisons and conversion trends through plain-language questions. Uses CX Enterprise MCP.}
-  {cta = Start walkthrough}
+  {title = Campaign insights without reports}
+  {description = Ask performance questions in plain language and get answers from Customer Journey Analytics, without building a single report.}
+  {cta = Surface campaign insights}
 
 * use-cases/manage-aem-content.md
-  {title = Manage AEM content with AI}
-  {description = Discover, update, and publish pages and content fragments in AEM using natural language.}
-  {cta = Start walkthrough}
+  {title = Ship content updates faster}
+  {description = Find, update, and publish AEM pages and content fragments faster, without switching to the AEM interface.}
+  {cta = Ship content faster}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Campaign insights without reports">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/analyze-campaign-performance.md" title="Analysieren der Kampagnenleistung">
-                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analysieren der Kampagnenleistung"
+                    <a href="use-cases/analyze-campaign-performance.md" title="Kampagneneinblicke ohne Berichte">
+                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Kampagneneinblicke ohne Berichte"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -186,22 +186,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/analyze-campaign-performance.md" title="Analysieren der Kampagnenleistung">Analysieren der Kampagnenleistung</a>
+                        <a href="use-cases/analyze-campaign-performance.md" title="Kampagneneinblicke ohne Berichte">Kampagneneinblicke ohne Berichte</a>
                     </p>
-                    <p class="is-size-6">Ermitteln Sie Customer Journey Analytics-Vergleiche und Konversionstrends durch verständliche Fragen. Verwendet CX Enterprise MCP.</p>
+                    <p class="is-size-6">Stellen Sie Leistungsfragen in einfacher Sprache und erhalten Sie Antworten von Customer Journey Analytics, ohne einen einzigen Bericht zu erstellen.</p>
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Anleitung starten</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ermitteln von Kampagneneinblicken</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Ship content updates faster">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-aem-content.md" title="AEM-Inhalte mit KI verwalten">
-                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="AEM-Inhalte mit KI verwalten"
+                    <a href="use-cases/manage-aem-content.md" title="Schnellere Bereitstellung von Inhaltsaktualisierungen">
+                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Schnellere Bereitstellung von Inhaltsaktualisierungen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -209,12 +209,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-aem-content.md" title="AEM-Inhalte mit KI verwalten">Verwalten von AEM-Inhalten mit KI</a>
+                        <a href="use-cases/manage-aem-content.md" title="Schnellere Bereitstellung von Inhaltsaktualisierungen">Inhalte werden schneller aktualisiert</a>
                     </p>
-                    <p class="is-size-6">Entdecken, aktualisieren und veröffentlichen Sie Seiten und Inhaltsfragmente in AEM in natürlicher Sprache.</p>
+                    <p class="is-size-6">Schnelleres Suchen, Aktualisieren und Veröffentlichen von AEM-Seiten und Inhaltsfragmenten, ohne zur AEM-Benutzeroberfläche zu wechseln.</p>
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Anleitung starten</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inhalte schneller bereitstellen</span>
                 </a>
             </div>
         </div>

@@ -1,22 +1,22 @@
 ---
-title: Optimieren von Inhalten basierend auf Leistungsdaten
+title: Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# Optimieren von Inhalten basierend auf Leistungsdaten
-<!-- last-modified: 2026-06-08 -->
+# Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
+<!-- last-modified: 2026-06-10 -->
 
 ![KI-Client, der den ursprünglichen und den aktualisierten Seiteninhalt nebeneinander vergleicht](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Das Schließen des Kreislaufs zwischen Kampagnenleistungsdaten und Inhaltsaktualisierungen bedeutet normalerweise, dass zwischen Ihrem Analytics-Tool und Ihrer CMS gewechselt wird. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Customer Journey Analytics und AEM in derselben KI-Sitzung verbunden werden: Aufdecken von Kampagnen mit Konversionslücken, Diagnostizieren der Ursachen, Überprüfen der Inhalte, Abrufen zielgerichteter Empfehlungen und Anwenden von Änderungen, ohne das Gespräch zu verlassen.
+Unterschiede in der Content-Performance kosten Kampagnenergebnisse. Um diese zu schließen, muss normalerweise zwischen dem Analytics-Tool und Ihrer CMS gewechselt werden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie dies in einer einzigen KI-Sitzung durchgeführt werden kann: Aufdecken von Kampagnen mit Konversionslücken in Customer Journey Analytics, Diagnostizieren der Ursache, Untersuchen der leistungsschwachen Inhalte in AEM und Anwenden von Aktualisierungen, ohne das Gespräch zu verlassen.
 
 | Szenario-Details | |
 | --- | --- |

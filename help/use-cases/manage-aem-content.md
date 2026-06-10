@@ -1,11 +1,11 @@
 ---
 title: Halten Sie Inhalte aktuell und versenden Sie Updates schneller
 description: Verwenden Sie den AEM Content MCP Server zum Suchen, Überprüfen, Aktualisieren und Veröffentlichen von AEM-Inhalten, ohne zwischen Tools zu wechseln.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
-Für Inhaltsvorgänge in Adobe Experience Manager, vom Suchen nach Seiten und Überprüfen von Inhalten bis hin zu Aktualisierungen und Veröffentlichungen, ist in der Regel die direkte Navigation in der AEM-Oberfläche erforderlich. In dieser exemplarischen Vorgehensweise wird gezeigt, wie diese Vorgänge über einen KI-Client mithilfe des AEM Content MCP Servers verarbeitet werden können, damit Content-Teams schneller arbeiten können, ohne zwischen Tools wechseln zu müssen.
+Der permanente betriebliche Druck besteht darin, den Inhalt einer Website auf dem neuesten Stand zu halten. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Content-Teams AEM-Seiten und -Inhaltsfragmente über einen AI-Client suchen, überprüfen, aktualisieren und veröffentlichen können, indem sie mithilfe des AEM Content MCP-Servers die Zeit zwischen einer Inhaltsentscheidung und einer Live-Aktualisierung verkürzen.
 
 | Szenario-Details | |
 | --- | --- |
