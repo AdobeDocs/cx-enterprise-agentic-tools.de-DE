@@ -3,9 +3,9 @@ title: Ressourcen
 description: Ein zentraler Einstiegspunkt für alle Dokumentationen, Registrierungseinträge, APIs und Entwicklerhandbücher zu Adobe CX Enterprise Agent Tools.
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 19%
 
 ---
@@ -23,8 +23,8 @@ Alle wichtigen Adobe-Ressourcen für die Arbeit mit Adobe CX Enterprise Agent To
 
 | Ressource | Was Sie finden werden |
 |---|---|
-| [Adobe AI Registry : MCP-Server](https://developer.adobe.com/ai-registry/?type=mcp) | Vollständiger Katalog der verfügbaren MCP-Server mit Metadaten, Endpunkten und Status |
-| [Adobe AI Registry : Agent-Kenntnisse](https://developer.adobe.com/ai-registry/?type=skill) | Vollständiger Katalog der verfügbaren Agentenkenntnisse mit Verfügbarkeits- und Einrichtungsdetails |
+| [Adobe AI Registry : MCP-Server](https://developer.adobe.com/ai-registry/?type=mcp) | Verwaltete Connectoren und Serverdetails für ausgewählte Adobe MCP-Server |
+| [Adobe AI Registry : Agent-Kenntnisse](https://developer.adobe.com/ai-registry/?type=skill) | Agent-Qualifikationsliste mit Verfügbarkeits- und Einrichtungsdetails für ausgewählte Qualifikationen |
 | [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise API-Referenz |
 
 ## MCP-Server
@@ -33,14 +33,14 @@ Alle wichtigen Adobe-Ressourcen für die Arbeit mit Adobe CX Enterprise Agent To
 |---|---|
 | [Analytics-MCP-Dokumentation](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP-Server-Setup-Handbuch und Tool-Referenz |
 | [Analytics-MCP-Handbücher](https://developer.adobe.com/analytics-mcp/docs/guides/) | Detaillierte Benutzerhandbücher für den CJA MCP-Server |
-| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP-Server-Setup-Handbuch |
+| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP-Server-Setup-Handbuch |
 
 ## Agent-Kenntnisse
 
 | Ressource | Was Sie finden werden |
 |---|---|
 | [Adobe Skills-Repository](https://github.com/adobe/skills) | Kanonische Quelle für alle Agentenkenntnisse, Installationsmethoden und Implementierungsdetails |
-| [Adobe AI Registry : Agent-Kenntnisse](https://developer.adobe.com/ai-registry/?type=skill) | Vollständiger Katalog der verfügbaren Agentenkenntnisse mit Metadaten und Verfügbarkeitsstatus |
+| [Adobe AI Registry : Agent-Kenntnisse](https://developer.adobe.com/ai-registry/?type=skill) | Agent Skills-Liste mit Verfügbarkeit und Metadaten für ausgewählte Skills |
 
 ## APIs für Builder
 
@@ -74,7 +74,7 @@ Alle wichtigen Adobe-Ressourcen für die Arbeit mit Adobe CX Enterprise Agent To
 
 | Ressource | Was Sie finden werden |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home) | Vollständige Dokumentation zu AEP-Programmen |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | Vollständige Dokumentation zu AEP-Programmen |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) | Vollständige Dokumentation zu AJO-Programmen |
 | [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) | Vollständige Dokumentation zu Real-Time CDP-Programmen |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-landing) | Vollständige Dokumentation zu CJA-Programmen |
