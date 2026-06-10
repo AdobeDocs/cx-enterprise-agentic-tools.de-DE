@@ -1,11 +1,11 @@
 ---
 title: Journey-Probleme erkennen, bevor sie Kunden betreffen
 description: Verwenden Sie den CX Enterprise MCP, um aktive AJO-Journey zu überwachen, die Kampagnenkonfiguration zu überprüfen und betriebliche Probleme aufzudecken, bevor sie Ihre Zielgruppe erreichen.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ![KI-Client mit einer Zusammenfassung der Kampagnen- und Journey-Strategie und einer Zusammenfassung für Führungskräfte](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-Um sich ein klares Bild davon zu machen, welche Journey aktiv sind, welche Bedingungen sie antreiben und wie Kampagnen normal konfiguriert sind, müssen Sie Adobe Journey Optimizer öffnen und in seiner Benutzeroberfläche navigieren. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie dieselbe Sichtbarkeit über einen KI-Client erhalten, indem Sie mit dem CX Enterprise MCP AJO-Journey- und -Kampagnendaten durch verständliche Fragen abfragen.
+Journey-Probleme, die nicht erkannt werden, können Kunden erreichen, bevor sie bemerkt werden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie ihnen einen Schritt voraus sein können, indem Sie aktive AJO-Journey überprüfen, die Kampagnenkonfiguration überprüfen und betriebliche Probleme über einen KI-Client aufdecken. Dabei wird der CX Enterprise MCP verwendet, um Antworten in einfacher Sprache zu erhalten, ohne Adobe Journey Optimizer zu öffnen.
 
 | Szenario-Details | |
 | --- | --- |
