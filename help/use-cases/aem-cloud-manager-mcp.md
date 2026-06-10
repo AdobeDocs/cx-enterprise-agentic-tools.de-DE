@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480351/?captions=ger&learn=on&enablevpops)
 
 Zuversicht bei der Bereitstellung hängt davon ab, dass Ihre Umgebung in Ordnung ist, bevor Sie Push-Benachrichtigungen senden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie der AEM-Umgebungsstatus überprüft wird, der Pipeline-Verlauf überprüft wird und Trigger-Bereitstellungen von einem KI-Client aus mithilfe des AEM Cloud Manager MCP-Servers ausgeführt werden können, damit Teams schnell arbeiten können, ohne an Sichtbarkeit zu verlieren.
 
