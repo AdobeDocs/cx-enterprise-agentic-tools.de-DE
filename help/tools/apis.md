@@ -3,10 +3,10 @@ title: APIs für Builder
 description: Erstellen benutzerdefinierter Anwendungen und Integrationen mithilfe von Adobe CX Enterprise-APIs.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 11%
+source-wordcount: '886'
+ht-degree: 10%
 
 ---
 
@@ -194,6 +194,8 @@ project/
 Wenn Adobe eine neue API-Version veröffentlicht: Laden Sie einen neuen Schnappschuss in `/specs` herunter, aktualisieren Sie das Datum in `README.md` und generieren Sie den Index und die `AGENTS.md` neu.
 
 ## APIs in Aktion
+
+APIs geben Entwicklungsteams die volle programmatische Kontrolle, um fokussierte Anwendungen zu erstellen, die bestimmte CX Enterprise-Workflows automatisieren. Diese exemplarischen Vorgehensweisen zeigen echte Integrationen, die von der Einrichtung von Anmeldeinformationen bis zum funktionierenden Code, den Ihr Unternehmen versenden kann, durchgängig erstellt wurden.
 
 <!--
 CARDS

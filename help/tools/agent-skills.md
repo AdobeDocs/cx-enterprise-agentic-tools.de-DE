@@ -3,9 +3,9 @@ title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Nach der Installation oder dem Hinzufügen des `adobe/skills` können Sie mit ei
 - **GitHub-CLI**: `gh upskill list`
 
 ## Agent-Fähigkeiten in Aktion
+
+Agent Skills bringen Adobe Domain-Fachwissen in Ihren KI-Client ein, sodass Agenten bewährte Workflows befolgen, anstatt zu improvisieren. Jede der folgenden exemplarischen Vorgehensweisen zeigt eine bestimmte Geschäftsaufgabe, die zuverlässig abgeschlossen wurde und sich von Anfang bis Ende an den Best Practices von Adobe orientiert.
 
 <!--
 CARDS

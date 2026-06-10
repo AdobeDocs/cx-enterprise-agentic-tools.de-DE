@@ -3,9 +3,9 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2167'
 ht-degree: 3%
 
 ---
@@ -257,9 +257,9 @@ Vollständiges Setup: [Copilot Studio MCP-Dokumentation](https://learn.microsoft
 
 >[!ENDTABS]
 
-## Agent-Instrumente in Aktion
+## MCP-Server in Aktion
 
-Siehe Adobe CX Enterprise MCP-Server auf echte Unternehmens-Workflows angewendet.
+Siehe Adobe CX Enterprise MCP-Server für die Arbeit mit echten Geschäftsproblemen. Jede exemplarische Vorgehensweise beginnt mit einer echten betrieblichen Herausforderung und zeigt, wie ein KI-Client sie in einfacher Sprache löst, ohne Tools zu wechseln oder Code zu schreiben.
 
 <!--
 CARDS
