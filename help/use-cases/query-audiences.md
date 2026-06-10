@@ -3,9 +3,9 @@ title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Adobe AI-Registrierung](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | MCP-Server-Metadaten und -Verfügbarkeit |
+| [Adobe AI-Registrierung](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Verwaltete Connectoren und Serverdetails für ausgewählte Adobe MCP-Server |
 | [Dokumentation zu Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home){target="_blank"} | Vollständige Dokumentation zu Real-Time CDP-Programmen |
