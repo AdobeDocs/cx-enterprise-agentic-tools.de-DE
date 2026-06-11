@@ -3,7 +3,7 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 47b960a7cf5790466a264d304f4d518f596ec78d
+source-git-commit: 2b270c439474350df61762753700d7a3919b0cb9
 workflow-type: tm+mt
 source-wordcount: '2174'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # MCP-Server
 
-<!-- last-modified: 2026-06-10 -->
+<!-- last-modified: 2026-06-11 -->
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491331/?captions=ger&learn=on&enablevpops)
 
