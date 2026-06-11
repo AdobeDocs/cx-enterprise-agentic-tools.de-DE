@@ -3,7 +3,7 @@ title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
+source-git-commit: 8630ab022f4565471b6f8e357d5d87b7e8507ff3
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Agent-Kenntnisse
 
-<!-- last-modified: 2026-05-19 -->
+<!-- last-modified: 2026-06-11 -->
 
 ![Agentenkenntnisse für Adobe CX Enterprise](../assets/hero-agent-skills.png)
 
