@@ -33,7 +33,7 @@ Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 **Ein Endpunkt. Mehrere CX Enterprise-Anwendungen.**
 
-Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
+Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
 
 ```
 https://cx-enterprise.adobe.io/mcp
