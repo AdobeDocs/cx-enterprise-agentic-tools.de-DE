@@ -5,8 +5,8 @@ index: false
 last-substantial-update: 2026-06-17T00:00:00Z
 source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
 workflow-type: tm+mt
-source-wordcount: '2074'
-ht-degree: 3%
+source-wordcount: '2290'
+ht-degree: 5%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-11 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491331/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP-Server bieten jedem kompatiblen KI-Client direkten, gesteuerten Zugriff auf Adobe-Daten und -Workflows. Wenn Sie einmal eine Verbindung herstellen, können Sie die Kampagnenleistung abfragen, Zielgruppen aktivieren, Journey überprüfen, Inhalte verwalten und vieles mehr - alles in einfacher Sprache, ohne Ihre KI-Umgebung verlassen zu müssen. Da sich MCP-Server zwischen Ihrem KI-Client und den zugrunde liegenden Systemen von Adobe befinden, erhalten Sie Flexibilität in natürlicher Sprache, während die Zugriffskontrollen und die Data Governance in Ihrem Unternehmen weiterhin gelten.
 
 Adobe MCP-Server folgen dem Open [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)-Standard. Jeder MCP-kompatible KI-Client stellt eine Verbindung zu jedem Adobe MCP-Server her.
 
-## CX Enterprise MCP-Server {#cx-enterprise-mcp-servers}
+## CX Enterprise-MCP-Server {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Enterprise MCP"
->abstract="Ihre CX Enterprise-Anwendungen, die über einen einzigen MCP-Endpunkt zugänglich sind. Fragen, analysieren und ergreifen Sie Maßnahmen in einfacher Sprache von Ihren KI-Clients."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Dokumentation zu CX Enterprise MCP"
+>title="CX Enterprise-MCP"
+>abstract="Ihre CX Enterprise-Anwendungen, auf die über einen einzigen MCP-Endpunkt zugegriffen werden kann. Fragen, analysieren und ergreifen Sie Maßnahmen in einfacher Sprache über Ihre KI-Clients."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Dokumentation zu CX Enterprise-MCP"
 
 ![Das CX Enterprise MCP verbindet Ihren KI-Client mit Tools der gesamten Adobe CX Enterprise Suite](../assets/mcp-gateway-hero.gif)
 
@@ -39,7 +39,7 @@ Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 **Ein Endpunkt. Mehrere CX Enterprise-Anwendungen.**
 
-Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
+Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -52,10 +52,10 @@ https://cx-enterprise.adobe.io/mcp
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen |
 | Adobe Journey Optimizer B2B edition | Verwalten von B2B-Journey, Account-Programmen, Einkaufsgruppen und Personalisierung |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen |
-| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten |
-| [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität |
 
-Eine vollständige Dokumentation finden Sie unter [CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
+Eine vollständige Dokumentation finden Sie unter [CX Enterprise MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
 >[!NOTE]
 >
@@ -68,8 +68,8 @@ Adobe Experience Manager verfügt über mehrere MCP-Server für verschiedene Wor
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Programme, Umgebungen, Pipelines und Repositorys verwalten |
-| [AEM-Inhalte](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches |
-| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff |
+| [AEM-Inhalte](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Verwalten von Seiten, Inhaltsfragmenten, Assets und Launches |
+| [AEM-Inhalt (schreibgeschützt)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Erkennung und Abfrage von Seiten, Inhaltsfragmenten und Launches ohne Schreibzugriff |
 | [AEM Experience Governance](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Bewertung von Inhalten und Bildern anhand von Markenrichtlinien und Compliance-Regeln |
 
 >[!NOTE]
@@ -92,7 +92,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten |
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten |
 
 >[!NOTE]
 >
@@ -305,7 +305,7 @@ CARDS
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ermitteln von Kampagneneinblicken</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -328,7 +328,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Zielgruppenaktivierung überprüfen</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -351,7 +351,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Überwachen Sie Ihre Journey</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -374,7 +374,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inhalte schneller bereitstellen</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -397,7 +397,7 @@ CARDS
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Schließen Sie Leistungsunterschiede</span>
-                </a>
+                
             </div>
         </div>
     </div>
