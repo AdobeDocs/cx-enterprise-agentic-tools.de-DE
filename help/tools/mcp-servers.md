@@ -3,10 +3,10 @@ title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 index: false
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
+source-git-commit: 9c5cbca16b2e40e8c3859d84dcb9a8330a3b7d83
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 5%
+source-wordcount: '2372'
+ht-degree: 6%
 
 ---
 
@@ -45,15 +45,19 @@ Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-A
 https://cx-enterprise.adobe.io/mcp
 ```
 
-| CX Enterprise-Anwendung | Mögliche Optionen |
-| --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | Erkennung von Report Suites, Segmenterstellung und Workspace-Erstellung |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | Datensatz-Erkennung, Schema-Browsing und Sandbox-Management |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen |
-| Adobe Journey Optimizer B2B edition | Verwalten von B2B-Journey, Account-Programmen, Einkaufsgruppen und Personalisierung |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen |
-| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten |
-| [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität |
+| CX Enterprise-Anwendung | Mögliche Optionen | Zusätzliche Berechtigung erforderlich |
+| --- | --- | --- |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | Erkennung von Report Suites, Segmenterstellung und Workspace-Erstellung | Nein |
+| Campaign Classic | Erkennung der Campaign-Instanz, Schemabrowser, Abfrageausführung, Workflow-Kontrolle und SOAP/JS-Ausführung | Ja |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | Datensatz-Erkennung, Schema-Browsing und Sandbox-Management | Nein |
+| Experimentieren | A/B-, MVT- und MAB-Experimentberichte, Metriken, Einblicke, Opportunities und Planung des Stichprobenumfangs | Nein |
+| GenStudio | Advertising Insights (Ausgaben, CTR, Kampagnen, Kreative, Tags und benutzerdefinierte Metriken) und aktuelle Express-Entwürfe | Ja |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen | Nein |
+| Adobe Journey Optimizer B2B edition | Verwalten von B2B-Journey, Account-Programmen, Einkaufsgruppen und Personalisierung | Nein |
+| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes, Leistungsberichten und Vorschau-URLs | Ja |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen | Nein |
+| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten | Ja |
+| [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität | Nein |
 
 Eine vollständige Dokumentation finden Sie unter [CX Enterprise MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
@@ -92,7 +96,7 @@ Adobe Target MCP befindet sich in der öffentlichen Betaversion. Alle derzeit ve
 
 | MCP-Server | Endpunkt | Mögliche Optionen |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes und Leistungsberichten |
+| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes, Leistungsberichten und Vorschau-URLs |
 
 >[!NOTE]
 >
