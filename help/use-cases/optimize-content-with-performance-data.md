@@ -19,8 +19,8 @@ Unterschiede in der Content-Performance kosten Kampagnenergebnisse. Um diese zu 
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Zielgruppe | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
 
