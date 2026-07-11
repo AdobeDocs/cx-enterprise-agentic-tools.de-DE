@@ -2,10 +2,9 @@
 title: Adobe CX Enterprise Agent-Tools
 description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -64,7 +63,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von MCP-Servern</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -87,7 +86,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von Agentenkenntnissen</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -110,7 +109,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von APIs für Builder</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -192,7 +191,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ermitteln von Kampagneneinblicken</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -215,7 +214,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inhalte schneller bereitstellen</span>
-                </a>
+                
             </div>
         </div>
     </div>

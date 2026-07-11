@@ -2,8 +2,7 @@
 title: Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -42,7 +41,7 @@ Schließen Sie beide MCP-Server als benutzerdefinierte Connectoren an. Jede einz
 
 | Server | Endpunkt |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise-MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +57,7 @@ Verbinden Sie beide MCP-Server über den ChatGPT-Entwicklermodus (Pro-, Plus-, B
 
 | Server | Endpunkt |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise-MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +68,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 
 | Server | Endpunkt |
 | --- | --- |
-| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise-MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)

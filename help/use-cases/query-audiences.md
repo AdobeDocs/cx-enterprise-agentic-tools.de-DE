@@ -2,8 +2,7 @@
 title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 2%
