@@ -2,8 +2,7 @@
 title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
 description: Verwenden Sie das CX Enterprise MCP in einer einzigen KI-Sitzung, um eine einheitliche Ansicht des AJO-, CJA- und Real-Time CDP-Kampagnenzustands für Journey, Zielgruppen und Leistung zu erhalten.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%
@@ -21,7 +20,7 @@ Ein vollständiges Bild des Kampagnenzustands erfordert Daten aus mehreren Syste
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| CX Enterprise-Anwendungen | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
 | Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Zielgruppe | Kampagnen-Manager, Marketing-Vorgänge |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |

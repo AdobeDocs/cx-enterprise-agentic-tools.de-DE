@@ -2,10 +2,9 @@
 title: APIs für Builder
 description: Erstellen benutzerdefinierter Anwendungen und Integrationen mithilfe von Adobe CX Enterprise-APIs.
 last-substantial-update: 2026-06-02T00:00:00Z
-index: false
-source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '928'
 ht-degree: 10%
 
 ---
@@ -200,7 +199,7 @@ APIs geben Entwicklungsteams die volle programmatische Kontrolle, um fokussierte
 <!--
 CARDS
 
-* https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
   {title = Invoke AEM APIs from a web app}
   {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
   {cta = Try with APIs}
@@ -213,7 +212,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Aufrufen von AEM-APIs aus einer Web-Anwendung" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Aufrufen von AEM-APIs aus einer Web-Anwendung" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Aufrufen von AEM-APIs aus einer Web-Anwendung"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -222,13 +221,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Aufrufen von AEM-APIs aus einer Web-Anwendung">Aufrufen von AEM-APIs aus einer Web-Anwendung</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Aufrufen von AEM-APIs aus einer Web-Anwendung">Aufrufen von AEM-APIs aus einer Web-Anwendung</a>
                     </p>
                     <p class="is-size-6">Erstellen Sie eine Web-Anwendung, die Benutzende authentifiziert und AEM OpenAPIs mit OAuth aufruft, um einen gesteuerten, programmgesteuerten Zugriff bereitzustellen.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mit APIs versuchen</span>
-                </a>
+                
             </div>
         </div>
     </div>

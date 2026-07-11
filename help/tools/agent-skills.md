@@ -2,10 +2,9 @@
 title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
 last-substantial-update: 2026-05-19T00:00:00Z
-index: false
-source-git-commit: 8630ab022f4565471b6f8e357d5d87b7e8507ff3
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
@@ -90,7 +89,7 @@ Agent Skills bringen Adobe Domain-Fachwissen in Ihren KI-Client ein, sodass Agen
 <!--
 CARDS
 
-* https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
   {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
   {cta = Try with Agent Skills}
@@ -103,7 +102,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Entwickeln von AEM-Komponenten mit KI" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Entwickeln von AEM-Komponenten mit KI" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Entwickeln von AEM-Komponenten mit KI"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -112,13 +111,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Entwickeln von AEM-Komponenten mit KI">Entwickeln von AEM-Komponenten mit KI</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Entwickeln von AEM-Komponenten mit KI">Entwickeln von AEM-Komponenten mit KI</a>
                     </p>
                     <p class="is-size-6">Verwenden Sie Claude Code oder Cursor mit Agentenkenntnissen, um gemäß den Best Practices von Adobe Strukturvorlagen zu erstellen, zu codieren und AEM-Komponenten zu verfeinern.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mit Agent-Kenntnissen ausprobieren</span>
-                </a>
+                
             </div>
         </div>
     </div>
