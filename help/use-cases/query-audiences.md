@@ -2,9 +2,9 @@
 title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![KI-Client, der eine priorisierte Zielgruppenstrategie mit Aktivierungsempfehlungen bereitstellt](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![KI-Client, der eine priorisierte Zielgruppenstrategie mit Aktivierungsempfehlungen bereitstellt](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in Ordnung sind, ist entscheidend, bevor eine Kampagne gestartet wird oder wenn eine Kampagne nicht die gewünschte Leistung erbringt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie ein vollständiges Aktivierungsbild über einen KI-Client erstellt wird, indem mit dem CX Enterprise MCP der Zielgruppenstatus und der Zielstatus in Sekunden angezeigt werden, ohne Real-Time CDP zu öffnen.
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Siehe eine Beispielantwort
 
-![Der KI-Client listet die verfügbaren Zielgruppen und das von ihnen dargestellte Kundenverhalten auf](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![Der KI-Client listet die verfügbaren Zielgruppen und das von ihnen dargestellte Kundenverhalten auf](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die größten Zielgruppen identifiziert und erklärt, was sie wertvoll macht](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![KI-Client, der die größten Zielgruppen identifiziert und erklärt, was sie wertvoll macht](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Status der Zielgruppenaktivierung und die Zielzuordnung anzeigt](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+![KI-Client, der den Status der Zielgruppenaktivierung und die Zielzuordnung anzeigt](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der priorisierte Empfehlungen für Zielgruppenstrategien gibt](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![KI-Client, der priorisierte Empfehlungen für Zielgruppenstrategien gibt](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 

@@ -2,9 +2,9 @@
 title: Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,14 +13,16 @@ ht-degree: 2%
 # Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
 <!-- last-modified: 2026-06-10 -->
 
-![KI-Client, der den ursprünglichen und den aktualisierten Seiteninhalt nebeneinander vergleicht](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![KI-Client, der den ursprünglichen und den aktualisierten Seiteninhalt nebeneinander vergleicht](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 Unterschiede in der Content-Performance kosten Kampagnenergebnisse. Um diese zu schließen, muss normalerweise zwischen dem Analytics-Tool und Ihrer CMS gewechselt werden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie dies in einer einzigen KI-Sitzung durchgeführt werden kann: Aufdecken von Kampagnen mit Konversionslücken in Customer Journey Analytics, Diagnostizieren der Ursache, Untersuchen der leistungsschwachen Inhalte in AEM und Anwenden von Aktualisierungen, ohne das Gespräch zu verlassen.
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Zielgruppe | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Siehe eine Beispielantwort
 
-![KI-Client-Kampagnen mit hohem Clickthrough, aber geringer Konversion von CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![KI-Client-Kampagnen mit hohem Clickthrough, aber geringer Konversion von CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Konversionsrückgang nach Geräte-, Segment- und Inhaltsfaktoren diagnostiziert](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![KI-Client, der den Konversionsrückgang nach Geräte-, Segment- und Inhaltsfaktoren diagnostiziert](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den aktuellen Inhalt der Landingpage aus AEM anzeigt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+![KI-Client, der den aktuellen Inhalt der Landingpage aus AEM anzeigt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der leistungsschwache Inhaltsabschnitte identifiziert und spezifische Änderungen empfiehlt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![KI-Client, der leistungsschwache Inhaltsabschnitte identifiziert und spezifische Änderungen empfiehlt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der eine optimierte Version der Seite erstellt und die Änderungen zusammenfasst](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+![KI-Client, der eine optimierte Version der Seite erstellt und die Änderungen zusammenfasst](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 

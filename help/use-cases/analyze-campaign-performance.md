@@ -2,9 +2,9 @@
 title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 description: Verwenden Sie den CX Enterprise MCP, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-02 -->
 
-![KI-Client mit empfohlenen nächsten Schritten zur Verbesserung der Kampagnenleistung](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
+![KI-Client mit empfohlenen nächsten Schritten zur Verbesserung der Kampagnenleistung](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separaten Tool erforderte, wird jetzt zur Diskussion gestellt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie einen KI-Client mit Customer Journey Analytics (CJA) verbinden und Leistungsfragen in einfacher Sprache stellen. Das Ergebnis ist eine schnellere insight-Bereitstellung, ohne dass manuelle Berichtserstellungen erforderlich sind.
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Zielgruppe | Analysten, Kampagnen-Manager |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |
@@ -82,7 +84,9 @@ What data views are available in my CJA account?
 
 +++Siehe eine Beispielantwort
 
-![AI-Client mit den verfügbaren CJA-Datenansichten](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png)
+![AI-Client mit den verfügbaren CJA-Datenansichten](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -97,7 +101,9 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die Top-Kampagnen nach Umsatz und Konversionsrate aus der Omni-Channel-/Multi-Industry-Datenansicht anzeigt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
+![KI-Client, der die Top-Kampagnen nach Umsatz und Konversionsrate aus der Omni-Channel-/Multi-Industry-Datenansicht anzeigt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -116,7 +122,9 @@ What factors are driving the results for these campaign groups?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client - Erläuterung der Faktoren, die die Leistung von Kampagnengruppen bestimmen](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif)
+![KI-Client - Erläuterung der Faktoren, die die Leistung von Kampagnengruppen bestimmen](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -131,7 +139,9 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++Siehe eine Beispielantwort
 
-![KI-Client für die Aufschlüsselung der Leistung von Werbe-E-Mail-Kampagnen nach Kundensegment](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png)
+![KI-Client für die Aufschlüsselung der Leistung von Werbe-E-Mail-Kampagnen nach Kundensegment](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -146,7 +156,9 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++Siehe eine Beispielantwort
 
-![KI-Kunde, der priorisierte Aktionen mit geschätztem Geschäftswert empfiehlt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
+![KI-Kunde, der priorisierte Aktionen mit geschätztem Geschäftswert empfiehlt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 

@@ -2,9 +2,9 @@
 title: Zuverlässige Bereitstellung für AEM as a Cloud Service
 description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihren KI-Client verlassen zu müssen.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480351/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 Zuversicht bei der Bereitstellung hängt davon ab, dass Ihre Umgebung in Ordnung ist, bevor Sie Push-Benachrichtigungen senden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie der AEM-Umgebungsstatus überprüft wird, der Pipeline-Verlauf überprüft wird und Trigger-Bereitstellungen von einem KI-Client aus mithilfe des AEM Cloud Manager MCP-Servers ausgeführt werden können, damit Teams schnell arbeiten können, ohne an Sichtbarkeit zu verlieren.
 
@@ -126,7 +126,9 @@ What is the status of the production environment?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Status der Produktionsumgebung von Cloud Manager anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png)
+![KI-Client, der den Status der Produktionsumgebung von Cloud Manager anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -141,7 +143,9 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die letzten fünf Pipeline-Ausführungen für die Produktions-Pipeline anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png)
+![KI-Client, der die letzten fünf Pipeline-Ausführungen für die Produktions-Pipeline anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -156,7 +160,9 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client mit Pipeline-Trigger-Bestätigung und Cloud Manager-Benutzeroberfläche, die die laufende Pipeline widerspiegelt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
+![KI-Client mit Pipeline-Trigger-Bestätigung und Cloud Manager-Benutzeroberfläche, die die laufende Pipeline widerspiegelt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -175,7 +181,9 @@ What is the status of the triggered pipeline?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Status der ausgelösten Pipeline-Ausführung anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
+![KI-Client, der den Status der ausgelösten Pipeline-Ausführung anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -277,4 +285,4 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Ressource | Was Sie finden werden |
 | --- | --- |
-| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service){target="_blank"} | Vollständige Dokumentation zu AEM-Programmen |
+| [Dokumentation von AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Vollständige Dokumentation zu AEM-Programmen |
