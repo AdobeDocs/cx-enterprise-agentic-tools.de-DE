@@ -2,9 +2,9 @@
 title: Journey-Probleme erkennen, bevor sie Kunden betreffen
 description: Verwenden Sie den CX Enterprise MCP, um aktive AJO-Journey zu überwachen, die Kampagnenkonfiguration zu überprüfen und betriebliche Probleme aufzudecken, bevor sie Ihre Zielgruppe erreichen.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Journey-Probleme erkennen, bevor sie Kunden betreffen
 <!-- last-modified: 2026-06-08 -->
 
-![KI-Client mit einer Zusammenfassung der Kampagnen- und Journey-Strategie und einer Zusammenfassung für Führungskräfte](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![KI-Client mit einer Zusammenfassung der Kampagnen- und Journey-Strategie und einer Zusammenfassung für Führungskräfte](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 Journey-Probleme, die nicht erkannt werden, können Kunden erreichen, bevor sie bemerkt werden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie ihnen einen Schritt voraus sein können, indem Sie aktive AJO-Journey überprüfen, die Kampagnenkonfiguration überprüfen und betriebliche Probleme über einen KI-Client aufdecken. Dabei wird der CX Enterprise MCP verwendet, um Antworten in einfacher Sprache zu erhalten, ohne Adobe Journey Optimizer zu öffnen.
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die verfügbaren Kunden-Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![KI-Client, der die verfügbaren Kunden-Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client führt durch die Schritte auf der Journey „Welcome New Customers“ und durch das Kundenerlebnis](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![KI-Client führt durch die Schritte auf der Journey „Welcome New Customers“ und durch das Kundenerlebnis](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Siehe eine Beispielantwort
 
-![Der KI-Client listet aktive Kampagnen mit ihrer Audience-Zielgruppenbestimmung und den gewünschten Ergebnissen auf](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![Der KI-Client listet aktive Kampagnen mit ihrer Audience-Zielgruppenbestimmung und den gewünschten Ergebnissen auf](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die Beziehung zwischen Kampagnen und Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![KI-Client, der die Beziehung zwischen Kampagnen und Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der priorisierte Marketing-Empfehlungen für den Lebenszyklus abgibt](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![KI-Client, der priorisierte Marketing-Empfehlungen für den Lebenszyklus abgibt](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 

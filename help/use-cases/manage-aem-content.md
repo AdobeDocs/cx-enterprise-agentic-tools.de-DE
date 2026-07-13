@@ -2,10 +2,10 @@
 title: Halten Sie Inhalte aktuell und versenden Sie Updates schneller
 description: Verwenden Sie den AEM Content MCP Server zum Suchen, Überprüfen, Aktualisieren und Veröffentlichen von AEM-Inhalten, ohne zwischen Tools zu wechseln.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '1001'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 Der permanente betriebliche Druck besteht darin, den Inhalt einer Website auf dem neuesten Stand zu halten. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Content-Teams AEM-Seiten und -Inhaltsfragmente über einen AI-Client suchen, überprüfen, aktualisieren und veröffentlichen können, indem sie mithilfe des AEM Content MCP-Servers die Zeit zwischen einer Inhaltsentscheidung und einer Live-Aktualisierung verkürzen.
 
@@ -84,7 +86,9 @@ From WKND Dev environment, find all ski related content.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der Suchergebnisse für Skiinhalte aus der WKND Dev AEM-Umgebung anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![KI-Client, der Suchergebnisse für Skiinhalte aus der WKND Dev AEM-Umgebung anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -99,7 +103,9 @@ Show me the US English Home Page.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die Inhaltsstruktur der US-englischen Startseite von AEM anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![KI-Client, der die Inhaltsstruktur der US-englischen Startseite von AEM anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -114,7 +120,9 @@ Improve the Hero CTAs.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der eine verbesserte Hero CTA-Kopie mit einer Bestätigungsaufforderung vor dem Anwenden von Änderungen vorschlägt](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![KI-Client, der eine verbesserte Hero CTA-Kopie mit einer Bestätigungsaufforderung vor dem Anwenden von Änderungen vorschlägt](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
@@ -133,7 +141,9 @@ Publish the changes and share the URL.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+
+*Zum Zoomen auswählen.*
 
 +++
 
