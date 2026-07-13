@@ -2,9 +2,9 @@
 title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2408'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 | Campaign Classic | Erkennung der Campaign-Instanz, Schemabrowser, Abfrageausführung, Workflow-Kontrolle und SOAP/JS-Ausführung | Ja |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | Datensatz-Erkennung, Schema-Browsing und Sandbox-Management | Nein |
 | Experimentieren | A/B-, MVT- und MAB-Experimentberichte, Metriken, Einblicke, Opportunities und Planung des Stichprobenumfangs | Nein |
-| GenStudio | Advertising Insights (Ausgaben, CTR, Kampagnen, Kreative, Tags und benutzerdefinierte Metriken) und aktuelle Express-Entwürfe | Ja |
+| GenStudio for Performance Marketing | Zugriff auf Daten zur Anzeigenleistung und kreative Einblicke | Ja |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen | Nein |
 | Adobe Journey Optimizer B2B edition | Verwalten von B2B-Journey, Account-Programmen, Einkaufsgruppen und Personalisierung | Nein |
 | [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes, Leistungsberichten und Vorschau-URLs | [Ja](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
