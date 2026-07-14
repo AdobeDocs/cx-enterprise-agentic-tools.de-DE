@@ -1,8 +1,8 @@
 ---
 title: Zielgruppen verstehen und wo sie aktiviert werden
-description: Verwenden Sie den CX Enterprise MCP, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Verwenden Sie das CX Coworker Gateway, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 2%
@@ -18,12 +18,12 @@ ht-degree: 2%
 
 *Zum Zoomen auswählen.*
 
-Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in Ordnung sind, ist entscheidend, bevor eine Kampagne gestartet wird oder wenn eine Kampagne nicht die gewünschte Leistung erbringt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie ein vollständiges Aktivierungsbild über einen KI-Client erstellt wird, indem mit dem CX Enterprise MCP der Zielgruppenstatus und der Zielstatus in Sekunden angezeigt werden, ohne Real-Time CDP zu öffnen.
+Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in Ordnung sind, ist entscheidend, bevor eine Kampagne gestartet wird oder wenn eine Kampagne nicht die gewünschte Leistung erbringt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie ein vollständiges Aktivierungsbild über einen KI-Client erstellt wird, indem mit dem CX Coworker Gateway der Zielgruppenstatus und der Zielstatus in Sekunden angezeigt werden, ohne Real-Time CDP zu öffnen.
 
 | Szenario-Details | |
 | --- | --- |
 | CX Enterprise-Anwendungen | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
-| Agent-Tools | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Agent-Tools | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Zielgruppe | Marketing-Experten, Analysten, Benutzer |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf Real-Time CDP |
 
@@ -35,31 +35,31 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!TAB Claude.ai]
 
-Verbinden Sie den CX Enterprise MCP als benutzerdefinierten Connector, um auf Real-Time CDP-Tools zuzugreifen.
+Verbinden Sie das CX Coworker Gateway als benutzerdefinierten Connector, um auf Real-Time CDP-Tools zuzugreifen.
 
 1. Gehen Sie **Claude.ai zu Einstellungen** Integrationen.
-2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cx-enterprise.adobe.io/mcp`
+2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cx-coworker-gateway.adobe.io/mcp`
 3. Wählen Sie **Verbinden** aus und melden Sie sich mit Ihrer Adobe ID an.
 
 Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Verbinden Sie den CX Enterprise MCP mit dem ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
+Verbinden Sie das CX Coworker Gateway mithilfe des ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
 
 1. Aktivieren Sie **Entwicklermodus** in **ChatGPT-Einstellungen**.
 2. Navigieren Sie zu **Einstellungen > Integrationen** und wählen Sie **Benutzerdefinierten Connector hinzufügen > Remote-MCP-Server**.
-3. Server-URL eingeben: `https://cx-enterprise.adobe.io/mcp`
+3. Server-URL eingeben: `https://cx-coworker-gateway.adobe.io/mcp`
 4. Wählen Sie **Verbinden** aus und melden Sie sich mit Ihrer Adobe ID an.
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Andere KI-Clients]
 
-Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Enterprise MCP her:
+Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Coworker Gateway her:
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
@@ -123,7 +123,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## Schritt 4: Abrufen strategischer Empfehlungen
 
-Die RTCDP-Tools des CX Enterprise MCP sind schreibgeschützt - sie ermöglichen den Aktivierungsstatus, den Zielzustand und die Datenflussdaten, ändern jedoch die Konfiguration nicht. Nachdem Sie ein Problem identifiziert haben, erfolgt die Fehlerbehebung in der Anwendung.
+Die RTCDP-Tools des CX Coworker Gateways sind schreibgeschützt. Sie ermöglichen einen Aktivierungsstatus, einen Zielzustand und Datenflussdaten, ändern jedoch nicht die Konfiguration. Nachdem Sie ein Problem identifiziert haben, erfolgt die Fehlerbehebung in der Anwendung.
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -140,7 +140,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->Die Ziel- und Aktivierungsdaten der RTCDP-Tools von CX Enterprise MCP können zwar überlagert werden, die Zielkonfiguration, Segmentdefinitionen oder Datenflusseinstellungen können jedoch nicht geändert werden. In der Real-Time CDP-Anwendung werden Behebungsschritte ausgeführt.
+>Die Ziel- und Aktivierungsdaten der RTCDP-Tools des CX-Coworker-Gateways können zwar die Zielkonfiguration, Segmentdefinitionen oder Datenflusseinstellungen ändern, jedoch nicht. In der Real-Time CDP-Anwendung werden Behebungsschritte ausgeführt.
 
 ## Was Sie erreicht haben
 
@@ -148,7 +148,7 @@ Sie haben einen KI-Client mit Real-Time CDP verbunden und an vier Eingabeaufford
 
 ## Mehr können Sie erreichen
 
-Die Real-Time CDP-Tools des CX Enterprise MCP unterstützen eine breite Palette von Zielgruppen- und Aktivierungsabfragen. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
+Die Real-Time CDP-Tools des CX Coworker Gateways unterstützen eine Vielzahl von Zielgruppen- und Aktivierungsabfragen. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
 
 +++Vor dem Versand einer Kampagne genau wissen, was wo fließt
 

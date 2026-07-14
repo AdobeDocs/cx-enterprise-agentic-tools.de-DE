@@ -1,8 +1,8 @@
 ---
 title: Adobe CX Enterprise Agent-Tools
 description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 1%
@@ -14,12 +14,12 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491253/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihren KI-Client mit Kampagnen, Audiences, Journey und Inhalten. Interagieren Sie mit ihnen in einfacher Sprache aus jedem Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
 
 >[!TIP]
->**Erste Schritte mit CX Enterprise MCP.** Eine Verbindung gewährt Ihrem KI-Client Zugriff auf Adobe Journey Optimizer, Customer Journey Analytics und Real-Time CDP, basierend auf den Lizenzen Ihres Unternehmens. [Jetzt verbinden](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**Starten Sie mit CX Coworker Gateway.** Eine Verbindung gewährt Ihrem KI-Client Zugriff auf Adobe Journey Optimizer, Customer Journey Analytics und Real-Time CDP, basierend auf den Lizenzen Ihres Unternehmens. [Jetzt verbinden](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB MCP-Server]
 
-Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache auf CX Enterprise-Anwendungen zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit CX Enterprise MCP für eine einzige Verbindung zu AJO, CJA und Real-Time CDP oder stellen Sie eine direkte Verbindung zu AEM und anderen Anwendungen her.
+Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache auf CX Enterprise-Anwendungen zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit CX Coworker Gateway für eine einzige Verbindung zu AJO, CJA und Real-Time CDP oder stellen Sie eine direkte Verbindung zu AEM und anderen Anwendungen her.
 
 - Verbindung in Minuten von Claude, Cursor, ChatGPT und anderen MCP-kompatiblen Clients
 - Abfragen von Kampagnen, Audiences und Journey von Daten in natürlicher Sprache
@@ -232,4 +232,4 @@ CARDS
 | [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise API-Referenz |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Einrichten und Authentifizieren von API-Projekten |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Verwaltung des Benutzer- und Produktzugriffs |
-| [Experience League](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |
