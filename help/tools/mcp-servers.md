@@ -2,9 +2,9 @@
 title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
+source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2404'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 **Ein Endpunkt. Mehrere CX Enterprise-Anwendungen.**
 
-Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:cxo-mcp-feedback@adobe.com)cxo-mcp-feedback@adobe.com), um den Zugriff anzufordern.
+Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:adobecxmcp@adobe.com)adobecxmcp@adobe.com), um den Zugriff anzufordern.
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -62,7 +62,7 @@ Eine vollständige Dokumentation finden Sie unter [CX Enterprise MCP](https://ex
 
 >[!NOTE]
 >
->Der Zugriff auf jede CX Enterprise-Anwendung basiert auf den Berechtigungen Ihres Unternehmens und den Benutzerberechtigungen in Adobe Admin Console. Um CX Enterprise MCP für Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com).
+>Der Zugriff auf jede CX Enterprise-Anwendung basiert auf den Berechtigungen Ihres Unternehmens und den Benutzerberechtigungen in Adobe Admin Console. Um CX Enterprise MCP für Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com).
 
 >[!TAB Experience Manager]
 
