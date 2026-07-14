@@ -22,7 +22,7 @@ Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separate
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Agent-Tools | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Zielgruppe | Analysten, Kampagnen-Manager |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |

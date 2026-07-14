@@ -22,7 +22,7 @@ Ein vollständiges Bild des Kampagnenzustands erfordert Daten aus mehreren Syste
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| CX Enterprise-Anwendungen | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
 | Agent-Tools | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Zielgruppe | Kampagnen-Manager, Marketing-Vorgänge |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |
