@@ -1,10 +1,10 @@
 ---
 title: MCP-Server
 description: Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
-last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2422'
 ht-degree: 6%
 
 ---
@@ -16,32 +16,32 @@ ht-degree: 6%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491331/?captions=ger&learn=on&enablevpops)
 
-Adobe CX Enterprise MCP-Server bieten jedem kompatiblen KI-Client direkten, gesteuerten Zugriff auf Adobe-Daten und -Workflows. Wenn Sie einmal eine Verbindung herstellen, können Sie die Kampagnenleistung abfragen, Zielgruppen aktivieren, Journey überprüfen, Inhalte verwalten und vieles mehr - alles in einfacher Sprache, ohne Ihre KI-Umgebung verlassen zu müssen. Da sich MCP-Server zwischen Ihrem KI-Client und den zugrunde liegenden Systemen von Adobe befinden, erhalten Sie Flexibilität in natürlicher Sprache, während die Zugriffskontrollen und die Data Governance in Ihrem Unternehmen weiterhin gelten.
+Adobe MCP-Server bieten jedem kompatiblen KI-Client direkten, gesteuerten Zugriff auf Adobe-Daten und -Workflows. Wenn Sie einmal eine Verbindung herstellen, können Sie die Kampagnenleistung abfragen, Zielgruppen aktivieren, Journey überprüfen, Inhalte verwalten und vieles mehr - alles in einfacher Sprache, ohne Ihre KI-Umgebung verlassen zu müssen. Da sich MCP-Server zwischen Ihrem KI-Client und den zugrunde liegenden Systemen von Adobe befinden, erhalten Sie Flexibilität in natürlicher Sprache, während die Zugriffskontrollen und die Data Governance in Ihrem Unternehmen weiterhin gelten.
 
 Adobe MCP-Server folgen dem Open [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)-Standard. Jeder MCP-kompatible KI-Client stellt eine Verbindung zu jedem Adobe MCP-Server her.
 
-## CX Enterprise-MCP-Server {#cx-enterprise-mcp-servers}
+## CX Enterprise MCP-Server {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX Enterprise-MCP"
+>title="CX Coworker Gateway"
 >abstract="Ihre CX Enterprise-Anwendungen, auf die über einen einzigen MCP-Endpunkt zugegriffen werden kann. Fragen, analysieren und ergreifen Sie Maßnahmen in einfacher Sprache über Ihre KI-Clients."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Dokumentation zu CX Enterprise-MCP"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Dokumentation zu CX Coworker Gateway"
 
-![Das CX Enterprise MCP verbindet Ihren KI-Client mit Tools der gesamten Adobe CX Enterprise Suite](../assets/mcp-gateway-hero.gif)
+![Das CX Coworker Gateway verbindet Ihren KI-Client mit Tools der gesamten Adobe CX Enterprise Suite](../assets/mcp-gateway-hero.gif)
 
 Wählen Sie eine Anwendung aus, um den Endpunkt und die Funktionen anzuzeigen.
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise MCP]
+>[!TAB CX Coworker Gateway]
 
 **Ein Endpunkt. Mehrere CX Enterprise-Anwendungen.**
 
-Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:adobecxmcp@adobe.com)adobecxmcp@adobe.com), um den Zugriff anzufordern.
+Verbinden Sie sich einmal, und Ihr KI-Client erhält Zugriff auf CX Enterprise-Anwendungen basierend auf den Lizenzen Ihres Unternehmens. Um Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [&#128279;](mailto:cx-coworker-gateway-support@adobe.com)cx-coworker-gateway-support@adobe.com), um den Zugriff anzufordern.
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 | CX Enterprise-Anwendung | Mögliche Optionen | Zusätzliche Berechtigung erforderlich |
@@ -58,11 +58,11 @@ https://cx-enterprise.adobe.io/mcp
 | [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | Programme, Kampagnen, Leads, Smart Lists, E-Mails und Formulare verwalten | [Ja](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
 | [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Überprüfen des Status der Zielgruppenaktivierung, des Zielstatus und der Datenflussintegrität | Nein |
 
-Eine vollständige Dokumentation finden Sie unter [CX Enterprise MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
+Eine vollständige Dokumentation finden Sie unter [CX Coworker Gateway](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview).
 
 >[!NOTE]
 >
->Der Zugriff auf jede CX Enterprise-Anwendung basiert auf den Berechtigungen Ihres Unternehmens und den Benutzerberechtigungen in Adobe Admin Console. Um CX Enterprise MCP für Ihre Organisation zu aktivieren, senden Sie eine E-Mail an [adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com).
+>Der Zugriff auf das Gateway basiert auf den bestehenden CX Enterprise-Anwendungslizenzen Ihres Unternehmens und den Benutzerberechtigungen in Adobe Admin Console. Eine CX Coworker-Lizenz ist nicht erforderlich - Sie benötigen aktive Lizenzen für mindestens eine der CX Enterprise-Anwendungen hinter dem Gateway. Um CX Coworker Gateway für Ihr Unternehmen zu aktivieren, senden Sie eine E-Mail an [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com).
 
 >[!TAB Experience Manager]
 
@@ -119,7 +119,7 @@ Die meisten Adobe MCP-Server verwenden OAuth mit Adobe Identity Management Servi
 
 ![Ein KI-Agent, der eine Verbindung zu einem Adobe MCP-Server herstellt](../assets/hero-connect-mcp-servers.gif)
 
-In den folgenden Schritten wird der MCP-Endpunkt CX Enterprise als Beispiel verwendet. Derselbe Prozess gilt für jeden Adobe MCP-Server: Tauschen Sie die Endpunkt-URL gegen den Server aus, zu dem Sie eine Verbindung herstellen möchten.
+In den folgenden Schritten wird der Endpunkt „CX Coworker Gateway“ als Beispiel verwendet. Derselbe Prozess gilt für jeden Adobe MCP-Server: Tauschen Sie die Endpunkt-URL gegen den Server aus, zu dem Sie eine Verbindung herstellen möchten.
 
 >[!BEGINTABS]
 
@@ -135,7 +135,7 @@ Claude.ai unterstützt Remote-MCP-Server über benutzerdefinierte Connectoren in
 
 1. Navigieren Sie **Einstellungen > Integrationen**.
 2. Klicken Sie **Benutzerdefinierten Connector hinzufügen**.
-3. Geben Sie den Server-Endpunkt als URL (z. B. `https://cx-enterprise.adobe.io/mcp` für den CX Enterprise MCP) und einen Anzeigenamen Ihrer Wahl ein.
+3. Geben Sie den Server-Endpunkt als URL (z. B. `https://cx-coworker-gateway.adobe.io/mcp` für das CX Coworker Gateway) und einen Anzeigenamen Ihrer Wahl ein.
 4. Klicken Sie auf **Verbinden** und melden Sie sich mit Ihrer Adobe ID an. Wählen Sie die richtige IMS-Organisation aus.
 
 Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -144,10 +144,10 @@ Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://suppor
 
 ### Verwenden der CLI
 
-Führen Sie `claude mcp add` aus, um einen Adobe MCP-Server zu registrieren. Ersetzen Sie den Servernamen und die URL durch die Werte für den Server, zu dem Sie eine Verbindung herstellen möchten. In diesem Beispiel wird der CX Enterprise MCP verwendet:
+Führen Sie `claude mcp add` aus, um einen Adobe MCP-Server zu registrieren. Ersetzen Sie den Servernamen und die URL durch die Werte für den Server, zu dem Sie eine Verbindung herstellen möchten. In diesem Beispiel wird das CX Coworker Gateway verwendet:
 
 ```bash
-claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.io/mcp
+claude mcp add --transport http adobe-cx-coworker-gateway https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 ### Bearbeiten der Einstellungsdatei
@@ -157,9 +157,9 @@ Fügen Sie den Server zu `~/.claude.json` (global) oder `.mcp.json` in Ihrem Pro
 ```json
 {
   "mcpServers": {
-    "adobe-cx-enterprise": {
+    "adobe-cx-coworker-gateway": {
       "type": "http",
-      "url": "https://cx-enterprise.adobe.io/mcp"
+      "url": "https://cx-coworker-gateway.adobe.io/mcp"
     }
   }
 }
@@ -171,7 +171,7 @@ Vollständiges Setup: [Claude Code MCP-Dokumentation](https://docs.anthropic.com
 
 >[!TAB Cursor]
 
-Fügen Sie einen Adobe MCP-Server zu Ihrer Cursor `mcp.json`-Konfigurationsdatei hinzu und stellen Sie dann eine Verbindung über **Einstellungen > MCP** her. Ersetzen Sie den Schlüssel und die URL durch die Werte für den Server, zu dem Sie eine Verbindung herstellen möchten. In diesem Beispiel wird der CX Enterprise MCP verwendet:
+Fügen Sie einen Adobe MCP-Server zu Ihrer Cursor `mcp.json`-Konfigurationsdatei hinzu und stellen Sie dann eine Verbindung über **Einstellungen > MCP** her. Ersetzen Sie den Schlüssel und die URL durch die Werte für den Server, zu dem Sie eine Verbindung herstellen möchten. In diesem Beispiel wird das CX Coworker Gateway verwendet:
 
 - **Global (alle Projekte):** `~/.cursor/mcp.json`
 - **Projektebene:** `.cursor/mcp.json` im Projektstamm
@@ -179,9 +179,9 @@ Fügen Sie einen Adobe MCP-Server zu Ihrer Cursor `mcp.json`-Konfigurationsdatei
 ```json
 {
   "mcpServers": {
-    "adobe-cx-enterprise": {
+    "adobe-cx-coworker-gateway": {
       "type": "http",
-      "url": "https://cx-enterprise.adobe.io/mcp"
+      "url": "https://cx-coworker-gateway.adobe.io/mcp"
     }
   }
 }
@@ -206,7 +206,7 @@ ChatGPT unterstützt Remote-MCP-Server über [Entwicklermodus](https://developer
 1. Aktivieren Sie den Entwicklermodus in **ChatGPT-Einstellungen**.
 2. Navigieren Sie **Einstellungen > Integrationen**.
 3. Klicken Sie **Benutzerdefinierten Connector hinzufügen** und wählen Sie **Remote-MCP-Server**.
-4. Geben Sie den Server-Endpunkt als URL (z. B. `https://cx-enterprise.adobe.io/mcp` für den CX Enterprise MCP) und einen Anzeigenamen Ihrer Wahl ein.
+4. Geben Sie den Server-Endpunkt als URL (z. B. `https://cx-coworker-gateway.adobe.io/mcp` für das CX Coworker Gateway) und einen Anzeigenamen Ihrer Wahl ein.
 5. Legen Sie die Authentifizierung auf **OAuth** fest.
 6. Klicken Sie auf **Verbinden** und melden Sie sich mit Ihrer Adobe ID an. Wählen Sie die richtige IMS-Organisation aus.
 
@@ -221,11 +221,11 @@ OpenAI Codex CLI unterstützt Remote-MCP-Server über die TOML-Konfiguration.
 - **Benutzerebene (alle Projekte):** `~/.codex/config.toml`
 - **Projektumfang:** `.codex/config.toml` im Projektstamm
 
-Ersetzen Sie den Abschnittsnamen und die URL durch die Werte für den Server, zu dem Sie eine Verbindung herstellen möchten. In diesem Beispiel wird der CX Enterprise MCP verwendet:
+Ersetzen Sie den Abschnittsnamen und die URL durch die Werte für den Server, zu dem Sie eine Verbindung herstellen möchten. In diesem Beispiel wird das CX Coworker Gateway verwendet:
 
 ```toml
-[mcp_servers.adobe-cx-enterprise]
-url = "https://cx-enterprise.adobe.io/mcp"
+[mcp_servers.adobe-cx-coworker-gateway]
+url = "https://cx-coworker-gateway.adobe.io/mcp"
 enabled = true
 ```
 
@@ -240,9 +240,9 @@ Microsoft Copilot Studio stellt mithilfe des MCP Onboarding Wizard, der automati
 1. Öffnen Sie den Agenten in Copilot Studio.
 2. Navigieren Sie zur Seite **Tools**.
 3. Wählen Sie **Tool hinzufügen > Neues Tool > Modellkontext-Protokoll**.
-4. Geben Sie im MCP Onboarding-Assistenten die Serverdetails ein. Beispiel: für den CX Enterprise MCP:
-   - **Server-Name:** `Adobe CX Enterprise`
-   - **Server-URL:** `https://cx-enterprise.adobe.io/mcp`
+4. Geben Sie im MCP Onboarding-Assistenten die Serverdetails ein. Beispiel: für das CX Coworker Gateway:
+   - **Server-Name:** `CX Coworker Gateway`
+   - **Server-URL:** `https://cx-coworker-gateway.adobe.io/mcp`
 5. Legen Sie die Authentifizierung auf **OAuth 2.0** fest und konfigurieren Sie mit Ihren Adobe IMS-Autorisierungs- und Token-URLs.
 6. Wählen **Erstellen** und dann **Zum Agenten hinzufügen**.
 
@@ -256,7 +256,7 @@ Vollständiges Setup: [Copilot Studio MCP-Dokumentation](https://learn.microsoft
 
 ## MCP-Server in Aktion
 
-Siehe Adobe CX Enterprise MCP-Server für die Arbeit mit echten Geschäftsproblemen. Jede exemplarische Vorgehensweise beginnt mit einer echten betrieblichen Herausforderung und zeigt, wie ein KI-Client sie in einfacher Sprache löst, ohne Tools zu wechseln oder Code zu schreiben.
+Nutzen Sie das CX Coworker Gateway, um echte Geschäftsprobleme zu lösen. Jede exemplarische Vorgehensweise beginnt mit einer echten betrieblichen Herausforderung und zeigt, wie ein KI-Client sie in einfacher Sprache löst, ohne Tools zu wechseln oder Code zu schreiben.
 
 <!--
 CARDS
@@ -415,15 +415,15 @@ MCP-Verbindungen umfassen Authentifizierung, Organisationsauswahl und Berechtigu
 
 Wenn Ihr Adobe-Benutzer mehreren IMS-Organisationen angehört und Sie Tools oder Daten für das falsche sehen, trennen Sie den MCP-Server, melden Sie sich von Ihrer Adobe-Sitzung im Browser ab und stellen Sie dann die Verbindung wieder her. Während der Anmeldung werden Sie aufgefordert, eine Organisation auszuwählen.
 
-Ein Adobe CX Enterprise MCP-Server kann jeweils nur für eine IMS-Organisation authentifiziert werden, auch wenn Ihr Benutzerkonto Zugriff auf mehr als ein Konto hat.
+Ein Adobe MCP-Server kann jeweils nur für eine IMS-Organisation authentifiziert werden, auch wenn Ihr Benutzerkonto Zugriff auf mehr als ein Konto hat.
 
 +++
 
 +++Angeben einer Sandbox, Report Suite, Umgebung oder einer anderen Sitzungsressource
 
-Bei einigen Adobe CX Enterprise MCP-Servern müssen Sie eine Ressource angeben, bevor sie Ergebnisse zurückgeben können. Je nach Programm kann es sich um eine Sandbox, ein Programm, eine Umgebung, eine Report Suite oder eine Datenansicht handeln.
+Bei einigen Adobe MCP-Servern müssen Sie eine Ressource angeben, bevor sie Ergebnisse zurückgeben können. Je nach Programm kann es sich um eine Sandbox, ein Programm, eine Umgebung, eine Report Suite oder eine Datenansicht handeln.
 
-Wenn Sie sich nicht sicher sind, auf welche Ressourcen Sie Zugriff haben, fragen Sie den KI-Client. Beispiel: „Liste der verfügbaren Sandboxes“ oder „Auf welche Report Suites habe ich Zugriff?“ Adobe CX Enterprise MCP-Server können häufig eine vollständige Liste der verfügbaren Ressourcen zurückgeben.
+Wenn Sie sich nicht sicher sind, auf welche Ressourcen Sie Zugriff haben, fragen Sie den KI-Client. Beispiel: „Liste der verfügbaren Sandboxes“ oder „Auf welche Report Suites habe ich Zugriff?“ Adobe MCP-Server können häufig eine vollständige Liste der verfügbaren Ressourcen an Ihre Benutzerinnen und Benutzer zurückgeben.
 
 Nachdem eine Sitzungsressource festgelegt wurde, können Sie sie jederzeit wechseln, indem Sie dem KI-Client mitteilen, welche Ressource verwendet werden soll.
 
@@ -439,8 +439,8 @@ Wenn eine Aktion fehlschlägt oder keine Ergebnisse zurückgibt, überprüfen Si
 
 +++Erneute Authentifizierung nach einer verlorenen Sitzung
 
-Adobe CX Enterprise MCP-Server verwenden OAuth zur Authentifizierung Ihres Adobe-Benutzerkontos. Wenn der Authentifizierungsstatus verloren geht, werden keine weiteren Tool-Aufrufe erfolgreich sein, bis Sie sich erneut authentifizieren.
+Adobe MCP-Server verwenden OAuth zur Authentifizierung Ihres Adobe-Benutzerkontos. Wenn der Authentifizierungsstatus verloren geht, werden keine weiteren Tool-Aufrufe erfolgreich sein, bis Sie sich erneut authentifizieren.
 
-Um sich erneut zu authentifizieren, öffnen Sie die MCP-Server-Konfiguration Ihres KI-Clients, wählen Sie den MCP-Server-Eintrag für Adobe CX Enterprise aus und verbinden Sie sich erneut. Sie werden aufgefordert, sich erneut mit Ihrer Adobe ID anzumelden.
+Erneute Authentifizierung: Öffnen Sie die MCP-Server-Konfiguration Ihres KI-Clients, wählen Sie den Adobe MCP-Server-Eintrag aus und stellen Sie eine neue Verbindung her. Sie werden aufgefordert, sich erneut mit Ihrer Adobe ID anzumelden.
 
 +++
