@@ -2,7 +2,8 @@
 user-guide-title: Adobe CX Enterprise Agent-Tools
 breadcrumb-title: Agent-Tools
 user-guide-description: Verwenden Sie MCP-Server, Agent-Kenntnisse und APIs, um AI Agents und Entwicklungs-Tools mit den Funktionen von Adobe CX Enterprise zu verbinden.
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
 source-git-commit: 5f36ddaa43f8b0dc744108c96f23799af7976576
 workflow-type: tm+mt
 source-wordcount: 74
