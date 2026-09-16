@@ -1,25 +1,23 @@
 ---
 title: Adobe CX Enterprise Agent-Tools
-description: Verbinden von KI-Agenten und Entwicklungs-Tools mit Adobe CX Enterprise-Funktionen mithilfe von MCP-Servern, Agent-Kenntnissen und APIs.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Verwenden Sie MCP-Server, Agent-Kenntnisse und APIs, um AI Agents und Entwicklungs-Tools mit den Funktionen von Adobe CX Enterprise zu verbinden.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 1%
-
+source-wordcount: '809'
+ht-degree: 5%
 ---
-
 
 # Adobe CX Enterprise Agent-Tools
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491253/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihren KI-Client mit Kampagnen, Audiences, Journey und Inhalten. Interagieren Sie mit ihnen in einfacher Sprache aus jedem Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
 
 >[!TIP]
->**Starten Sie mit CX Coworker Gateway.** Eine Verbindung gewährt Ihrem KI-Client Zugriff auf Adobe Journey Optimizer, Customer Journey Analytics und Real-Time CDP, basierend auf den Lizenzen Ihres Unternehmens. [Jetzt verbinden](tools/mcp-servers.md#cx-coworker-gateway)
+>**Beginnen Sie mit CX Enterprise Coworker.** Es stellt eine Verbindung zu Ihren CX Enterprise-Anwendungen her, ohne dass ein Server-Setup oder eine KI-Client-Konfiguration erforderlich sind. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
 <!--
 CARDS
@@ -63,7 +61,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von MCP-Servern</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -86,7 +84,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von Agentenkenntnissen</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -109,7 +107,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von APIs für Builder</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -122,7 +120,7 @@ CARDS
 
 >[!TAB MCP-Server]
 
-Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache auf CX Enterprise-Anwendungen zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit CX Coworker Gateway für eine einzige Verbindung zu AJO, CJA und Real-Time CDP oder stellen Sie eine direkte Verbindung zu AEM und anderen Anwendungen her.
+Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache auf CX Enterprise-Anwendungen zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit CX Enterprise Coworker, um den schnellsten Weg zwischen Anwendungen zu finden, oder stellen Sie eine direkte Verbindung zu AJO, CJA, AEM und anderen Anwendungen mit ihrem eigenen MCP-Server her.
 
 - Verbindung in Minuten von Claude, Cursor, ChatGPT und anderen MCP-kompatiblen Clients
 - Abfragen von Kampagnen, Audiences und Journey von Daten in natürlicher Sprache
@@ -191,7 +189,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ermitteln von Kampagneneinblicken</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -214,7 +212,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inhalte schneller bereitstellen</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -232,4 +230,4 @@ CARDS
 | [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise API-Referenz |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Einrichten und Authentifizieren von API-Projekten |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Verwaltung des Benutzer- und Produktzugriffs |
-| [Experience League](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |
