@@ -1,14 +1,12 @@
 ---
 title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
-description: Verwenden Sie das CX Coworker Gateway, um Customer Journey Analytics-Leistungsfragen in verständlicher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Verwenden Sie den Customer Journey Analytics MCP-Server, um Leistungsfragen in einfacher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
-
+source-wordcount: '1079'
+ht-degree: 4%
 ---
-
 
 # Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 
@@ -23,7 +21,7 @@ Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separate
 | Szenario-Details | |
 | --- | --- |
 | CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
-| Agent-Tools | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) oder [Customer Journey Analytics MCP-Server](../tools/mcp-servers.md) |
 | Zielgruppe | Analysten, Kampagnen-Manager |
 | Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |
 
@@ -33,33 +31,39 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+Die schnellste Möglichkeit, diese Antworten zu erhalten, ist CX Enterprise Coworker, das keine Server-Einrichtung oder KI-Client-Konfiguration erfordert. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+
+Wenn Sie Ihren eigenen KI-Client lieber direkt mit Customer Journey Analytics verbinden möchten, finden Sie weitere Informationen auf den folgenden Registerkarten.
+
 >[!TAB Claude.ai]
 
-Verbinden Sie das CX Coworker Gateway als benutzerdefinierten Connector, um auf Customer Journey Analytics-Tools zuzugreifen.
+Verbinden Sie den Customer Journey Analytics MCP-Server als benutzerdefinierten Connector.
 
 1. Gehen Sie **Claude.ai zu Einstellungen** Integrationen.
-2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cx-coworker-gateway.adobe.io/mcp`
+2. Wählen Sie **Benutzerdefinierten Connector hinzufügen** und geben Sie die Server-URL ein: `https://cja-mcp.adobe.io/mcp`
 3. Wählen Sie **Verbinden** aus und melden Sie sich mit Ihrer Adobe ID an.
 
 Vollständiges Setup: [Claude.ai Custom Connectors-Dokumentation](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Verbinden Sie das CX Coworker Gateway mithilfe des ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
+Verbinden Sie den Customer Journey Analytics MCP-Server mit dem ChatGPT-Entwicklermodus (Pro-, Plus-, Business-, Enterprise- oder Education-Plan erforderlich).
 
 1. Aktivieren Sie **Entwicklermodus** in **ChatGPT-Einstellungen**.
 2. Navigieren Sie zu **Einstellungen > Integrationen** und wählen Sie **Benutzerdefinierten Connector hinzufügen > Remote-MCP-Server**.
-3. Server-URL eingeben: `https://cx-coworker-gateway.adobe.io/mcp`
+3. Server-URL eingeben: `https://cja-mcp.adobe.io/mcp`
 4. Wählen Sie **Verbinden** aus und melden Sie sich mit Ihrer Adobe ID an.
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Andere KI-Clients]
 
-Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum CX Coworker Gateway her:
+Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum Customer Journey Analytics MCP-Server her:
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://cja-mcp.adobe.io/mcp
 ```
 
 Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
@@ -165,7 +169,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->CJA-Tools, auf die über das CX Coworker Gateway zugegriffen wird, können in derselben Sitzung Segmente, berechnete Metriken und Workspace-Projekte innerhalb von CJA erstellen. Um Kampagnen, Journey oder Inhalte in anderen Anwendungen zu aktualisieren, verbinden Sie den entsprechenden MCP-Server oder gehen Sie direkt zur Anwendung.
+>CJA-Tools können in CJA in derselben Sitzung Segmente, berechnete Metriken und Workspace-Projekte erstellen. Um Kampagnen, Journey oder Inhalte in anderen Anwendungen zu aktualisieren, verbinden Sie den entsprechenden MCP-Server oder gehen Sie direkt zur Anwendung.
 
 ## Was Sie erreicht haben
 
@@ -173,7 +177,7 @@ Sie haben einen KI-Client mit Customer Journey Analytics verbunden und in fünf 
 
 ## Mehr können Sie erreichen
 
-Das CX Coworker Gateway kann weit mehr Customer Journey Analytics-Einblicke liefern als in der Anleitung beschrieben. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
+Der Customer Journey Analytics MCP-Server kann weit mehr Einblicke liefern als in der Anleitung beschrieben. Erweitern Sie ein unten stehendes Szenario, um Eingabeaufforderungen anzuzeigen, die Sie in derselben Sitzung versuchen können.
 
 +++Finden Sie heraus, was funktioniert und was nicht
 
@@ -257,7 +261,7 @@ What would have the biggest impact on revenue?
 
 +++Erkenntnisse in Maßnahmen umsetzen
 
-CJA-Tools, auf die über das CX Coworker Gateway zugegriffen wird, können Segmente, Zielgruppen, berechnete Metriken und Workspace-Projekte direkt in CJA erstellen, ohne die KI-Sitzung verlassen zu müssen. Verwenden Sie diese Eingabeaufforderungen, um auf das zu reagieren, was Sie gefunden haben.
+CJA-Tools können Segmente, Zielgruppen, berechnete Metriken und Workspace-Projekte direkt in CJA erstellen, ohne die KI-Sitzung verlassen zu müssen. Verwenden Sie diese Eingabeaufforderungen, um auf das zu reagieren, was Sie gefunden haben.
 
 **Eingabeaufforderungen**
 
