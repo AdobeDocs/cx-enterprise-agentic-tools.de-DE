@@ -5,7 +5,7 @@ last-substantial-update: 2026-09-16
 source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 6%
+ht-degree: 8%
 ---
 
 # MCP-Server
@@ -21,7 +21,7 @@ Adobe MCP-Server folgen dem Open [Model Context Protocol](https://modelcontextpr
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="CX Enterprise Coworker"
->abstract="Fragen und analysieren Sie Ihre CX Enterprise-Anwendungen, und führen Sie Aktionen durch - in einfacher Sprache und ohne Servereinrichtung. Für einzelne Anwendungen mit einem eigenen MCP-Server stellen Sie stattdessen eine direkte Verbindung her."
+>abstract="Fragen, analysieren und ergreifen Sie Maßnahmen in Ihren CX Enterprise-Anwendungen – in einfacher Sprache und ohne Server-Einrichtung. Bei einzelnen Anwendungen mit einem eigenen MCP-Server stellen Sie stattdessen eine direkte Verbindung her."
 >additional-url="https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home" text="Dokumentation zu CX Enterprise Coworker"
 
 ![CX Enterprise Coworker, das einen KI-Client mit CX Enterprise-Anwendungen verbindet](../assets/mcp-sub-hero.gif)
@@ -32,16 +32,16 @@ Wenn Sie Ihren eigenen KI-Client lieber direkt mit einer bestimmten Adobe-Anwend
 
 | MCP-Server | Endpunkt | Mögliche Optionen | Auch über CX Enterprise Coworker |
 | --- | --- | --- | --- |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen | Ja |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen | Ja |
-| [Adobe Analytics](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Erkennung von Report Suites, Segmenterstellung und Workspace-Erstellung | Ja |
-| [Adobe Target](https://experienceleague.adobe.com/de/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes, Leistungsberichten und Vorschau-URLs (öffentliche Beta-Tools sind schreibgeschützt, Schreib-Tools sind für die allgemeine Verfügbarkeit geplant) | Ja |
-| [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Suchen Sie nach Zielgruppen, Zielen, Quellen und Flussausführungen; überprüfen Sie Identitäts-Namespaces und Zusammenführungsrichtlinien (öffentliche Beta-Zulassungsliste erforderlich, alle Tools sind schreibgeschützt) | Ja |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Überprüfen von Journey-, Kampagnen- und Kanalkonfigurationen | Ja |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Berichte abfragen, Datenansichten ermitteln und Arbeitsbereiche erstellen | Ja |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Erkennung von Report Suites, Segmenterstellung und Workspace-Erstellung | Ja |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Überprüfen von Aktivitäten, Angeboten, Zielgruppen, Mboxes, Leistungsberichten und Vorschau-URLs (öffentliche Beta-Tools sind schreibgeschützt, Schreib-Tools sind für die allgemeine Verfügbarkeit geplant) | Ja |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Suchen Sie nach Zielgruppen, Zielen, Quellen und Flussausführungen; überprüfen Sie Identitäts-Namespaces und Zusammenführungsrichtlinien (öffentliche Beta-Zulassungsliste erforderlich, alle Tools sind schreibgeschützt) | Ja |
 | [AEM MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Seiten, Inhaltsfragmente, Assets und Launches verwalten und Inhalte und Bilder anhand von Markenrichtlinien und Compliance-Regeln bewerten | Ja |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Programme, Umgebungen, Pipelines und Repositorys verwalten | Nein |
 | Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | Orchestrieren von Zielgruppenanalysen, AEP-Diagnosen und AJO B2B-Journey-Erstellung in allen AEP-Anwendungen | Nein |
-| [Adobe Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten | Nein |
-| [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Verwalten von Formularen, intelligenten Kampagnen, Leads, Listen, Programmen, E-Mails und Massenvorgängen | Ja |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Arbeiten, Projekte, Planungsdatensätze, Einblicke und Inhaltsgenehmigungen verwalten | Nein |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Verwalten von Formularen, intelligenten Kampagnen, Leads, Listen, Programmen, E-Mails und Massenvorgängen | Ja |
 | Adobe Experience Platform | Über [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) | Datensatz-Erkennung, Schema-Browsing und Sandbox-Management | K. A. |
 | Campaign Classic | Über [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) | Erkennung der Campaign-Instanz, Schemabrowser, Abfrageausführung, Workflow-Kontrolle und SOAP/JS-Ausführung | K. A. |
 | Experimentieren | Über [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) | A/B-, MVT- und MAB-Experimentberichte, Metriken, Einblicke, Opportunities und Planung des Stichprobenumfangs | K. A. |
