@@ -1,28 +1,28 @@
 ---
 title: Journey-Probleme erkennen, bevor sie Kunden betreffen
 description: Verwenden Sie den Adobe Journey Optimizer MCP-Server, um aktive AJO-Journey zu überwachen, die Kampagnenkonfiguration zu überprüfen und betriebliche Probleme aufzudecken, bevor sie Ihre Audience erreichen.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1158'
+ht-degree: 3%
 ---
 
 # Journey-Probleme erkennen, bevor sie Kunden betreffen
 <!-- last-modified: 2026-06-08 -->
 
-![KI-Client mit einer Zusammenfassung der Kampagnen- und Journey-Strategie und einer Zusammenfassung für Führungskräfte](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+![KI-Plattform mit einer Zusammenfassung der Kampagnen- und Journey-Strategie und einer Zusammenfassung für Führungskräfte](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
-Journey-Probleme, die nicht erkannt werden, können Kunden erreichen, bevor sie bemerkt werden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie diesen einen Schritt voraus sein können, indem Sie aktive AJO-Journey überprüfen, die Kampagnenkonfiguration überprüfen und betriebliche Probleme über einen KI-Client aufdecken. Dabei wird der Adobe Journey Optimizer-MCP-Server verwendet, um Antworten in einfacher Sprache zu erhalten, ohne Adobe Journey Optimizer zu öffnen.
+Journey-Probleme, die nicht erkannt werden, können Kunden erreichen, bevor sie bemerkt werden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie diesen Unternehmen einen Schritt voraus sein können, indem Sie aktive AJO-Journey überprüfen, die Kampagnenkonfiguration überprüfen und betriebliche Probleme über eine KI-Plattform mithilfe des Adobe Journey Optimizer MCP-Servers in einfacher Sprache erhalten, ohne Adobe Journey Optimizer zu öffnen.
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) |
-| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) oder [Adobe Journey Optimizer MCP-Server](../tools/mcp-servers.md) |
+| CX Enterprise-Programme | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home) |
+| Agent-basierte Tools | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker für KI](../tools/mcp-servers.md#connect-to-your-ai-platform)Plattformen oder [Adobe Journey Optimizer MCP-Server](../tools/mcp-servers.md) |
 | Zielgruppe | Kampagnen-Manager, Marketing-Experten |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO |
+| Voraussetzung | AJO-Zugriff sowie Coworker, eine KI-Plattform mit Coworker für KI-Plattformen oder eine MCP-kompatible KI-Plattform |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -31,11 +31,15 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-Die schnellste Möglichkeit, diese Antworten zu erhalten, ist CX Enterprise Coworker, das keine Server-Einrichtung oder KI-Client-Konfiguration erfordert. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+Die schnellste Möglichkeit, diese Antworten zu erhalten, ist Coworker, das keine Server-Einrichtung oder KI-Plattform-Konfiguration erfordert. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
-Wenn Sie Ihren eigenen KI-Client lieber direkt mit Adobe Journey Optimizer verbinden möchten, finden Sie weitere Informationen auf den folgenden Registerkarten.
+Wenn Sie Coworker nicht direkt verwenden können oder möchten, verwenden Sie es stattdessen aus Ihrer eigenen KI-Plattform. Weitere Informationen finden Sie **Registerkarte „Coworker for AI**&quot;. Wenn dies auch bei Ihnen nicht funktioniert, verbinden Sie Ihre KI-Plattform mithilfe der verbleibenden Registerkarten direkt mit dem Adobe Journey Optimizer MCP-Server.
+
+>[!TAB Mitarbeiter für KI-Plattformen]
+
+Sie können diese exemplarische Vorgehensweise auch mit Coworker for AI-Plattformen aus Ihrer eigenen KI-Plattform durchführen. [Einrichten von Kollegen für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Dokumentation zu Adobe](https://experienceleague.adobe.com/de/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ Verbinden Sie den Adobe Journey Optimizer MCP-Server mit dem ChatGPT-Entwicklerm
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum Adobe Journey Optimizer MCP-Server her:
 
@@ -66,7 +70,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 https://ajo-mcp.adobe.io/mcp
 ```
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,7 +78,7 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrer AJO-Umgebung verknüpfte IMS-Organisation aus. Die Wahl der falschen Organisation ist die häufigste Ursache für Authentifizierungsfehler.
 >
->Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
+>Bei der ersten Verbindung fordert Ihre KI-Plattform Sie möglicherweise auf, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
@@ -89,7 +93,7 @@ What customer journeys are currently available and what business objectives do t
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die verfügbaren Kunden-Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+![Auf der KI-Plattform werden die verfügbaren Kunden-Journey und ihre Geschäftsziele aufgelistet](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -99,7 +103,7 @@ What customer journeys are currently available and what business objectives do t
 
 ## Schritt 2: Überprüfen Sie die Schritte einer Journey und das Kundenerlebnis.
 
-Bitten Sie angesichts der angezeigten Journey-Liste Ihren KI-Client, eine bestimmte Journey zu durchlaufen und zu erklären, was der Kunde in jeder Phase erlebt.
+Bitten Sie angesichts der angezeigten Journey-Liste Ihre KI-Plattform, eine bestimmte Journey zu durchlaufen und zu erklären, was der Kunde in jeder Phase erlebt.
 
 ```
 Walk me through the [journey name] journey and explain the customer experience.
@@ -107,7 +111,7 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client führt durch die Schritte auf der Journey „Welcome New Customers“ und durch das Kundenerlebnis](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+![KI-Plattform führt durch die Schritte zum Welcome New Customers Journey und zum Kundenerlebnis](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -129,7 +133,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Siehe eine Beispielantwort
 
-![Der KI-Client listet aktive Kampagnen mit ihrer Audience-Zielgruppenbestimmung und den gewünschten Ergebnissen auf](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+![KI-Plattform, die aktive Kampagnen mit Zielgruppen-Targeting und beabsichtigten Ergebnissen auflistet](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -139,7 +143,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 ## Schritt 4: Kampagnen und Journey verbinden
 
-Bitten Sie Ihren KI-Client, die Punkte zwischen Kampagnen und Journeys zu verbinden und zu erklären, wie sie gemeinsam auf die Erreichung gemeinsamer Interaktionsziele hinarbeiten.
+Bitten Sie Ihre KI-Plattform, die Punkte zwischen Kampagnen und Journey zu verbinden und zu erklären, wie sie gemeinsam auf die Erreichung gemeinsamer Interaktionsziele hinarbeiten.
 
 ```
 How do our campaigns and journeys work together to improve customer engagement?
@@ -147,7 +151,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die Beziehung zwischen Kampagnen und Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+![KI-Plattform, die die Beziehung zwischen Kampagnen und Journey](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -165,7 +169,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der priorisierte Marketing-Empfehlungen für den Lebenszyklus abgibt](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+![KI-Plattform mit priorisierten Lebenszyklus-Marketing-Empfehlungen](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -179,7 +183,7 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 ## Was Sie erreicht haben
 
-Sie haben einen KI-Client mit Adobe Journey Optimizer verbunden und durch fünf Aufforderungen ein vollständiges Bild Ihres Journey- und Kampagnenportfolios erstellt. Sie haben eine Inventarisierung der aktiven Journey und ihrer Geschäftsziele durchgeführt, die Kundenerfahrung für eine bestimmte Journey Schritt für Schritt geprüft, die aktiven Kampagnen ihren Zielgruppen und beabsichtigten Ergebnissen zugeordnet, verstanden, wie Kampagnen und Journey zusammenarbeiten, und priorisierte Empfehlungen dazu erhalten, worauf wir uns als Nächstes konzentrieren sollten. Dies bietet Lebenszyklus-Marketing- und Kampagnen-Managern strategische Sichtbarkeit, ohne die AJO-Benutzeroberfläche zu öffnen.
+Sie haben Coworker oder Ihre KI-Plattform mit Adobe Journey Optimizer verwendet und anhand von fünf Aufforderungen ein vollständiges Bild Ihres Journey- und Kampagnenportfolios erstellt. Sie haben eine Inventarisierung der aktiven Journey und ihrer Geschäftsziele durchgeführt, die Kundenerfahrung für eine bestimmte Journey Schritt für Schritt geprüft, die aktiven Kampagnen ihren Zielgruppen und beabsichtigten Ergebnissen zugeordnet, verstanden, wie Kampagnen und Journey zusammenarbeiten, und priorisierte Empfehlungen dazu erhalten, worauf wir uns als Nächstes konzentrieren sollten. Dies bietet Lebenszyklus-Marketing- und Kampagnen-Managern strategische Sichtbarkeit, ohne die AJO-Benutzeroberfläche zu öffnen.
 
 
 ## Mehr können Sie erreichen

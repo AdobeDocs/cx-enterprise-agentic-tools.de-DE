@@ -1,14 +1,12 @@
 ---
 title: Zuverlässige Bereitstellung für AEM as a Cloud Service
-description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihren KI-Client verlassen zu müssen.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Prüfen Sie die Konsistenz der Umgebung, prüfen Sie den Pipeline-Verlauf, prüfen Sie den Trigger oder verwalten Sie Bereitstellungen, ohne Ihre KI-Plattform verlassen zu müssen.
+last-substantial-update: 2026-06-10
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
-
+source-wordcount: '951'
+ht-degree: 3%
 ---
-
 
 # Zuverlässige Bereitstellung für AEM as a Cloud Service
 
@@ -16,14 +14,14 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480351/?captions=ger&learn=on&enablevpops)
 
-Zuversicht bei der Bereitstellung hängt davon ab, dass Ihre Umgebung in Ordnung ist, bevor Sie Push-Benachrichtigungen senden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie der AEM-Umgebungsstatus überprüft wird, der Pipeline-Verlauf überprüft wird und Trigger-Bereitstellungen von einem KI-Client aus mithilfe des AEM Cloud Manager MCP-Servers ausgeführt werden können, damit Teams schnell arbeiten können, ohne an Sichtbarkeit zu verlieren.
+Zuversicht bei der Bereitstellung hängt davon ab, dass Ihre Umgebung in Ordnung ist, bevor Sie Push-Benachrichtigungen senden. In dieser exemplarischen Vorgehensweise wird gezeigt, wie der AEM-Umgebungsstatus überprüft wird, der Pipeline-Verlauf überprüft wird und Trigger-Bereitstellungen von einer KI-Plattform aus mithilfe des AEM Cloud Manager MCP-Servers ausgeführt werden können, damit Teams schnell arbeiten können, ohne an Sichtbarkeit zu verlieren.
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| Agent-Tools | [AEM Cloud Manager MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| CX Enterprise-Programme | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| Agent-basierte Tools | [AEM Cloud Manager MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
 | Zielgruppe | Entwickler, DevOps, Operations-Teams |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AEM Cloud Manager |
+| Voraussetzung | MCP-kompatible KI-Plattform, Zugriff auf AEM Cloud Manager |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Weitere Eingabeaufforderungen zum**) folgt, um in derselben Sitzung weitere Informationen zu erhalten.
 
@@ -96,7 +94,7 @@ Hinweis: VS-Code verwendet `"servers"` als Schlüssel der obersten Ebene, nicht 
 
 Vollständiges Setup: [VS Code MCP-Server-Dokumentation](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum Cloud Manager MCP-Server her:
 
@@ -104,15 +102,15 @@ Verwenden Sie eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses E
 https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrem AEM as a Cloud Service-Programm verknüpfte IMS-Organisation aus. Berechtigungen werden auf Cloud Manager-Ebene erzwungen. Ihr KI-Client kann nur Vorgänge ausführen, für die Ihr Konto autorisiert ist.
+>Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrem AEM as a Cloud Service-Programm verknüpfte IMS-Organisation aus. Berechtigungen werden auf Cloud Manager-Ebene erzwungen. Ihre KI-Plattform kann nur Vorgänge ausführen, für die Ihr Konto autorisiert ist.
 >
->Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, Ihr Unternehmen oder AEM-Programm zu bestätigen. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
+>Beim ersten Verbinden werden Sie von Ihrer KI-Plattform möglicherweise aufgefordert, Ihr Unternehmen oder AEM-Programm zu bestätigen. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die vorgeschlagene Aktion und genehmigen oder ablehnen Sie sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
@@ -126,7 +124,7 @@ What is the status of the production environment?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Status der Produktionsumgebung von Cloud Manager anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![KI-Plattform, die den Status der Produktionsumgebung von Cloud Manager aus anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -143,7 +141,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die letzten fünf Pipeline-Ausführungen für die Produktions-Pipeline anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+![KI-Plattform mit den letzten fünf Pipeline-Ausführungen für die Produktions-Pipeline](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -152,7 +150,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 ## Schritt 3: Pipeline-Trigger
 
-Starten einer Pipeline-Ausführung direkt von Ihrem KI-Client aus. Der Server bestätigt die Zielumgebung und fordert vor dem Start eine Genehmigung an.
+Starten einer Pipeline-Ausführung direkt von Ihrer KI-Plattform aus. Der Server bestätigt die Zielumgebung und fordert vor dem Start eine Genehmigung an.
 
 ```
 Run the Fullstack pipeline against dev environment of WKND sandbox program.
@@ -160,7 +158,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client mit Pipeline-Trigger-Bestätigung und Cloud Manager-Benutzeroberfläche, die die laufende Pipeline widerspiegelt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![KI-Plattform mit Bestätigung des Pipeline-Triggers und Cloud Manager-Benutzeroberfläche, die die laufende Pipeline widerspiegelt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -169,11 +167,11 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 >[!CAUTION]
 >
->Der KI-Client fordert Sie auf, den Pipeline-Namen zu bestätigen, bevor eine Ausführung ausgelöst wird. Geben Sie den genauen Pipeline-Namen ein, um fortzufahren. Überprüfen Sie die Zielumgebung sorgfältig, bevor Sie sie bestätigen, insbesondere für Pipelines, die in der Produktion bereitgestellt werden.
+>Die KI-Plattform fordert Sie auf, den Pipeline-Namen zu bestätigen, bevor eine Ausführung ausgelöst wird. Geben Sie den genauen Pipeline-Namen ein, um fortzufahren. Überprüfen Sie die Zielumgebung sorgfältig, bevor Sie sie bestätigen, insbesondere für Pipelines, die in der Produktion bereitgestellt werden.
 
 ## Schritt 4: Pipeline-Status überprüfen
 
-Bitten Sie nach dem Auslösen eines Durchgangs Ihren KI-Client um eine Statusaktualisierung, ohne zur Cloud Manager-Oberfläche zu wechseln.
+Fragen Sie nach dem Auslösen eines Durchgangs Ihre KI-Plattform nach einer Statusaktualisierung, ohne zur Cloud Manager-Oberfläche zu wechseln.
 
 ```
 What is the status of the triggered pipeline?
@@ -181,7 +179,7 @@ What is the status of the triggered pipeline?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Status der ausgelösten Pipeline-Ausführung anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![KI-Plattform, die den Status der ausgelösten Pipeline-Ausführung anzeigt](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 

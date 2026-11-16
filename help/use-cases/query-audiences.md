@@ -1,22 +1,22 @@
 ---
 title: Zielgruppen verstehen und wo sie aktiviert werden
 description: Verwenden Sie den Real-Time CDP-MCP-Server, um den Status der Zielgruppenaktivierung zu überwachen, den Zustand des Ziels zu überprüfen und Probleme aufzudecken, bevor sie sich auf Ihre Kampagnen auswirken.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 4%
+source-wordcount: '1080'
+ht-degree: 3%
 ---
 
 # Zielgruppen verstehen und wo sie aktiviert werden
 
 <!-- last-modified: 2026-06-04 -->
 
-![KI-Client, der eine priorisierte Zielgruppenstrategie mit Aktivierungsempfehlungen bereitstellt](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![KI-Plattform mit einer priorisierten Zielgruppenstrategie und Aktivierungsempfehlungen](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
-Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in Ordnung sind, ist entscheidend, bevor eine Kampagne gestartet wird oder wenn eine Kampagne nicht die gewünschte Leistung erbringt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie ein vollständiges Aktivierungsbild über einen KI-Client erstellt wird, indem mit dem Real-Time CDP MCP-Server der Zielgruppenstatus und der Zielzustand in Sekunden angezeigt werden, ohne Real-Time CDP zu öffnen.
+Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in Ordnung sind, ist entscheidend, bevor eine Kampagne gestartet wird oder wenn eine Kampagne nicht die gewünschte Leistung erbringt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie mithilfe des Real-Time CDP MCP-Servers ein vollständiges Aktivierungsbild über eine KI-Plattform erhalten, um den Zielgruppenstatus und den Zielzustand in Sekunden anzuzeigen, ohne Real-Time CDP zu öffnen.
 
 >[!NOTE]
 >
@@ -24,10 +24,10 @@ Zu wissen, welche Zielgruppen live sind, wohin sie fließen und ob die Ziele in 
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
-| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) oder [Real-Time CDP MCP-Server](../tools/mcp-servers.md) |
+| CX Enterprise-Programme | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| Agent-basierte Tools | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker für KI](../tools/mcp-servers.md#connect-to-your-ai-platform)Plattformen oder [Real-Time CDP MCP-Server](../tools/mcp-servers.md) |
 | Zielgruppe | Marketing-Experten, Analysten, Benutzer |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf Real-Time CDP |
+| Voraussetzung | Real-Time CDP-Zugriff sowie Coworker, eine KI-Plattform mit Coworker für KI-Plattformen oder eine MCP-kompatible KI-Plattform |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -35,11 +35,15 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-Die schnellste Möglichkeit, dieses Aktivierungsbild zu erhalten, ist CX Enterprise Coworker, das keine Server-Einrichtung oder KI-Client-Konfiguration erfordert. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+Die schnellste Möglichkeit, dieses Aktivierungsbild zu erhalten, ist Coworker, das keine Server-Einrichtung oder KI-Plattform-Konfiguration erfordert. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
-Wenn Sie Ihren eigenen KI-Client lieber direkt mit Real-Time CDP verbinden möchten, finden Sie weitere Informationen auf den folgenden Registerkarten. Der Real-Time CDP-MCP-Server befindet sich in der öffentlichen Betaversion und erfordert die auf die Zulassungsliste setzte Ihres Unternehmens.
+Wenn Sie Coworker nicht direkt verwenden können oder möchten, verwenden Sie es stattdessen aus Ihrer eigenen KI-Plattform. Weitere Informationen finden Sie **Registerkarte „Coworker for AI**&quot;. Wenn dies auch bei Ihnen nicht funktioniert, verbinden Sie Ihre KI-Plattform mithilfe der verbleibenden Registerkarten direkt mit dem Real-Time CDP MCP-Server. Der Real-Time CDP-MCP-Server befindet sich in der öffentlichen Betaversion und erfordert die auf die Zulassungsliste setzte Ihres Unternehmens.
+
+>[!TAB Mitarbeiter für KI-Plattformen]
+
+Sie können diese exemplarische Vorgehensweise auch mit Coworker for AI-Plattformen aus Ihrer eigenen KI-Plattform durchführen. [Einrichten von Kollegen für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Dokumentation zu Adobe](https://experienceleague.adobe.com/de/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -62,7 +66,7 @@ Verbinden Sie den Real-Time CDP MCP-Server mit dem ChatGPT-Entwicklermodus (Pro-
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum Real-Time CDP MCP-Server her:
 
@@ -70,7 +74,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 https://rtcdp-mcp.adobe.io/mcp
 ```
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Siehe eine Beispielantwort
 
-![Der KI-Client listet die verfügbaren Zielgruppen und das von ihnen dargestellte Kundenverhalten auf](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![Auf der KI-Plattform werden die verfügbaren Zielgruppen und die von ihnen dargestellten Kundenverhaltensweisen aufgelistet](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -105,7 +109,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die größten Zielgruppen identifiziert und erklärt, was sie wertvoll macht](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![KI-Plattform, die die größten Zielgruppen identifiziert und erklärt, was sie wertvoll macht](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -122,7 +126,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Status der Zielgruppenaktivierung und die Zielzuordnung anzeigt](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+![KI-Plattform mit Status der Zielgruppenaktivierung und Zielzuordnung](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -139,7 +143,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der priorisierte Empfehlungen für Zielgruppenstrategien gibt](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+![KI-Plattform mit priorisierten Empfehlungen für Zielgruppenstrategien](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -152,7 +156,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## Was Sie erreicht haben
 
-Sie haben einen KI-Client mit Real-Time CDP verbunden und an vier Eingabeaufforderungen ein strategisches Bild Ihres Zielgruppenportfolios erstellt. Sie haben die verfügbaren Zielgruppen den Kundenverhaltensweisen zugeordnet, die sie erfasst haben, Ihre größten und wertvollsten Segmente identifiziert, bestätigt, wo jede Zielgruppe hinfließt und zu welchen Zielen sie wechselt, und bei Ihrer nächsten Aktivierung priorisierte Empfehlungen erhalten. Dadurch wird die Navigation auf mehreren Real-Time CDP-Bildschirmen durch eine direkte, strategische Konversation ersetzt.
+Sie haben Coworker oder Ihre KI-Plattform mit Real-Time CDP verwendet und an vier Eingabeaufforderungen ein strategisches Bild Ihres Zielgruppenportfolios erstellt. Sie haben die verfügbaren Zielgruppen den Kundenverhaltensweisen zugeordnet, die sie erfasst haben, Ihre größten und wertvollsten Segmente identifiziert, bestätigt, wo jede Zielgruppe hinfließt und zu welchen Zielen sie wechselt, und bei Ihrer nächsten Aktivierung priorisierte Empfehlungen erhalten. Dadurch wird die Navigation auf mehreren Real-Time CDP-Bildschirmen durch eine direkte, strategische Konversation ersetzt.
 
 ## Mehr können Sie erreichen
 

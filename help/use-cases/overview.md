@@ -1,14 +1,12 @@
 ---
 title: Agent Tools in Aktion
-description: Schrittweise Anleitungen, in denen die Enterprise Agent-Tools von Adobe CX auf echte Unternehmens-Workflows angewendet werden.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Schrittweise Anleitungen, die die auf echte Unternehmens-Workflows angewendeten Adobe CX Enterprise Agent-Tools zeigen.
+last-substantial-update: 2026-06-08
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 
 # Agent-Instrumente in Aktion
 
@@ -48,7 +46,7 @@ CARDS
 
 * aem-cloud-manager-mcp.md
   {title = Deploy AEM changes with confidence}
-  {description = Check environment health, review pipeline history, and deploy to AEM from your AI client, without switching tools.}
+  {description = Check environment health, review pipeline history, and deploy to AEM from your AI platform, without switching tools.}
   {cta = Deploy with confidence}
   {image = ../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png}
 -->
@@ -73,7 +71,7 @@ CARDS
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Ermitteln von Kampagneneinblicken</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -96,7 +94,7 @@ CARDS
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Zielgruppenaktivierung überprüfen</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -119,7 +117,7 @@ CARDS
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Überwachen Sie Ihre Journey</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -142,7 +140,7 @@ CARDS
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Inhalte schneller bereitstellen</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -165,7 +163,7 @@ CARDS
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Schließen Sie Leistungsunterschiede</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -184,11 +182,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="aem-cloud-manager-mcp.md" title="AEM-Änderungen mit Konfidenz bereitstellen">AEM-Änderungen mit Konfidenz bereitstellen</a>
                     </p>
-                    <p class="is-size-6">Überprüfen Sie den Zustand der Umgebung, prüfen Sie den Pipeline-Verlauf und stellen Sie ihn über Ihren KI-Client für AEM bereit, ohne die Tools zu wechseln.</p>
+                    <p class="is-size-6">Überprüfen Sie den Zustand der Umgebung, prüfen Sie den Pipeline-Verlauf und stellen Sie ihn über Ihre KI-Plattform für AEM bereit, ohne die Tools zu wechseln.</p>
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Bereitstellung mit Konfidenz</span>
-                
+                </a>
             </div>
         </div>
     </div>

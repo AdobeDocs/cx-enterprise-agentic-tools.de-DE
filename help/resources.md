@@ -1,14 +1,12 @@
 ---
 title: Ressourcen
-description: Ein zentraler Einstiegspunkt für alle Dokumentationen, Registrierungseinträge, APIs und Entwicklerhandbücher zu Adobe CX Enterprise Agent Tools.
-last-substantial-update: 2026-05-08T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+description: Ein zentraler Einstiegspunkt für alle Dokumentationen, Registrierungen, APIs und Entwicklerhandbücher zu Adobe CX Enterprise Agent Tools.
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '591'
 ht-degree: 20%
-
 ---
-
 
 # Ressourcen
 
@@ -24,12 +22,13 @@ Alle wichtigen Adobe-Ressourcen für die Arbeit mit Adobe CX Enterprise Agent To
 |---|---|
 | [Adobe AI Registry : MCP-Server](https://developer.adobe.com/ai-registry/?type=mcp) | Verwaltete Connectoren und Serverdetails für ausgewählte Adobe MCP-Server |
 | [Adobe AI Registry : Agent-Kenntnisse](https://developer.adobe.com/ai-registry/?type=skill) | Agent-Qualifikationsliste mit Verfügbarkeits- und Einrichtungsdetails für ausgewählte Qualifikationen |
-| [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise API-Referenz |
+| [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise-API-Referenz |
 
 ## MCP-Server
 
 | Ressource | Was Sie finden werden |
 |---|---|
+| [Adobe CX Enterprise Coworker für KI-Plattformen](https://experienceleague.adobe.com/de/docs/coworker/content/ai-platforms#set-up-coworker) | Voraussetzungen und Einrichtung für die Verwendung von Coworker von Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise und anderen KI-Plattformen |
 | [Analytics-MCP-Dokumentation](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP-Server-Setup-Handbuch und Tool-Referenz |
 | [Analytics-MCP-Handbücher](https://developer.adobe.com/analytics-mcp/docs/guides/) | Detaillierte Benutzerhandbücher für den CJA MCP-Server |
 | [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP-Server-Setup-Handbuch |
@@ -62,7 +61,7 @@ Alle wichtigen Adobe-Ressourcen für die Arbeit mit Adobe CX Enterprise Agent To
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Einrichtung, Authentifizierung und Verwaltung von API-Projekten |
 | [Erste Schritte für Entwickler](https://developer.adobe.com/dep/) | Einführung in das Erstellen mit Adobe-APIs |
 
-## KI-Client-Setup
+## Einrichtung der KI-Plattform
 
 | Ressource | Was Sie finden werden |
 |---|---|

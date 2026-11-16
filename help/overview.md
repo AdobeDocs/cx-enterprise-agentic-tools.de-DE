@@ -1,10 +1,10 @@
 ---
 title: Adobe CX Enterprise Agent-Tools
 description: Verwenden Sie MCP-Server, Agent-Kenntnisse und APIs, um AI Agents und Entwicklungs-Tools mit den Funktionen von Adobe CX Enterprise zu verbinden.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '863'
 ht-degree: 5%
 ---
 
@@ -14,17 +14,19 @@ ht-degree: 5%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491253/?captions=ger&learn=on&enablevpops)
 
-Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihren KI-Client mit Kampagnen, Audiences, Journey und Inhalten. Interagieren Sie mit ihnen in einfacher Sprache aus jedem Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
+Lassen Sie KI zu Ihrem Mitarbeiter für Adobe CX Enterprise werden. Verbinden Sie Ihre KI-Plattform mit Kampagnen, Audiences, Journey und Inhalten. Interagieren Sie mit ihnen in einfacher Sprache aus jedem Tool, das Sie bereits verwenden. Keine neuen Schnittstellen, kein Kontextwechsel, keine Codierung erforderlich, um zu beginnen.
 
 >[!TIP]
->**Beginnen Sie mit CX Enterprise Coworker.** Es stellt eine Verbindung zu Ihren CX Enterprise-Anwendungen her, ohne dass ein Server-Setup oder eine KI-Client-Konfiguration erforderlich sind. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+>**Beginnen Sie mit Adobe CX Enterprise Coworker.** Es ist mit Ihren CX Enterprise-Programmen kompatibel, ohne dass eine Server-Einrichtung oder eine KI-Plattformkonfiguration erforderlich ist. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+>
+>Möchten Sie lieber in Claude, ChatGPT, Microsoft 365 Copilot oder einer anderen KI-Plattform übernachten? Verwenden Sie [Adobe CX Enterprise Coworker für KI-Plattformen](tools/mcp-servers.md#connect-to-your-ai-platform). Wenn keines von beiden für Sie funktioniert, verbinden Sie Ihre KI-Plattform mit den [Produkt-MCP-Servern](tools/mcp-servers.md#connect-to-your-ai-platform).
 
 <!--
 CARDS
 
 * tools/mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any MCP-compatible AI client to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
+  {description = Connect any MCP-compatible AI platform to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
   {cta = Explore MCP Servers}
   {image = assets/mcp-servers-card.png}
 
@@ -57,7 +59,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/mcp-servers.md" title="MCP-Server">MCP-Server</a>
                     </p>
-                    <p class="is-size-6">Verbinden eines beliebigen MCP-kompatiblen KI-Clients mit Adobe CX Enterprise-Workflows. Abfragen von Daten, Analysieren von Kampagnen und Zugreifen auf Audiences, ohne das KI-Tool verlassen zu müssen.</p>
+                    <p class="is-size-6">Verbinden einer beliebigen MCP-kompatiblen KI-Plattform mit Adobe CX Enterprise-Workflows. Abfragen von Daten, Analysieren von Kampagnen und Zugreifen auf Audiences, ohne das KI-Tool verlassen zu müssen.</p>
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von MCP-Servern</span>
@@ -103,7 +105,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/apis.md" title="APIs für Builder">APIs für Builder</a>
                     </p>
-                    <p class="is-size-6">Erstellen Sie benutzerdefinierte Adobe CX Enterprise-Anwendungen mit agenten Kodierungstools wie Claude Code und Cursor.</p>
+                    <p class="is-size-6">Erstellen Sie benutzerdefinierte Adobe CX Enterprise-Programme mit agenten Kodierungs-Tools wie Claude Code und Cursor.</p>
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Erkunden von APIs für Builder</span>
@@ -120,9 +122,9 @@ CARDS
 
 >[!TAB MCP-Server]
 
-Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache auf CX Enterprise-Anwendungen zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit CX Enterprise Coworker, um den schnellsten Weg zwischen Anwendungen zu finden, oder stellen Sie eine direkte Verbindung zu AJO, CJA, AEM und anderen Anwendungen mit ihrem eigenen MCP-Server her.
+Verwenden Sie eine beliebige kompatible KI-Plattform, um in einfacher Sprache auf CX Enterprise-Programme zuzugreifen. Keine Codierung erforderlich. Beginnen Sie mit der Zusammenarbeit, um den schnellsten Weg zwischen Anwendungen zu finden. Um in Ihrer eigenen KI-Plattform zu bleiben, verwenden Sie Coworker für KI-Plattformen. Wenn keines von beiden für Sie funktioniert, stellen Sie eine direkte Verbindung zu AJO, CJA, AEM und anderen Anwendungen her, die über einen eigenen MCP-Server verfügen.
 
-- Verbindung in Minuten von Claude, Cursor, ChatGPT und anderen MCP-kompatiblen Clients
+- Verbinden in Minuten von Claude, Cursor, ChatGPT und anderen MCP-kompatiblen KI-Plattformen
 - Abfragen von Kampagnen, Audiences und Journey von Daten in natürlicher Sprache
 - Keine neuen Schnittstellen oder Schulungen erforderlich
 
@@ -130,11 +132,11 @@ Verwenden Sie einen beliebigen kompatiblen KI-Client, um in einfacher Sprache au
 
 >[!TAB Agentenfertigkeiten]
 
-Agent Skills kodiert Adobe Domain-Fachwissen als Anweisungen, die Ihr KI-Client befolgen kann. Anstatt zu improvisieren, weiß der Agent genau, was zu tun ist, zuverlässig, wiederholt und mit den Best Practices von Adobe abgestimmt.
+Agent Skills kodieren das Adobe-Domain-Fachwissen als Anweisungen, denen Ihre KI-Plattform folgen kann. Anstatt zu improvisieren, weiß der Agent genau, was zu tun ist, zuverlässig, wiederholt und mit den Best Practices von Adobe abgestimmt.
 
 - Konsistente Ergebnisse für wiederholbare CX Enterprise-Workflows
 - Keine Notwendigkeit, dem Agenten Adobe zu erklären: Die Fertigkeit übernimmt das.
-- Funktioniert bei allen KI-Clients, die Agentenfähigkeiten unterstützen
+- Funktioniert über KI-Plattformen hinweg, die Agentenfähigkeiten unterstützen
 
 [Agent-Kenntnisse entdecken](tools/agent-skills.md)
 
@@ -152,7 +154,7 @@ Direkter, programmgesteuerter Zugriff auf dieselben APIs, auf denen Adobe-Produk
 
 ## Agent-Instrumente in Aktion
 
-Erfahren Sie, wie Adobe CX Enterprise Agent Tools in der Praxis aussehen. Jede exemplarische Vorgehensweise behandelt ein reales Geschäftsszenario vom Setup bis zum Ergebnis und zeigt genau auf, wie ein KI-Client verbunden wird, was gefragt werden soll und was zurückgegeben wird.
+Hier erfahren Sie, wie Adobe CX Enterprise Agent-Tools in der Praxis aussehen. Jede exemplarische Vorgehensweise behandelt ein reales Geschäftsszenario vom Setup bis zum Ergebnis und zeigt genau auf, wie Sie mit Coworker oder Ihrer KI-Plattform beginnen, was Sie fragen und was Sie zurückerhalten sollten.
 
 <!--
 CARDS
@@ -227,7 +229,7 @@ CARDS
 | --- | --- |
 | [Adobe AI-Registrierung](https://developer.adobe.com/ai-registry/?type=mcp) | Verwaltete Connectoren und Serverdetails für ausgewählte Adobe MCP-Server |
 | [Adobe Agent-Kenntnisse](https://github.com/adobe/skills) | Von Adobe kuratierte Agentenkenntnisse für CX Enterprise-Workflows |
-| [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise API-Referenz |
+| [Adobe API-Katalog](https://developer.adobe.com/apis) | Vollständige Adobe CX Enterprise-API-Referenz |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Einrichten und Authentifizieren von API-Projekten |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | Verwaltung des Benutzer- und Produktzugriffs |
 | [Experience League](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) | Vollständige Dokumentation und Tutorials zu Adobe-Programmen |

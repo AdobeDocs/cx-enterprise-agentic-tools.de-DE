@@ -1,29 +1,29 @@
 ---
 title: Halten Sie Inhalte aktuell und versenden Sie Updates schneller
 description: Verwenden Sie den AEM MCP-Server, um AEM-Inhalte zu finden, zu überprüfen, zu aktualisieren und zu veröffentlichen, ohne zwischen Tools zu wechseln.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: '1104'
+ht-degree: 7%
 ---
 
 # Halten Sie Inhalte aktuell und versenden Sie Updates schneller
 
 <!-- last-modified: 2026-05-22 -->
 
-![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+![KI-Plattform, die die Veröffentlichung der Seite bestätigt und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
-Der permanente betriebliche Druck besteht darin, den Inhalt einer Website auf dem neuesten Stand zu halten. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Content-Teams AEM-Seiten und -Inhaltsfragmente über einen AI-Client suchen, überprüfen, aktualisieren und veröffentlichen können, indem sie mithilfe des AEM-MCP-Servers die Zeit zwischen einer Inhaltsentscheidung und einer Live-Aktualisierung verkürzen.
+Der permanente betriebliche Druck besteht darin, den Inhalt einer Website auf dem neuesten Stand zu halten. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Content-Teams AEM-Seiten und -Inhaltsfragmente über eine KI-Plattform finden, überprüfen, aktualisieren und veröffentlichen können, indem sie mithilfe des AEM-MCP-Servers die Zeit zwischen einer Inhaltsentscheidung und einer Live-Aktualisierung verkürzen.
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) oder [AEM MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| CX Enterprise-Programme | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Agent-basierte Tools | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker für KI](../tools/mcp-servers.md#connect-to-your-ai-platform)Plattformen oder [AEM MCP-Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Zielgruppe | Content-Manager, Marketing-Teams |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AEM as a Cloud Service |
+| Voraussetzung | AEM as a Cloud Service-Zugriff sowie Coworker, eine KI-Plattform mit Coworker für KI-Plattformen oder eine MCP-kompatible KI-Plattform |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -31,11 +31,15 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-Die schnellste Möglichkeit, dies zu erreichen, ist CX Enterprise Coworker, das keine Server-Einrichtung oder KI-Client-Konfiguration erfordert. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+Die schnellste Möglichkeit, dies zu erreichen, ist Coworker, das keine Server-Einrichtung oder KI-Plattform-Konfiguration erfordert. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
-Wenn Sie Ihren eigenen KI-Client lieber direkt mit AEM verbinden möchten, finden Sie weitere Informationen auf den folgenden Registerkarten.
+Wenn Sie Coworker nicht direkt verwenden können oder möchten, verwenden Sie es stattdessen aus Ihrer eigenen KI-Plattform. Weitere Informationen finden Sie **Registerkarte „Coworker for AI**&quot;. Wenn dies auch bei Ihnen nicht funktioniert, verbinden Sie Ihre KI-Plattform mithilfe der verbleibenden Registerkarten direkt mit dem AEM MCP-Server.
+
+>[!TAB Mitarbeiter für KI-Plattformen]
+
+Sie können diese exemplarische Vorgehensweise auch mit Coworker for AI-Plattformen aus Ihrer eigenen KI-Plattform durchführen. [Einrichten von Kollegen für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Dokumentation zu Adobe](https://experienceleague.adobe.com/de/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ Verbinden Sie den AEM MCP-Server mit dem ChatGPT-Entwicklermodus (Pro-, Plus-, B
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum AEM MCP-Server her:
 
@@ -66,21 +70,21 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrer AEM as a Cloud Service-Umgebung verknüpfte IMS-Organisation aus. Berechtigungen werden auf AEM-Ebene erzwungen. Ihr KI-Client kann nur Vorgänge ausführen, für die Ihr Konto autorisiert ist.
+>Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrer AEM as a Cloud Service-Umgebung verknüpfte IMS-Organisation aus. Berechtigungen werden auf AEM-Ebene erzwungen. Ihre KI-Plattform kann nur Vorgänge ausführen, für die Ihr Konto autorisiert ist.
 >
->Bei der ersten Verbindung fordert Sie Ihr KI-Client möglicherweise auf, Ihre Organisation oder AEM-Umgebung zu bestätigen. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
+>Bei der ersten Verbindung fordert Sie Ihre KI-Plattform möglicherweise auf, Ihre Organisation oder AEM-Umgebung zu bestätigen. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die vorgeschlagene Aktion und genehmigen oder ablehnen Sie sie. Ohne Ihre Bestätigung erfolgt keine Änderung.
 
 ## Schritt 1: Suchen von Inhalten in Ihrer AEM-Umgebung
 
-Bitten Sie zunächst Ihren KI-Client, Ihre AEM-Umgebungen zu entdecken und nach Inhalten zu suchen. Sie können nach Thema, Keyword oder Inhaltstyp suchen, ohne genaue Pfade zu kennen.
+Bitten Sie zunächst Ihre KI-Plattform, Ihre AEM-Umgebungen zu entdecken und nach Inhalten zu suchen. Sie können nach Thema, Keyword oder Inhaltstyp suchen, ohne genaue Pfade zu kennen.
 
 ```
 From WKND Dev environment, find all ski related content.
@@ -88,7 +92,7 @@ From WKND Dev environment, find all ski related content.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der Suchergebnisse für Skiinhalte aus der WKND Dev AEM-Umgebung anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+![KI-Plattform mit den Suchergebnissen für Skiinhalte aus der WKND Dev AEM-Umgebung](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -97,7 +101,7 @@ From WKND Dev environment, find all ski related content.
 
 ## Schritt 2: Überprüfen einer bestimmten Seite
 
-Sobald Sie relevante Inhalte gefunden haben, bitten Sie Ihren KI-Client, Ihnen eine bestimmte Seite anzuzeigen. Sie können Seiten nach Name oder Pfad referenzieren. Der MCP-Server löst die Referenz auf und gibt die Inhaltsstruktur zurück.
+Sobald Sie relevante Inhalte gefunden haben, bitten Sie Ihre KI-Plattform, Ihnen eine bestimmte Seite anzuzeigen. Sie können Seiten nach Name oder Pfad referenzieren. Der MCP-Server löst die Referenz auf und gibt die Inhaltsstruktur zurück.
 
 ```
 Show me the US English Home Page.
@@ -105,7 +109,7 @@ Show me the US English Home Page.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die Inhaltsstruktur der US-englischen Startseite von AEM anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+![KI-Plattform, die die Inhaltsstruktur der US-englischen Startseite von AEM anzeigt](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -114,7 +118,7 @@ Show me the US English Home Page.
 
 ## Schritt 3: Inhalt verbessern
 
-Bitten Sie angesichts des angezeigten Seiteninhalts Ihren KI-Client, Verbesserungen vorzuschlagen oder anzuwenden. Die KI kann Kopieränderungen vorschlagen, die auf dem basieren, was die Seite aktuell sagt, und um Bestätigung bitten, bevor sie etwas schreibt.
+Bitten Sie angesichts des angezeigten Seiteninhalts Ihre KI-Plattform, Verbesserungen vorzuschlagen oder anzuwenden. Die KI kann Kopieränderungen vorschlagen, die auf dem basieren, was die Seite aktuell sagt, und um Bestätigung bitten, bevor sie etwas schreibt.
 
 ```
 Improve the Hero CTAs.
@@ -122,7 +126,7 @@ Improve the Hero CTAs.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der eine verbesserte Hero CTA-Kopie mit einer Bestätigungsaufforderung vor dem Anwenden von Änderungen vorschlägt](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+![KI-Plattform, die eine verbesserte Hero CTA-Kopie mit einer Bestätigungsaufforderung vor dem Anwenden von Änderungen vorschlägt](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -143,7 +147,7 @@ Publish the changes and share the URL.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der bestätigt, dass die Seite veröffentlicht wurde, und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+![KI-Plattform, die die Veröffentlichung der Seite bestätigt und die Live-URL zurückgibt](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
