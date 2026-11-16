@@ -28,10 +28,10 @@ Alle wichtigen Adobe-Ressourcen für die Arbeit mit Adobe CX Enterprise Agent To
 
 | Ressource | Was Sie finden werden |
 |---|---|
-| [Adobe CX Enterprise Coworker für KI-Plattformen](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker) | Voraussetzungen und Einrichtung für die Verwendung von Coworker von Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise und anderen KI-Plattformen |
+| [Adobe CX Enterprise Coworker für KI-Plattformen](https://experienceleague.adobe.com/de/docs/coworker/content/ai-platforms#set-up-coworker) | Voraussetzungen und Einrichtung für die Verwendung von Coworker von Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise und anderen KI-Plattformen |
 | [Analytics-MCP-Dokumentation](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP-Server-Setup-Handbuch und Tool-Referenz |
 | [Analytics-MCP-Handbücher](https://developer.adobe.com/analytics-mcp/docs/guides/) | Detaillierte Benutzerhandbücher für den CJA MCP-Server |
-| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP-Server-Setup-Handbuch |
+| [Dokumentation zu Real-Time CDP MCP](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP-Server-Setup-Handbuch |
 
 ## Agent-Kenntnisse
 
