@@ -1,14 +1,12 @@
 ---
 title: Agent-Kenntnisse
 description: Von Adobe kuratierte Workflows und Anweisungen, die KI-Agenten durchgängig durch CX Enterprise-Aufgaben führen.
-last-substantial-update: 2026-05-19T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
-
 ---
-
 
 # Agent-Kenntnisse
 
@@ -64,19 +62,19 @@ Eine Agentenfertigkeit ist ein Satz von Anweisungen, die einem KI-Agenten mittei
 
 ### Agent-Kenntnisse installieren
 
-Agent-Kenntnisse werden basierend auf dem verwendeten KI-Client installiert. Einige Clients unterstützen die direkte Installation über die Befehlszeile:
+Agent-Kenntnisse werden basierend auf der von Ihnen verwendeten KI-Plattform installiert. Einige KI-Plattformen unterstützen die direkte Installation über die Befehlszeile:
 
 - **Claude-Code**: `/plugin install adobe/skills`
 - **Knotenumgebungen**: `npx skills add adobe/skills`
 - **GitHub-CLI**: `gh upskill adobe/skills`
 
-Andere Clients erfordern, dass Sie die SKILL-Dateien herunterladen und direkt zu Ihrem KI-Client hinzufügen. In der [Adobe Skills README auf GitHub](https://github.com/adobe/skills#installation) finden Sie vollständige Installationsanweisungen nach Client.
+Bei anderen KI-Plattformen müssen Sie die SKILL-Dateien direkt herunterladen und zu Ihrer KI-Plattform hinzufügen. In der [Adobe Skills README auf GitHub](https://github.com/adobe/skills#installation) finden Sie vollständige Installationsanweisungen nach Client.
 
 ### Agent-Kenntnisse suchen
 
 Durchsuchen Sie die vollständige Liste der verfügbaren Kenntnisse im [Adobe Skills GitHub-Repository](https://github.com/adobe/skills). Zu jeder Agentenkompetenz gehört eine `SKILL.md` mit detaillierten Anleitungen, Referenzen und Beispielen.
 
-Nach der Installation oder dem Hinzufügen des `adobe/skills` können Sie mit einigen KI-Clients alle verfügbaren Fähigkeiten direkt auflisten:
+Nach der Installation oder dem Hinzufügen des `adobe/skills` können Sie mit einigen KI-Plattformen alle verfügbaren Fähigkeiten direkt auflisten:
 
 - **Claude-Code**: `claude /plugin list`
 - **Knotenumgebungen**: `npx skills list`
@@ -84,12 +82,12 @@ Nach der Installation oder dem Hinzufügen des `adobe/skills` können Sie mit ei
 
 ## Agent-Fähigkeiten in Aktion
 
-Agent Skills bringen Adobe Domain-Fachwissen in Ihren KI-Client ein, sodass Agenten bewährte Workflows befolgen, anstatt zu improvisieren. Jede der folgenden exemplarischen Vorgehensweisen zeigt eine bestimmte Geschäftsaufgabe, die zuverlässig abgeschlossen wurde und sich von Anfang bis Ende an den Best Practices von Adobe orientiert.
+Agent Skills bringen Adobe Domain-Fachwissen in Ihre KI-Plattform ein, sodass Agenten bewährte Workflows befolgen, anstatt zu improvisieren. Jede der folgenden exemplarischen Vorgehensweisen zeigt eine bestimmte Geschäftsaufgabe, die zuverlässig abgeschlossen wurde und sich von Anfang bis Ende an den Best Practices von Adobe orientiert.
 
 <!--
 CARDS
 
-* https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
   {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
   {cta = Try with Agent Skills}
@@ -102,7 +100,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Entwickeln von AEM-Komponenten mit KI" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Entwickeln von AEM-Komponenten mit KI" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Entwickeln von AEM-Komponenten mit KI"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -111,13 +109,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Entwickeln von AEM-Komponenten mit KI">Entwickeln von AEM-Komponenten mit KI</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Entwickeln von AEM-Komponenten mit KI">Entwickeln von AEM-Komponenten mit KI</a>
                     </p>
                     <p class="is-size-6">Verwenden Sie Claude Code oder Cursor mit Agentenkenntnissen, um gemäß den Best Practices von Adobe Strukturvorlagen zu erstellen, zu codieren und AEM-Komponenten zu verfeinern.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Mit Agent-Kenntnissen ausprobieren</span>
-                
+                </a>
             </div>
         </div>
     </div>
