@@ -1,10 +1,10 @@
 ---
 title: Aufdecken von Kampagneneinblicken ohne Erstellen von Berichten
 description: Verwenden Sie den Customer Journey Analytics MCP-Server, um Leistungsfragen in einfacher Sprache zu stellen und Antworten zu erhalten, ohne zu Report Builder navigieren zu müssen.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1169'
 ht-degree: 4%
 ---
 
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-06-02 -->
 
-![KI-Client mit empfohlenen nächsten Schritten zur Verbesserung der Kampagnenleistung](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+![KI-Plattform mit empfohlenen nächsten Schritten zur Verbesserung der Kampagnenleistung](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
-Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separaten Tool erforderte, wird jetzt zur Diskussion gestellt. In dieser exemplarischen Vorgehensweise wird gezeigt, wie Sie einen KI-Client mit Customer Journey Analytics (CJA) verbinden und Leistungsfragen in einfacher Sprache stellen. Das Ergebnis ist eine schnellere insight-Bereitstellung, ohne dass manuelle Berichtserstellungen erforderlich sind.
+Die Kampagnenanalyse, die früher die Erstellung von Berichten in einem separaten Tool erforderte, wird jetzt zur Diskussion gestellt. In dieser exemplarischen Vorgehensweise wird erläutert, wie Sie Coworker oder Ihre eigene KI-Plattform mit Customer Journey Analytics (CJA) verwenden und Leistungsfragen in einfacher Sprache stellen können. Das Ergebnis ist eine schnellere insight-Bereitstellung, ohne dass manuelle Berichtserstellungen erforderlich sind.
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
-| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) oder [Customer Journey Analytics MCP-Server](../tools/mcp-servers.md) |
+| CX Enterprise-Programme | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Agent-basierte Tools | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker für KI](../tools/mcp-servers.md#connect-to-your-ai-platform)Plattformen oder [Customer Journey Analytics MCP-Server](../tools/mcp-servers.md) |
 | Zielgruppe | Analysten, Kampagnen-Manager |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA |
+| Voraussetzung | CJA-Zugriff sowie Coworker, eine KI-Plattform mit Coworker für KI-Plattformen oder eine MCP-kompatible KI-Plattform |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -31,11 +31,15 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-Die schnellste Möglichkeit, diese Antworten zu erhalten, ist CX Enterprise Coworker, das keine Server-Einrichtung oder KI-Client-Konfiguration erfordert. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+Die schnellste Möglichkeit, diese Antworten zu erhalten, ist Coworker, das keine Server-Einrichtung oder KI-Plattform-Konfiguration erfordert. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
-Wenn Sie Ihren eigenen KI-Client lieber direkt mit Customer Journey Analytics verbinden möchten, finden Sie weitere Informationen auf den folgenden Registerkarten.
+Wenn Sie Coworker nicht direkt verwenden können oder möchten, verwenden Sie es stattdessen aus Ihrer eigenen KI-Plattform. Weitere Informationen finden Sie **Registerkarte „Coworker for AI**&quot;. Wenn dies auch bei Ihnen nicht funktioniert, verbinden Sie Ihre KI-Plattform mithilfe der verbleibenden Registerkarten direkt mit dem Customer Journey Analytics MCP-Server.
+
+>[!TAB Mitarbeiter für KI-Plattformen]
+
+Sie können diese exemplarische Vorgehensweise auch mit Coworker for AI-Plattformen aus Ihrer eigenen KI-Plattform durchführen. [Einrichten von Kollegen für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Dokumentation zu Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -58,7 +62,7 @@ Verbinden Sie den Customer Journey Analytics MCP-Server mit dem ChatGPT-Entwickl
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieses Endpunkts eine Verbindung zum Customer Journey Analytics MCP-Server her:
 
@@ -66,7 +70,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 https://cja-mcp.adobe.io/mcp
 ```
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,13 +78,13 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihren CJA-Datenansichten verknüpfte IMS-Organisation aus. Die Wahl der falschen Organisation ist die häufigste Ursache für Authentifizierungsfehler.
 >
->Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
+>Bei der ersten Verbindung fordert Ihre KI-Plattform Sie möglicherweise auf, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
 ## Schritt 1: Verfügbare Datenansichten entdecken
 
-Bitten Sie zunächst Ihren KI-Client, die in Ihrem CJA-Konto verfügbaren Datenansichten aufzulisten. Auf diese Weise erfahren Sie, welche Datensätze Sie abfragen können, bevor Sie Berichte ausführen.
+Bitten Sie zunächst Ihre KI-Plattform, die in Ihrem CJA-Konto verfügbaren Datenansichten aufzulisten. Auf diese Weise erfahren Sie, welche Datensätze Sie abfragen können, bevor Sie Berichte ausführen.
 
 ```
 What data views are available in my CJA account?
@@ -88,7 +92,7 @@ What data views are available in my CJA account?
 
 +++Siehe eine Beispielantwort
 
-![AI-Client mit den verfügbaren CJA-Datenansichten](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+![Liste der in CJA verfügbaren Datenansichten in der KI-Plattform](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -105,7 +109,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der die Top-Kampagnen nach Umsatz und Konversionsrate aus der Omni-Channel-/Multi-Industry-Datenansicht anzeigt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+![KI-Plattform, die die wichtigsten Kampagnen nach Umsatz und Konversionsrate aus der Omni-Channel-Datenansicht (mehrere Branchen)](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -118,7 +122,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 ## Schritt 3: Identifizieren, was die Leistung steigert
 
-Bitten Sie Ihren KI-Client zu erklären, was die Leistungsunterschiede zwischen Kampagnengruppen verursacht. Dies wird von den Überschriftennummern zu den unten stehenden Variablen verschoben.
+Bitten Sie Ihre KI-Plattform zu erklären, was die Leistungsunterschiede zwischen Kampagnengruppen verursacht. Dies wird von den Überschriftennummern zu den unten stehenden Variablen verschoben.
 
 ```
 What factors are driving the results for these campaign groups?
@@ -126,7 +130,7 @@ What factors are driving the results for these campaign groups?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client - Erläuterung der Faktoren, die die Leistung von Kampagnengruppen bestimmen](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+![KI-Plattform, die die Faktoren für die Leistung von Kampagnengruppen erklärt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -143,7 +147,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++Siehe eine Beispielantwort
 
-![KI-Client für die Aufschlüsselung der Leistung von Werbe-E-Mail-Kampagnen nach Kundensegment](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+![KI-Plattform mit einer Aufschlüsselung der Leistung von Werbe-E-Mail-Kampagnen nach Kundensegment](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -160,7 +164,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++Siehe eine Beispielantwort
 
-![KI-Kunde, der priorisierte Aktionen mit geschätztem Geschäftswert empfiehlt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+![KI-Plattform, die priorisierte Maßnahmen mit geschätztem Geschäftswert empfiehlt](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -173,7 +177,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 ## Was Sie erreicht haben
 
-Sie haben einen KI-Client mit Customer Journey Analytics verbunden und in fünf Eingabeaufforderungen von der Ermittlung von Datenansichten zu priorisierten Geschäftsempfehlungen gewechselt. Sie haben die wichtigsten Kampagnen nach Umsatz und Konversionsrate identifiziert, die Faktoren für die Leistung zwischen Kampagnengruppen angezeigt, Details auf Segmentebene für einen bestimmten Kampagnentyp aufgeschlüsselt und Rangfolgenempfehlungen mit geschätzter Steigerung erhalten. Dieser Ansatz ersetzt die Berichterstellung durch ein direktes Gespräch, wodurch die Zeit zwischen einer geschäftlichen Frage und einem datengestützten Aktionsplan verkürzt wird.
+Sie haben Coworker oder Ihre KI-Plattform mit Customer Journey Analytics verwendet und in fünf Eingabeaufforderungen von der Ermittlung von Datenansichten zu priorisierten Geschäftsempfehlungen gewechselt. Sie haben die wichtigsten Kampagnen nach Umsatz und Konversionsrate identifiziert, die Faktoren für die Leistung zwischen Kampagnengruppen angezeigt, Details auf Segmentebene für einen bestimmten Kampagnentyp aufgeschlüsselt und Rangfolgenempfehlungen mit geschätzter Steigerung erhalten. Dieser Ansatz ersetzt die Berichterstellung durch ein direktes Gespräch, wodurch die Zeit zwischen einer geschäftlichen Frage und einem datengestützten Aktionsplan verkürzt wird.
 
 ## Mehr können Sie erreichen
 

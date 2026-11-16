@@ -1,11 +1,11 @@
 ---
 title: Ausführen einer Cross-Channel-Kampagnenüberprüfung
 description: Sie erhalten in einer einzigen KI-Sitzung eine einheitliche Ansicht der Kampagnenkonsistenz von AJO, CJA und Real-Time CDP für Journey, Zielgruppen und Performance.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 8%
+source-wordcount: '1651'
+ht-degree: 7%
 ---
 
 # Ausführen einer Cross-Channel-Kampagnenüberprüfung
@@ -20,10 +20,10 @@ Ein vollständiges Bild des Kampagnenzustands erfordert Daten aus mehreren Syste
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
-| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)- oder [Adobe Journey Optimizer](../tools/mcp-servers.md)-, [Customer Journey Analytics](../tools/mcp-servers.md)- und [Real-Time CDP](../tools/mcp-servers.md) MCP-Server |
+| CX Enterprise-Programme | [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home) |
+| Agent-basierte Tools | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker für KI-](../tools/mcp-servers.md#connect-to-your-ai-platform) oder [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) und [Real-Time CDP](../tools/mcp-servers.md) MCP-Server |
 | Zielgruppe | Kampagnen-Manager, Marketing-Vorgänge |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf AJO, CJA und Real-Time CDP |
+| Voraussetzung | Zugriff auf AJO, CJA und Real-Time CDP sowie auf Coworker, eine KI-Plattform mit Coworker für KI-Plattformen oder eine MCP-kompatible KI-Plattform |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -31,11 +31,15 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker stellt eine Verbindung zu AJO, CJA und Real-Time CDP an einem Ort her, ohne dass eine Server-Einrichtung oder KI-Client-Konfiguration erforderlich ist. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+Coworker stellt eine Verbindung zu AJO, CJA und Real-Time CDP an einem Ort her, ohne dass eine Server-Einrichtung oder eine KI-Plattformkonfiguration erforderlich ist. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
-Wenn Sie Ihren eigenen KI-Client lieber direkt verbinden möchten, verbinden Sie alle drei MCP-Server über die folgenden Registerkarten. Der Real-Time CDP-MCP-Server befindet sich in der öffentlichen Betaversion und erfordert die auf die Zulassungsliste setzte Ihres Unternehmens.
+Wenn Sie Coworker nicht direkt verwenden können oder möchten, verwenden Sie es stattdessen aus Ihrer eigenen KI-Plattform. Weitere Informationen finden Sie **Registerkarte „Coworker for AI**&quot;. Wenn dies bei Ihnen auch nicht funktioniert, verbinden Sie Ihre KI-Plattform mithilfe der verbleibenden Registerkarten direkt mit den AJO-, CJA- und Real-Time CDP MCP-Servern. Der Real-Time CDP-MCP-Server befindet sich in der öffentlichen Betaversion und erfordert die auf die Zulassungsliste setzte Ihres Unternehmens.
+
+>[!TAB Mitarbeiter für KI-Plattformen]
+
+Sie können diese exemplarische Vorgehensweise auch mit Coworker for AI-Plattformen aus Ihrer eigenen KI-Plattform durchführen. [Einrichten von Kollegen für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Dokumentation zu Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -70,7 +74,7 @@ Verbinden Sie alle drei MCP-Server über den ChatGPT-Entwicklermodus (Pro-, Plus
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Stellen Sie mithilfe dieser Endpunkte eine Verbindung zu allen drei MCP-Servern her:
 
@@ -80,7 +84,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 | Customer Journey Analytics MCP-Server | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP-Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Melden Sie sich bei Ihrer Adobe ID an, wenn Sie dazu aufgefordert werden, und wählen Sie die IMS-Organisation aus, die mit Ihren AJO-, CJA- und Real-Time CDP-Umgebungen verknüpft ist. Die Wahl der falschen Organisation ist die häufigste Ursache für Authentifizierungsfehler.
 >
->Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
+>Bei der ersten Verbindung fordert Ihre KI-Plattform Sie möglicherweise auf, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
@@ -104,7 +108,7 @@ What journeys are currently active in AJO?
 
 In Ihrer AJO-Organisation wurden 8 aktive Journey gefunden:
 
-| Journey | Kanal/Kanäle | Last modified |
+| Journey | Kanal/Kanäle | Zuletzt geändert |
 | --- | --- | --- |
 | Begrüßungsreihe: Neue Mitglieder | E-Mail, Push | &#x200B;18. Mai 2026 |
 | Follow-up nach dem Kauf | E-Mail, SMS | &#x200B;14. Mai 2026 |
@@ -169,7 +173,7 @@ Kombinierte Konversionsrate: 3,8 %. E-Mail-CTR ist um 1,2 % höher als im Zeitra
 
 ## Schritt 4: Zusammenfassen einer Kampagnenzustandszusammenfassung
 
-Bitten Sie Ihren KI-Client, das Bild über alle drei Quellen hinweg zusammenzuführen und alles aufzudecken, was Aufmerksamkeit erfordert.
+Bitten Sie Ihre KI-Plattform, das Bild über alle drei Quellen hinweg zusammenzuführen und alles aufzudecken, was Aufmerksamkeit erfordert.
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -195,11 +199,11 @@ Keine kritischen Probleme erkannt. Zwei der oben genannten Punkte erfordern eine
 +++
 
 
-Hier zahlt sich der Multi-Server-Ansatz aus: Ihre KI-Client-Gründe für Journey-Konfiguration, Zielgruppenstatus und Leistungsdaten in einem einzigen Gespräch.
+Hier zahlt sich der Multi-Server-Ansatz aus: Ihre KI-Plattformgründe über die Journey-Konfiguration, den Zielgruppenstatus und Leistungsdaten hinweg in einem einzigen Gespräch.
 
 ## Schritt 5: Ergreifen Sie Maßnahmen bezüglich Ihrer gefundenen Inhalte.
 
-Die Überprüfung zeigte zwei Punkte. Bitten Sie Ihren KI-Client, Ihnen bei der Priorisierung und Route jedes einzelnen zu helfen.
+Die Überprüfung zeigte zwei Punkte. Bitten Sie Ihre KI-Plattform, Ihnen bei der Priorisierung und Route jedes einzelnen zu helfen.
 
 ```
 For each flag you identified, what should I do and where should I go to do it?

@@ -1,17 +1,17 @@
 ---
 title: Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
 description: Verwenden Sie CJA und AEM gemeinsam in einer KI-Sitzung, um Kampagnen mit Konversionslücken zu finden, die Ursache zu diagnostizieren und den Inhalt zu aktualisieren, ohne die Tools zu wechseln.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 7%
+source-wordcount: '1233'
+ht-degree: 6%
 ---
 
 # Schließen Sie Lücken bei der Content-Performance mit datengesteuerten Aktualisierungen
 <!-- last-modified: 2026-06-10 -->
 
-![KI-Client, der den ursprünglichen und den aktualisierten Seiteninhalt nebeneinander vergleicht](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+![KI-Plattform, die den ursprünglichen und den aktualisierten Seiteninhalt nebeneinander vergleicht](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -19,10 +19,10 @@ Unterschiede in der Content-Performance kosten Kampagnenergebnisse. Um diese zu 
 
 | Szenario-Details | |
 | --- | --- |
-| CX Enterprise-Anwendungen | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Agent-basierte Tools | [CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) oder [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) und [AEM MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| CX Enterprise-Programme | [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Agent-basierte Tools | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) oder [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) und [AEM MCP Server](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Zielgruppe | Kampagnen-Manager, Inhaltsstrategen, Marketing-Abläufe |
-| Voraussetzung | MCP-kompatibler KI-Client, Zugriff auf CJA, Zugriff auf AEM as a Cloud Service |
+| Voraussetzung | CJA-Zugriff, AEM as a Cloud Service-Zugriff plus Coworker, eine KI-Plattform mit Coworker für KI-Plattformen oder eine MCP-kompatible KI-Plattform |
 
 Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-KI-Antwort. Ein **Mehr können Sie erreichen** Abschnitt folgt für weitere Untersuchungen in derselben Sitzung.
 
@@ -31,11 +31,15 @@ Jeder Schritt zeigt eine repräsentative Eingabeaufforderung und eine Beispiel-K
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker deckt diese gesamte exemplarische Vorgehensweise ab, ohne dass eine Server-Einrichtung erforderlich ist. [CX Enterprise Coworker ausprobieren](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
+Ein Kollege behandelt die gesamte exemplarische Vorgehensweise, ohne dass eine Server-Einrichtung erforderlich ist. [Teamkollege versuchen](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home)
 
-Wenn Sie lieber Ihren eigenen KI-Client direkt verbinden möchten, verbinden Sie beide MCP-Server über die folgenden Registerkarten.
+Wenn Sie Coworker nicht direkt verwenden können oder möchten, verwenden Sie es stattdessen aus Ihrer eigenen KI-Plattform. Weitere Informationen finden Sie **Registerkarte „Coworker for AI**&quot;. Wenn dies auch bei Ihnen nicht funktioniert, verbinden Sie Ihre KI-Plattform mithilfe der verbleibenden Registerkarten direkt mit den Customer Journey Analytics- und AEM MCP-Servern.
+
+>[!TAB Mitarbeiter für KI-Plattformen]
+
+Sie können diese exemplarische Vorgehensweise auch mit Coworker for AI-Plattformen aus Ihrer eigenen KI-Plattform durchführen. [Einrichten von Kollegen für KI-Plattformen](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Dokumentation zu Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -68,7 +72,7 @@ Verbinden Sie beide MCP-Server über den ChatGPT-Entwicklermodus (Pro-, Plus-, B
 
 Vollständiges Setup: [ChatGPT MCP-Dokumentation](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Andere KI-Clients]
+>[!TAB Andere KI-Plattformen]
 
 Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MCP-kompatible Umgebung? Verbinden Sie sich mit beiden MCP-Servern mithilfe der folgenden Endpunkte:
 
@@ -77,7 +81,7 @@ Verwenden Sie Gemini, Microsoft Copilot, Cursor, Claude Code oder eine andere MC
 | Customer Journey Analytics MCP-Server | `https://cja-mcp.adobe.io/mcp` |
 | AEM MCP-Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit Ihrem KI-Client](../tools/mcp-servers.md)
+Vollständige Einrichtungsanweisungen für alle unterstützten KI-Plattformen: [Verbinden Sie sich mit Ihrer KI-Plattform](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -85,7 +89,7 @@ Vollständige Setup-Anweisungen für alle unterstützten Clients: [Verbinden mit
 >
 >Melden Sie sich bei Aufforderung mit Ihrer Adobe ID an und wählen Sie die mit Ihrer CJA- und AEM-Umgebung verknüpfte IMS-Organisation aus. Die Wahl der falschen Organisation ist die häufigste Ursache für Authentifizierungsfehler.
 >
->Bei der ersten Verbindung kann Ihr KI-Client Sie auffordern, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
+>Bei der ersten Verbindung fordert Ihre KI-Plattform Sie möglicherweise auf, eine IMS-Organisation auszuwählen oder eine Sandbox anzugeben. Sobald dieser Kontext festgelegt ist, verwendet ihn der MCP-Server für den Rest der Sitzung.
 >
 >Einige Tools fordern Sie vor der Ausführung zur Genehmigung auf. Überprüfen Sie die Anfrage und genehmigen oder ablehnen Sie. Ohne Ihre Bestätigung wird keine Aktion durchgeführt.
 
@@ -100,7 +104,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Siehe eine Beispielantwort
 
-![KI-Client-Kampagnen mit hohem Clickthrough, aber geringer Konversion von CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+![KI-Plattform-Kampagnen mit hohem Clickthrough, aber geringer Konversion von CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -118,7 +122,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den Konversionsrückgang nach Geräte-, Segment- und Inhaltsfaktoren diagnostiziert](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+![KI-Plattform zur Diagnose des Konversionsrückgangs nach Gerät, Segment und Inhaltsfaktoren](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -136,7 +140,7 @@ Show me the Bali Surf Camp page.
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der den aktuellen Inhalt der Landingpage aus AEM anzeigt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+![KI-Plattform, die den aktuellen Inhalt der Landingpage aus AEM anzeigt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -146,7 +150,7 @@ Show me the Bali Surf Camp page.
 
 ## Schritt 4: Abrufen zielgerichteter Empfehlungen
 
-Bitten Sie Ihren KI-Client, die angezeigten Daten mit dem zu verbinden, was sich auf der Seite befindet. Die KI-Gründe für beide Quellen identifizieren, welche Inhaltsabschnitte wahrscheinlich den Abbruch verursachen und was sich ändern sollte.
+Bitten Sie Ihre KI-Plattform, die angezeigten Daten mit dem zu verbinden, was sich auf der Seite befindet. Die KI-Gründe für beide Quellen identifizieren, welche Inhaltsabschnitte wahrscheinlich den Abbruch verursachen und was sich ändern sollte.
 
 ```
 Which content sections are underperforming, and what changes would you recommend?
@@ -154,7 +158,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der leistungsschwache Inhaltsabschnitte identifiziert und spezifische Änderungen empfiehlt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+![KI-Plattform, die leistungsschwache Inhaltsabschnitte identifiziert und spezifische Änderungen empfiehlt](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
@@ -164,7 +168,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 ## Schritt 5: Änderungen anwenden und überprüfen
 
-Bitten Sie Ihren KI-Client, eine optimierte Version der Seite basierend auf den Empfehlungen zu erstellen, und fassen Sie zusammen, was sich geändert hat und warum.
+Bitten Sie Ihre KI-Plattform, eine optimierte Version der Seite auf der Grundlage der Empfehlungen zu erstellen, und fassen Sie zusammen, was sich geändert hat und warum.
 
 ```
 Create an optimized version of the Bali Surf Camp page and summarize the proposed changes.
@@ -172,7 +176,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Siehe eine Beispielantwort
 
-![KI-Client, der eine optimierte Version der Seite erstellt und die Änderungen zusammenfasst](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+![KI-Plattform, die eine optimierte Version der Seite erstellt und die Änderungen zusammenfasst](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
 
 *Zum Zoomen auswählen.*
 
