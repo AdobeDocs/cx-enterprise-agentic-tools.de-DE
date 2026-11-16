@@ -2,7 +2,7 @@
 title: MCP-Server
 description: Verbinden einer beliebigen MCP-kompatiblen KI-Plattform mit Adobe CX Enterprise-Workflows mithilfe von Model Context Protocol-Servern.
 last-substantial-update: 2026-11-16
-source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
+source-git-commit: 8b287ec719dcd218bfb772826fbdb4e72f199030
 workflow-type: tm+mt
 source-wordcount: '2871'
 ht-degree: 6%
@@ -87,6 +87,8 @@ Vollständige Dokumentation: [Coworker documentation](https://experienceleague.a
 >[!TAB Mitarbeiter für KI-Plattformen]
 
 Coworker for AI-Plattformen ist ein MCP-Server, der Ihre KI-Plattform mit Coworker verbindet. Alles, was in Coworker verfügbar ist, ist damit verfügbar. Sie verwenden Ihre KI-Plattform wie Claude, ChatGPT, Microsoft 365 Copilot oder Gemini Enterprise als Chat-Oberfläche und Coworker erledigt die Arbeit im Hintergrund, genauso wie wenn Sie Coworker direkt verwenden.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
 
 Sie melden sich mit Ihren Adobe-Anmeldeinformationen an und Coworker verwendet den Zugriff, der mit Ihrer Adobe-Identität verknüpft ist. Mitarbeiter sind sicher und unterliegen Design. Was Sie lesen oder ändern können, hängt davon ab, wie Ihre Benutzerin bzw. Ihr Benutzer konfiguriert ist, welcher Zugriff Ihnen in Coworker gewährt wird und welcher Zugriff in den Anwendungen gewährt wird, die Coworker in Ihrem Namen verwendet. Siehe [Zugriffssteuerung für Kollegen](https://experienceleague.adobe.com/de/docs/coworker/content/administration/access-control).
 
