@@ -34,7 +34,7 @@ Adobe MCP-Server folgen dem Open [Model Context Protocol](https://modelcontextpr
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="Coworker"
 >abstract="Fragen, analysieren und ergreifen Sie Maßnahmen in Ihren CX Enterprise-Anwendungen – in einfacher Sprache und ohne Server-Einrichtung. Bei einzelnen Anwendungen mit einem eigenen MCP-Server stellen Sie stattdessen eine direkte Verbindung her."
->additional-url="https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home" text="Dokumentation für Mitarbeiter"
+>additional-url="https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home" text="Coworker-Dokumentation"
 
 ![Mitarbeiter, der eine KI-Plattform mit CX Enterprise-Anwendungen verbindet](../assets/mcp-sub-hero.gif)
 
